@@ -1,6 +1,6 @@
 <script>
+import SliderStyle from '@mizuui/mizu-vue/slider/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import SliderStyle from 'primevue/slider/style';
 
 export default {
     name: 'BaseSlider',

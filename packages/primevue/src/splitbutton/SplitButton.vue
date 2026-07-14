@@ -65,8 +65,8 @@
 <script>
 import { isEmpty } from '@primeuix/utils/object';
 import ChevronDownIcon from '@primevue/icons/chevrondown';
-import Button from 'primevue/button';
-import TieredMenu from 'primevue/tieredmenu';
+import Button from 'mizu-vue/button';
+import TieredMenu from 'mizu-vue/tieredmenu';
 import BaseSplitButton from './BaseSplitButton.vue';
 
 export default {

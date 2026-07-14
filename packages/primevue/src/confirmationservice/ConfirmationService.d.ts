@@ -5,7 +5,7 @@
  * @module confirmationservice-useconfirm
  *
  */
-import type { ConfirmationOptions } from 'primevue/confirmationoptions';
+import type { ConfirmationOptions } from '@mizuui/mizu-vue/confirmationoptions';
 import { Plugin } from 'vue';
 
 declare const plugin: Plugin;

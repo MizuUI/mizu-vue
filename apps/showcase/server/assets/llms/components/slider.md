@@ -5,7 +5,7 @@ Slider is a component to provide input with a drag handle.
 ## Import
 
 ```javascript
-import Slider from 'primevue/slider';
+import Slider from '@mizuui/mizu-vue/slider';
 ```
 
 ## Accessibility

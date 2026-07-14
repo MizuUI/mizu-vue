@@ -1,6 +1,6 @@
 <script>
+import DataTableStyle from '@mizuui/mizu-vue/datatable/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import DataTableStyle from 'primevue/datatable/style';
 
 export default {
     name: 'BaseDataTable',

@@ -1,6 +1,6 @@
 <script>
+import TreeTableStyle from '@mizuui/mizu-vue/treetable/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import TreeTableStyle from 'primevue/treetable/style';
 
 export default {
     name: 'BaseTreeTable',

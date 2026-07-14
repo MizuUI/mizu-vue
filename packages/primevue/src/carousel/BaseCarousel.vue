@@ -1,6 +1,6 @@
 <script>
+import CarouselStyle from '@mizuui/mizu-vue/carousel/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import CarouselStyle from 'primevue/carousel/style';
 
 export default {
     name: 'BaseCarousel',

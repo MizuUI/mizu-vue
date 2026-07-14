@@ -21,7 +21,7 @@ Welcome to the Prime UI Ecosystem! Once you have PrimeVue up and running, we rec
 PrimeVue plugin is required to be installed as an application plugin to set up the default configuration . The plugin is lightweight, and only utilized for configuration purposes.
 
 ```vue
-import { createApp } from 'vue'; import PrimeVue from 'primevue/config'; const app = createApp(App); app.use(PrimeVue);
+import { createApp } from 'vue'; import PrimeVue from 'mizu-vue/config'; const app = createApp(App); app.use(PrimeVue);
 ```
 
 ## Plugin

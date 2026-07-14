@@ -1,6 +1,6 @@
 <script>
+import SplitterPanelStyle from '@mizuui/mizu-vue/splitterpanel/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import SplitterPanelStyle from 'primevue/splitterpanel/style';
 
 export default {
     name: 'BaseSplitterPanel',

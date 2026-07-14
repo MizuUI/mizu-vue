@@ -5,7 +5,7 @@ ToggleButton is used to select a boolean value using a button.
 ## Import
 
 ```javascript
-import ToggleButton from 'primevue/togglebutton';
+import ToggleButton from '@mizuui/mizu-vue/togglebutton';
 ```
 
 ## Accessibility

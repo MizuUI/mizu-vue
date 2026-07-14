@@ -20,6 +20,7 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { cn } from '@primeuix/utils';
 import BaseComponent from '@primevue/core/basecomponent';
 import CheckIcon from '@primevue/icons/check';
@@ -27,7 +28,6 @@ import ExclamationTriangleIcon from '@primevue/icons/exclamationtriangle';
 import InfoCircleIcon from '@primevue/icons/infocircle';
 import TimesIcon from '@primevue/icons/times';
 import TimesCircleIcon from '@primevue/icons/timescircle';
-import Ripple from 'primevue/ripple';
 
 export default {
     name: 'ToastMessage',

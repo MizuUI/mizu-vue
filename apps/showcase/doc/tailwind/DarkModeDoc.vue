@@ -21,7 +21,7 @@ export default {
         return {
             code1: {
                 basic: `
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);

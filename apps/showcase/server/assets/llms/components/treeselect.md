@@ -5,7 +5,7 @@ TreeSelect is a form component to choose from hierarchical data.
 ## Import
 
 ```javascript
-import TreeSelect from 'primevue/treeselect';
+import TreeSelect from '@mizuui/mizu-vue/treeselect';
 ```
 
 ## Accessibility

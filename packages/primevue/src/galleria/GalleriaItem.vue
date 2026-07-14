@@ -36,11 +36,11 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { find, findSingle, getAttribute } from '@primeuix/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import ChevronLeftIcon from '@primevue/icons/chevronleft';
 import ChevronRightIcon from '@primevue/icons/chevronright';
-import Ripple from 'primevue/ripple';
 
 export default {
     name: 'GalleriaItem',

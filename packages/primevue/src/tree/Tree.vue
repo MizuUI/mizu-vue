@@ -58,13 +58,13 @@
 </template>
 
 <script>
+import IconField from '@mizuui/mizu-vue/iconfield';
+import InputIcon from '@mizuui/mizu-vue/inputicon';
+import InputText from '@mizuui/mizu-vue/inputtext';
 import { cn } from '@primeuix/utils';
 import { isFunction, resolveFieldData } from '@primeuix/utils/object';
 import SearchIcon from '@primevue/icons/search';
 import SpinnerIcon from '@primevue/icons/spinner';
-import IconField from 'primevue/iconfield';
-import InputIcon from 'primevue/inputicon';
-import InputText from 'primevue/inputtext';
 import BaseTree from './BaseTree.vue';
 import { useTreeDragDropService } from './TreeDragDropService';
 import TreeNode from './TreeNode.vue';

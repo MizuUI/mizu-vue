@@ -5,7 +5,7 @@ ContextMenu displays an overlay menu to display actions related to an element.
 ## Import
 
 ```javascript
-import ContextMenu from 'primevue/contextmenu';
+import ContextMenu from '@mizuui/mizu-vue/contextmenu';
 ```
 
 ## Accessibility

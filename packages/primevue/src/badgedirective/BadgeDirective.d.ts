@@ -6,9 +6,9 @@
  *
  * @module badgedirective
  */
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DesignToken, PassThrough } from '@primevue/core';
 import type { DirectiveHooks } from '@primevue/core/basedirective';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { DirectiveBinding, ObjectDirective } from 'vue';
 
 export declare type BadgeDirectivePassThroughOptionType = BadgeDirectivePassThroughAttributes | ((options: BadgeDirectivePassThroughMethodOptions) => BadgeDirectivePassThroughAttributes) | null | undefined;

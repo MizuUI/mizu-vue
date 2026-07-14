@@ -1,6 +1,6 @@
 <script>
+import DataViewStyle from '@mizuui/mizu-vue/dataview/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import DataViewStyle from 'primevue/dataview/style';
 
 export default {
     name: 'BaseDataView',

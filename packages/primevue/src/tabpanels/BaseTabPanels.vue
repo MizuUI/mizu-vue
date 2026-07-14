@@ -1,6 +1,6 @@
 <script>
+import TabPanelsStyle from '@mizuui/mizu-vue/tabpanels/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import TabPanelsStyle from 'primevue/tabpanels/style';
 
 export default {
     name: 'BaseTabPanels',

@@ -1,6 +1,6 @@
 <script>
+import InputIconStyle from '@mizuui/mizu-vue/inputicon/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import InputIconStyle from 'primevue/inputicon/style';
 
 export default {
     name: 'BaseInputIcon',

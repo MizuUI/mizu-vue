@@ -1,6 +1,6 @@
 <script>
+import FloatLabelStyle from '@mizuui/mizu-vue/floatlabel/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import FloatLabelStyle from 'primevue/floatlabel/style';
 
 export default {
     name: 'BaseFloatLabel',

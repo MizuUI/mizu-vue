@@ -5,7 +5,7 @@ PanelMenu is a hybrid of accordion-tree components.
 ## Import
 
 ```javascript
-import PanelMenu from 'primevue/panelmenu';
+import PanelMenu from '@mizuui/mizu-vue/panelmenu';
 ```
 
 ## Accessibility

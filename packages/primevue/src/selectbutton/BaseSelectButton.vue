@@ -1,6 +1,6 @@
 <script>
+import SelectButtonStyle from '@mizuui/mizu-vue/selectbutton/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import SelectButtonStyle from 'primevue/selectbutton/style';
 
 export default {
     name: 'BaseSelectButton',

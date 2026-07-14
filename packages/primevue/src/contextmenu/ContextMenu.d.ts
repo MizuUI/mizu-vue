@@ -8,10 +8,10 @@
  * @module contextmenu
  *
  */
+import type { MenuItem } from '@mizuui/mizu-vue/menuitem';
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { MenuItem } from 'primevue/menuitem';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type ContextMenuPassThroughOptionType = ContextMenuPassThroughAttributes | ((options: ContextMenuPassThroughMethodOptions) => ContextMenuPassThroughAttributes | string) | string | null | undefined;

@@ -1,6 +1,6 @@
 <script>
+import TerminalStyle from '@mizuui/mizu-vue/terminal/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import TerminalStyle from 'primevue/terminal/style';
 
 export default {
     name: 'BaseTerminal',

@@ -7,11 +7,11 @@
  * @module paginator
  *
  */
+import type { DropdownPassThroughOptions } from '@mizuui/mizu-vue/dropdown';
+import type { InputNumberPassThroughOptions } from '@mizuui/mizu-vue/inputnumber';
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { DropdownPassThroughOptions } from 'primevue/dropdown';
-import type { InputNumberPassThroughOptions } from 'primevue/inputnumber';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type PaginatorPassThroughOptionType<T = any> = PaginatorPassThroughAttributes | ((options: PaginatorPassThroughMethodOptions<T>) => PaginatorPassThroughAttributes | string) | string | null | undefined;

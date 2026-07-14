@@ -18,8 +18,8 @@
 </template>
 
 <script>
+import Select from '@mizuui/mizu-vue/select';
 import BaseComponent from '@primevue/core/basecomponent';
-import Select from 'primevue/select';
 
 export default {
     name: 'RowsPerPageDropdown',

@@ -5,10 +5,10 @@ Accordion groups a collection of contents in panels.
 ## Import
 
 ```javascript
-import Accordion from 'primevue/accordion';
-import AccordionPanel from 'primevue/accordionpanel';
-import AccordionHeader from 'primevue/accordionheader';
-import AccordionContent from 'primevue/accordioncontent';
+import Accordion from 'mizu-vue/accordion';
+import AccordionPanel from 'mizu-vue/accordionpanel';
+import AccordionHeader from 'mizu-vue/accordionheader';
+import AccordionContent from 'mizu-vue/accordioncontent';
 ```
 
 ## Accessibility

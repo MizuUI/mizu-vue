@@ -65,12 +65,12 @@
 </template>
 
 <script>
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, find, findSingle, focus, getOuterWidth, isTouchDevice } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
 import BaseMenu from './BaseMenu.vue';
 import Menuitem from './Menuitem.vue';
 

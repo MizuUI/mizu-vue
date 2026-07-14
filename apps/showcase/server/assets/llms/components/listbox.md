@@ -5,7 +5,7 @@ Listbox is used to select one or more values from a list of items.
 ## Import
 
 ```javascript
-import Listbox from 'primevue/listbox';
+import Listbox from 'mizu-vue/listbox';
 ```
 
 ## Accessibility

@@ -42,12 +42,12 @@
 </template>
 
 <script>
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice } from '@primeuix/utils/dom';
 import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
 import BaseTieredMenu from './BaseTieredMenu.vue';
 import TieredMenuSub from './TieredMenuSub.vue';
 

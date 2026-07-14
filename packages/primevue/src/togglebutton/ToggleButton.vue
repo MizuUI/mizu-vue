@@ -27,9 +27,9 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { cn } from '@primeuix/utils';
 import { isNotEmpty } from '@primeuix/utils/object';
-import Ripple from 'primevue/ripple';
 import BaseToggleButton from './BaseToggleButton.vue';
 
 export default {

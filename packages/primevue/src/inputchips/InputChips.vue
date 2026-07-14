@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import Chip from 'primevue/chip';
+import Chip from '@mizuui/mizu-vue/chip';
 import BaseInputChips from './BaseInputChips.vue';
 
 export default {

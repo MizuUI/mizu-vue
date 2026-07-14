@@ -75,6 +75,9 @@
 </template>
 
 <script>
+import InputText from '@mizuui/mizu-vue/inputtext';
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
@@ -82,9 +85,6 @@ import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import EyeIcon from '@primevue/icons/eye';
 import EyeSlashIcon from '@primevue/icons/eyeslash';
 import TimesIcon from '@primevue/icons/times';
-import InputText from 'primevue/inputtext';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
 import BasePassword from './BasePassword.vue';
 
 export default {

@@ -93,6 +93,8 @@
 </template>
 
 <script>
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, isString, resolveFieldData } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
@@ -101,8 +103,6 @@ import AngleRightIcon from '@primevue/icons/angleright';
 import ChevronDownIcon from '@primevue/icons/chevrondown';
 import SpinnerIcon from '@primevue/icons/spinner';
 import TimesIcon from '@primevue/icons/times';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
 import BaseCascadeSelect from './BaseCascadeSelect.vue';
 import CascadeSelectSub from './CascadeSelectSub.vue';
 

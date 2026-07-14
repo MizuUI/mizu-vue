@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Tooltip from 'primevue/tooltip';
+import Tooltip from '@mizuui/mizu-vue/tooltip';
 
 app.directive('tooltip', Tooltip);
 `

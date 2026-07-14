@@ -7,9 +7,9 @@
  * @module galleria
  *
  */
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { ButtonHTMLAttributes, HTMLAttributes, TransitionProps, VNode } from 'vue';
 
 export declare type GalleriaPassThroughOptionType = GalleriaPassThroughAttributes | ((options: GalleriaPassThroughMethodOptions) => GalleriaPassThroughAttributes | string) | string | null | undefined;

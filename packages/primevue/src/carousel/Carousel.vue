@@ -101,14 +101,14 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@primeuix/utils/dom';
 import { localeComparator, sort } from '@primeuix/utils/object';
 import ChevronDownIcon from '@primevue/icons/chevrondown';
 import ChevronLeftIcon from '@primevue/icons/chevronleft';
 import ChevronRightIcon from '@primevue/icons/chevronright';
 import ChevronUpIcon from '@primevue/icons/chevronup';
-import Button from 'primevue/button';
-import Ripple from 'primevue/ripple';
 import BaseCarousel from './BaseCarousel.vue';
 
 export default {

@@ -131,17 +131,17 @@
 </template>
 
 <script>
+import Chip from '@mizuui/mizu-vue/chip';
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
+import Ripple from '@mizuui/mizu-vue/ripple';
+import Tree from '@mizuui/mizu-vue/tree';
 import { absolutePosition, addStyle, find, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import ChevronDownIcon from '@primevue/icons/chevrondown';
 import TimesIcon from '@primevue/icons/times';
-import Chip from 'primevue/chip';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
-import Tree from 'primevue/tree';
 import BaseTreeSelect from './BaseTreeSelect.vue';
 
 export default {

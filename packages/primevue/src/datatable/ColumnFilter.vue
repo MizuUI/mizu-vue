@@ -153,6 +153,11 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import FocusTrap from '@mizuui/mizu-vue/focustrap';
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
+import Select from '@mizuui/mizu-vue/select';
 import { absolutePosition, addStyle, focus, getAttribute, isTouchDevice } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { FilterOperator } from '@primevue/core/api';
@@ -163,11 +168,6 @@ import FilterFillIcon from '@primevue/icons/filterfill';
 import FilterSlashIcon from '@primevue/icons/filterslash';
 import PlusIcon from '@primevue/icons/plus';
 import TrashIcon from '@primevue/icons/trash';
-import Button from 'primevue/button';
-import FocusTrap from 'primevue/focustrap';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Select from 'primevue/select';
 import { mergeProps } from 'vue';
 
 export default {

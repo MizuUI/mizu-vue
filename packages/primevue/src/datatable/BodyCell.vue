@@ -133,6 +133,9 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuterWidth, getPreviousElementSibling, invokeElementMethod } from '@primeuix/utils/dom';
 import { resolveFieldData } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
@@ -143,9 +146,6 @@ import ChevronDownIcon from '@primevue/icons/chevrondown';
 import ChevronRightIcon from '@primevue/icons/chevronright';
 import PencilIcon from '@primevue/icons/pencil';
 import TimesIcon from '@primevue/icons/times';
-import Button from 'primevue/button';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';
 import RowCheckbox from './RowCheckbox.vue';
 import RowRadioButton from './RowRadioButton.vue';

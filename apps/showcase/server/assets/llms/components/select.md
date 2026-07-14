@@ -5,7 +5,7 @@ Select is used to choose an item from a collection of options.
 ## Import
 
 ```javascript
-import Select from 'primevue/select';
+import Select from '@mizuui/mizu-vue/select';
 ```
 
 ## Accessibility

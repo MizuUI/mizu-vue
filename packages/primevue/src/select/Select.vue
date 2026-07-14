@@ -197,6 +197,13 @@
 </template>
 
 <script>
+import IconField from '@mizuui/mizu-vue/iconfield';
+import InputIcon from '@mizuui/mizu-vue/inputicon';
+import InputText from '@mizuui/mizu-vue/inputtext';
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
+import Ripple from '@mizuui/mizu-vue/ripple';
+import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isAndroid, isTouchDevice, isVisible, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@primeuix/utils/object';
@@ -209,13 +216,6 @@ import ChevronDownIcon from '@primevue/icons/chevrondown';
 import SearchIcon from '@primevue/icons/search';
 import SpinnerIcon from '@primevue/icons/spinner';
 import TimesIcon from '@primevue/icons/times';
-import IconField from 'primevue/iconfield';
-import InputIcon from 'primevue/inputicon';
-import InputText from 'primevue/inputtext';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
-import VirtualScroller from 'primevue/virtualscroller';
 import BaseSelect from './BaseSelect.vue';
 
 export default {

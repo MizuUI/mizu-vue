@@ -40,7 +40,7 @@ All PrimeVue form components are designed for seamless integration with the form
 
 <script setup>
 import { reactive } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -150,7 +150,7 @@ This section demonstrates how to create a dynamic form using a custom Form compo
 <script setup>
 import { reactive } from 'vue';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import DynamicForm from './dynamic/DynamicForm.vue';
 import DynamicFormControl from './dynamic/DynamicFormControl.vue';
 import DynamicFormField from './dynamic/DynamicFormField.vue';
@@ -294,7 +294,7 @@ import * as s from 'superstruct';
 import * as v from 'valibot';
 import * as yup from 'yup';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -402,7 +402,7 @@ The $form object tracks the state management of the fields. Each field is linked
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -489,7 +489,7 @@ The submit callback returns an object that encapsulates the form's validity, any
 import { ref } from 'vue';
 import { zodResolver } from '@primevue/forms/resolvers/zod';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -584,7 +584,7 @@ Form component supports flexible validation triggers, allowing validation on val
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -658,7 +658,7 @@ Although PrimeVue components have built-in support for the Form API, you may sti
 import { reactive } from 'vue';
 import { zodResolver } from '@primevue/forms/resolvers/zod';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -728,7 +728,7 @@ Form API is not strictly tied to PrimeVue components, providing a flexible way t
 import { reactive } from 'vue';
 import { zodResolver } from '@primevue/forms/resolvers/zod';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -831,7 +831,7 @@ import { zodResolver } from '@primevue/forms/resolvers/zod';
 import * as v from 'valibot';
 import * as yup from 'yup';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 
@@ -917,7 +917,7 @@ It renders as a HTML div element, but this behavior can be modified using the as
 import { reactive } from 'vue';
 import { zodResolver } from '@primevue/forms/resolvers/zod';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 

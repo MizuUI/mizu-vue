@@ -1,6 +1,6 @@
 <script>
+import SplitterStyle from '@mizuui/mizu-vue/splitter/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import SplitterStyle from 'primevue/splitter/style';
 
 export default {
     name: 'BaseSplitter',

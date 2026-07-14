@@ -1,6 +1,6 @@
 <script>
+import StepListStyle from '@mizuui/mizu-vue/steplist/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import StepListStyle from 'primevue/steplist/style';
 
 export default {
     name: 'BaseStepList',

@@ -9,12 +9,12 @@ export default {
         return {
             code: {
                 basic: `
-import Stepper from 'primevue/stepper';
-import StepList from 'primevue/steplist';
-import StepPanels from 'primevue/steppanels';
-import StepItem from 'primevue/stepitem';
-import Step from 'primevue/step';
-import StepPanel from 'primevue/steppanel';
+import Stepper from '@mizuui/mizu-vue/stepper';
+import StepList from '@mizuui/mizu-vue/steplist';
+import StepPanels from '@mizuui/mizu-vue/steppanels';
+import StepItem from '@mizuui/mizu-vue/stepitem';
+import Step from '@mizuui/mizu-vue/step';
+import StepPanel from '@mizuui/mizu-vue/steppanel';
 `
             }
         };

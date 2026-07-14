@@ -23,10 +23,10 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
+import ToggleButton from '@mizuui/mizu-vue/togglebutton';
 import { cn } from '@primeuix/utils';
 import { equals, resolveFieldData } from '@primeuix/utils/object';
-import Ripple from 'primevue/ripple';
-import ToggleButton from 'primevue/togglebutton';
 import BaseSelectButton from './BaseSelectButton.vue';
 
 export default {

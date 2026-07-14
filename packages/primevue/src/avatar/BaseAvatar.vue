@@ -1,6 +1,6 @@
 <script>
+import AvatarStyle from '@mizuui/mizu-vue/avatar/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import AvatarStyle from 'primevue/avatar/style';
 
 export default {
     name: 'BaseAvatar',

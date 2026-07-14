@@ -5,7 +5,7 @@ Tooltip directive provides advisory information for a component.
 ## Import
 
 ```javascript
-import Tooltip from 'primevue/tooltip';
+import Tooltip from '@mizuui/mizu-vue/tooltip';
 
 app.directive('tooltip', Tooltip);
 ```

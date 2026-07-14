@@ -13,9 +13,9 @@
 </template>
 
 <script>
+import Dialog from '@mizuui/mizu-vue/dialog';
+import DynamicDialogEventBus from '@mizuui/mizu-vue/dynamicdialogeventbus';
 import { uuid } from '@primeuix/utils';
-import Dialog from 'primevue/dialog';
-import DynamicDialogEventBus from 'primevue/dynamicdialogeventbus';
 import BaseDynamicDialog from './BaseDynamicDialog.vue';
 
 export default {

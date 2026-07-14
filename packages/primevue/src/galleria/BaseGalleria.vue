@@ -1,6 +1,6 @@
 <script>
+import GalleriaStyle from '@mizuui/mizu-vue/galleria/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import GalleriaStyle from 'primevue/galleria/style';
 
 export default {
     name: 'BaseGalleria',

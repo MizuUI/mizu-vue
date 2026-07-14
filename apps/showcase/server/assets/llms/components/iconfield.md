@@ -5,8 +5,8 @@ IconField wraps an input and an icon.
 ## Import
 
 ```javascript
-import IconField from 'primevue/iconfield';
-import InputIcon from 'primevue/inputicon';
+import IconField from 'mizu-vue/iconfield';
+import InputIcon from 'mizu-vue/inputicon';
 ```
 
 ## Accessibility

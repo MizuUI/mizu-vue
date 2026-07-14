@@ -1,5 +1,5 @@
+import PrimeVue from '@mizuui/mizu-vue/config';
 import { mount } from '@vue/test-utils';
-import PrimeVue from 'primevue/config';
 import ConfirmDialog from './ConfirmDialog.vue';
 
 describe('ConfirmDialog', () => {

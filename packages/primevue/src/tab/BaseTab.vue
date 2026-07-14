@@ -1,6 +1,6 @@
 <script>
+import TabStyle from '@mizuui/mizu-vue/tab/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import TabStyle from 'primevue/tab/style';
 
 export default {
     name: 'BaseTab',

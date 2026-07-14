@@ -87,14 +87,14 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import Message from '@mizuui/mizu-vue/message';
+import ProgressBar from '@mizuui/mizu-vue/progressbar';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { addClass, removeClass } from '@primeuix/utils/dom';
 import PlusIcon from '@primevue/icons/plus';
 import TimesIcon from '@primevue/icons/times';
 import UploadIcon from '@primevue/icons/upload';
-import Button from 'primevue/button';
-import Message from 'primevue/message';
-import ProgressBar from 'primevue/progressbar';
-import Ripple from 'primevue/ripple';
 import BaseFileUpload from './BaseFileUpload.vue';
 import FileContent from './FileContent.vue';
 

@@ -7,7 +7,7 @@ Application wide configuration for PrimeVue.
 Configuration is managed by the PrimeVue instance imported from primevue/config .
 
 ```vue
-import PrimeVue from 'primevue/config'; const app = createApp(App); app.use(PrimeVue, { /* options */ });
+import PrimeVue from '@mizuui/mizu-vue/config'; const app = createApp(App); app.use(PrimeVue, { /* options */ });
 ```
 
 ## InputVariant
@@ -47,7 +47,7 @@ import { createApp } from "vue"; import PrimeVue from "primevue/config"; const a
 Style mode offers theming based on a design token based architecture. See the styled mode documentation for details such as building your own theme.
 
 ```vue
-import PrimeVue from 'primevue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PrimeVue, { theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer: false } } });
+import PrimeVue from '@mizuui/mizu-vue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PrimeVue, { theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer: false } } });
 ```
 
 ## Unstyled
@@ -75,7 +75,7 @@ The nonce value to use on dynamically generated style elements in core.
 Locale values are stored in the global configuration that becomes accessible after installing the PrimeVue.
 
 ```vue
-import PrimeVue from 'primevue/config'; const app = createApp(App); app.use(PrimeVue);
+import PrimeVue from '@mizuui/mizu-vue/config'; const app = createApp(App); app.use(PrimeVue);
 ```
 
 ## Locale Api

@@ -1,6 +1,6 @@
 <script>
+import ButtonGroupStyle from '@mizuui/mizu-vue/buttongroup/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ButtonGroupStyle from 'primevue/buttongroup/style';
 
 export default {
     name: 'BaseButtonGroup',

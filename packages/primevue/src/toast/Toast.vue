@@ -26,12 +26,12 @@
 </template>
 
 <script>
+import Portal from '@mizuui/mizu-vue/portal';
+import ToastEventBus from '@mizuui/mizu-vue/toasteventbus';
 import { cn } from '@primeuix/utils';
 import { setAttribute } from '@primeuix/utils/dom';
 import { isEmpty } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
-import Portal from 'primevue/portal';
-import ToastEventBus from 'primevue/toasteventbus';
 import BaseToast from './BaseToast.vue';
 import ToastMessage from './ToastMessage.vue';
 

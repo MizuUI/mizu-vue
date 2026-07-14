@@ -5,8 +5,8 @@
 </template>
 
 <script>
+import DeferredContentStyle from '@mizuui/mizu-vue/deferredcontent/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import DeferredContentStyle from 'primevue/deferredcontent/style';
 
 export default {
     name: 'DeferredContent',

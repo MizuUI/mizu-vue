@@ -1,6 +1,6 @@
 {
     "name": "@primevue/icons",
-    "version": "4.5.5",
+    "version": "0.0.15",
     "author": "PrimeTek Informatics",
     "description": "",
     "homepage": "https://primevue.org/",
@@ -99,8 +99,8 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "catalog:",
-        "@primevue/core": "workspace:*"
+        "@primeuix/utils": "*",
+        "@primevue/core": "*"
     },
     "engines": {
         "node": ">=12.11.0"

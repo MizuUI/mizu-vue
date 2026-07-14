@@ -1,6 +1,6 @@
 <script>
+import ColorPickerStyle from '@mizuui/mizu-vue/colorpicker/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import ColorPickerStyle from 'primevue/colorpicker/style';
 
 export default {
     name: 'BaseColorPicker',

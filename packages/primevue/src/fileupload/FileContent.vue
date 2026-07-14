@@ -18,10 +18,10 @@
 </template>
 
 <script>
+import Badge from '@mizuui/mizu-vue/badge';
+import Button from '@mizuui/mizu-vue/button';
 import BaseComponent from '@primevue/core/basecomponent';
 import TimesIcon from '@primevue/icons/times';
-import Badge from 'primevue/badge';
-import Button from 'primevue/button';
 
 export default {
     name: 'FileContent',

@@ -1,6 +1,6 @@
 <script>
+import ConfirmPopupStyle from '@mizuui/mizu-vue/confirmpopup/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ConfirmPopupStyle from 'primevue/confirmpopup/style';
 
 export default {
     name: 'BaseConfirmPopup',

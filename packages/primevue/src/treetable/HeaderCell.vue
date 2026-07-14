@@ -26,13 +26,13 @@
 </template>
 
 <script>
+import Badge from '@mizuui/mizu-vue/badge';
 import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
 import SortAltIcon from '@primevue/icons/sortalt';
 import SortAmountDownIcon from '@primevue/icons/sortamountdown';
 import SortAmountUpAltIcon from '@primevue/icons/sortamountupalt';
-import Badge from 'primevue/badge';
 import { mergeProps } from 'vue';
 
 export default {

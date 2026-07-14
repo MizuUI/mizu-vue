@@ -1,6 +1,6 @@
 <script>
+import MeterGroupStyle from '@mizuui/mizu-vue/metergroup/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import MeterGroupStyle from 'primevue/metergroup/style';
 
 export default {
     name: 'MeterGroup',

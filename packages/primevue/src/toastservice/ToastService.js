@@ -1,5 +1,5 @@
-import ToastEventBus from 'primevue/toasteventbus';
-import { PrimeVueToastSymbol } from 'primevue/usetoast';
+import ToastEventBus from '@mizuui/mizu-vue/toasteventbus';
+import { PrimeVueToastSymbol } from '@mizuui/mizu-vue/usetoast';
 
 export default {
     install: (app) => {

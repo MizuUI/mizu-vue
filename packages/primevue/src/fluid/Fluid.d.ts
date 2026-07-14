@@ -7,9 +7,9 @@
  * @module fluid
  *
  */
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type FluidPassThroughOptionType = FluidPassThroughAttributes | ((options: FluidPassThroughMethodOptions) => FluidPassThroughAttributes | string) | string | null | undefined;

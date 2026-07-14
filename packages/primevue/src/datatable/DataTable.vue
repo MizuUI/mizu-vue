@@ -323,6 +323,8 @@
 </template>
 
 <script>
+import Paginator from '@mizuui/mizu-vue/paginator';
+import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
 import { cn } from '@primeuix/utils';
 import {
     addClass,
@@ -350,8 +352,6 @@ import { HelperSet, getVNodeProp } from '@primevue/core/utils';
 import ArrowDownIcon from '@primevue/icons/arrowdown';
 import ArrowUpIcon from '@primevue/icons/arrowup';
 import SpinnerIcon from '@primevue/icons/spinner';
-import Paginator from 'primevue/paginator';
-import VirtualScroller from 'primevue/virtualscroller';
 import BaseDataTable from './BaseDataTable.vue';
 import TableBody from './TableBody.vue';
 import TableFooter from './TableFooter.vue';

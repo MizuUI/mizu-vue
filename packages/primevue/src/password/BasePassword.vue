@@ -1,6 +1,6 @@
 <script>
+import PasswordStyle from '@mizuui/mizu-vue/password/style';
 import BaseInput from '@primevue/core/baseinput';
-import PasswordStyle from 'primevue/password/style';
 
 export default {
     name: 'BasePassword',

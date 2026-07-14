@@ -64,17 +64,17 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import FocusTrap from '@mizuui/mizu-vue/focustrap';
+import Portal from '@mizuui/mizu-vue/portal';
+import Ripple from '@mizuui/mizu-vue/ripple';
+import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizu-vue/utils';
 import { cn } from '@primeuix/utils';
 import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import TimesIcon from '@primevue/icons/times';
 import WindowMaximizeIcon from '@primevue/icons/windowmaximize';
 import WindowMinimizeIcon from '@primevue/icons/windowminimize';
-import Button from 'primevue/button';
-import FocusTrap from 'primevue/focustrap';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
-import { blockBodyScroll, unblockBodyScroll } from 'primevue/utils';
 import { computed } from 'vue';
 import BaseDialog from './BaseDialog.vue';
 

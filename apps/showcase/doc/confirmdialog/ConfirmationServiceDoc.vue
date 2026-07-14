@@ -16,7 +16,7 @@ export default {
             code1: {
                 basic: `
 import {createApp} from 'vue';
-import ConfirmationService from 'primevue/confirmationservice';
+import ConfirmationService from '@mizuui/mizu-vue/confirmationservice';
 
 const app = createApp(App);
 app.use(ConfirmationService);

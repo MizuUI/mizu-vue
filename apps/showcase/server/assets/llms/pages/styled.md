@@ -47,7 +47,7 @@ The options property defines the how the CSS would be generated from the design 
 The theme property is used to customize the initial theme.
 
 ```vue
-import PrimeVue from 'primevue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PrimeVue, { // Default theme configuration theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer:
+import PrimeVue from '@mizuui/mizu-vue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PrimeVue, { // Default theme configuration theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer:
 false } } });
 ```
 
@@ -85,7 +85,7 @@ const MyPreset = definePreset(Aura, { components: { card: { colorScheme: { light
 The definePreset utility is used to customize an existing preset during the PrimeVue setup. The first parameter is the preset to customize and the second is the design tokens to override.
 
 ```vue
-import PrimeVue from 'primevue/config'; import { definePreset } from '@primeuix/themes'; import Aura from '@primeuix/themes/aura'; const MyPreset = definePreset(Aura, { //Your customizations, see the following sections for examples });
+import PrimeVue from '@mizuui/mizu-vue/config'; import { definePreset } from '@primeuix/themes'; import Aura from '@primeuix/themes/aura'; const MyPreset = definePreset(Aura, { //Your customizations, see the following sections for examples });
 app.use(PrimeVue, { theme: { preset: MyPreset } });
 ```
 

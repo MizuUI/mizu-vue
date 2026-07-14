@@ -7,10 +7,10 @@
  * @module inputmask
  *
  */
+import type { InputTextPassThroughOptions } from '@mizuui/mizu-vue/inputtext';
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { InputTextPassThroughOptions } from 'primevue/inputtext';
-import type { PassThroughOptions } from 'primevue/passthrough';
 
 export declare type InputMaskPassThroughOptionType = InputMaskPassThroughAttributes | ((options: InputMaskPassThroughMethodOptions) => InputMaskPassThroughAttributes | string) | string | null | undefined;
 

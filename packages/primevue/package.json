@@ -1,8 +1,8 @@
 {
-    "name": "primevue",
-    "version": "4.5.5",
+    "name": "@mizuui/mizu-vue",
+    "version": "0.0.15",
     "author": "PrimeTek Informatics",
-    "description": "PrimeVue is an open source UI library for Vue featuring a rich set of 80+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support. In addition, it integrates with PrimeBlock, which has 370+ ready to use UI blocks to build spectacular applications in no time.",
+    "description": "Mizu is an open source UI library for Vue featuring a rich set of 80+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support. In addition, it integrates with PrimeBlock, which has 370+ ready to use UI blocks to build spectacular applications in no time.",
     "homepage": "https://primevue.org/",
     "license": "MIT",
     "repository": {
@@ -14,6 +14,7 @@
         "url": "https://github.com/primefaces/primevue/issues"
     },
     "keywords": [
+        "mizu-vue",
         "primevue",
         "vue",
         "vue.js",
@@ -337,7 +338,7 @@
         "access": "public"
     },
     "scripts": {
-        "build": "NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
         "build:package": "pnpm run build:prebuild && pnpm run build:api && rollup -c && pnpm run build:postbuild",
         "build:api": "node ./scripts/build-api.js",
         "build:prebuild": "node ./scripts/prebuild.mjs",
@@ -349,14 +350,15 @@
     },
     "devDependencies": {
         "@vue/test-utils": "^2.0.0",
+        "cross-env": "^10.1.0",
         "vitest": "^0.29.8"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
-        "@primeuix/utils": "catalog:",
-        "@primeuix/styles": "catalog:",
-        "@primevue/core": "workspace:*",
-        "@primevue/icons": "workspace:*"
+        "@primeuix/styled": "*",
+        "@primeuix/styles": "*",
+        "@primeuix/utils": "*",
+        "@primevue/core": "*",
+        "@primevue/icons": "*"
     },
     "engines": {
         "node": ">=12.11.0"

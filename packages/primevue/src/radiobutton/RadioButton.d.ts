@@ -7,9 +7,9 @@
  * @module radiobutton
  *
  */
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { PassThroughOptions } from 'primevue/passthrough';
 
 export declare type RadioButtonPassThroughOptionType = RadioButtonPassThroughAttributes | ((options: RadioButtonPassThroughMethodOptions) => RadioButtonPassThroughAttributes | string) | string | null | undefined;
 

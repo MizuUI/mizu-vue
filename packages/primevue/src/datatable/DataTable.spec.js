@@ -1,8 +1,8 @@
+import Button from '@mizuui/mizu-vue/button';
+import PrimeVue from '@mizuui/mizu-vue/config';
+import InputText from '@mizuui/mizu-vue/inputtext';
 import { FilterMatchMode } from '@primevue/core/api';
 import { mount } from '@vue/test-utils';
-import Button from 'primevue/button';
-import PrimeVue from 'primevue/config';
-import InputText from 'primevue/inputtext';
 import { defineComponent, nextTick } from 'vue';
 import Column from '../column/Column.vue';
 import ColumnGroup from '../columngroup/ColumnGroup.vue';

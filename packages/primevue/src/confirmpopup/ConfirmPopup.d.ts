@@ -7,11 +7,11 @@
  * @module confirmpopup
  *
  */
+import { ButtonPassThroughOptions } from '@mizuui/mizu-vue/button';
+import { ConfirmationOptions } from '@mizuui/mizu-vue/confirmationoptions';
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import { ButtonPassThroughOptions } from 'primevue/button';
-import { ConfirmationOptions } from 'primevue/confirmationoptions';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type ConfirmPopupPassThroughOptionType = ConfirmPopupPassThroughAttributes | ((options: ConfirmPopupPassThroughMethodOptions) => ConfirmPopupPassThroughAttributes | string) | string | null | undefined;

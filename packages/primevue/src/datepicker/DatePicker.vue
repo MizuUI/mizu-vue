@@ -566,6 +566,11 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import InputText from '@mizuui/mizu-vue/inputtext';
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, find, findSingle, getAttribute, getFocusableElements, getIndex, getOuterWidth, isTouchDevice, relativePosition, setAttribute } from '@primeuix/utils/dom';
 import { isDate, isEmpty, isNotEmpty, localeComparator } from '@primeuix/utils/object';
@@ -577,11 +582,6 @@ import ChevronLeftIcon from '@primevue/icons/chevronleft';
 import ChevronRightIcon from '@primevue/icons/chevronright';
 import ChevronUpIcon from '@primevue/icons/chevronup';
 import TimesIcon from '@primevue/icons/times';
-import Button from 'primevue/button';
-import InputText from 'primevue/inputtext';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
 import BaseDatePicker from './BaseDatePicker.vue';
 
 export default {

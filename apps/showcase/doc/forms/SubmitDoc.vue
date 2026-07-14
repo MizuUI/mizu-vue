@@ -170,7 +170,7 @@ export default {
 import { ref } from 'vue';
 import { zodResolver } from '@primevue/forms/resolvers/zod';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 
 const toast = useToast();
 

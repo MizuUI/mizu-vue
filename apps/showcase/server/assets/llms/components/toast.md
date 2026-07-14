@@ -5,7 +5,7 @@ Toast is used to display messages in an overlay.
 ## Import
 
 ```javascript
-import Toast from 'primevue/toast';
+import Toast from '@mizuui/mizu-vue/toast';
 ```
 
 ## Accessibility

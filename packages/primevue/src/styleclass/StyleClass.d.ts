@@ -7,9 +7,9 @@
  * @module styleclass
  *
  */
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DesignToken, HintedString, PassThrough } from '@primevue/core';
 import type { DirectiveHooks } from '@primevue/core/basedirective';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { DirectiveBinding, ObjectDirective } from 'vue';
 
 /**

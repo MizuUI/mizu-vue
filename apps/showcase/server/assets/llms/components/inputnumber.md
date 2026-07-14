@@ -5,7 +5,7 @@ InputNumber is an input component to provide numerical input.
 ## Import
 
 ```javascript
-import InputNumber from 'primevue/inputnumber';
+import InputNumber from 'mizu-vue/inputnumber';
 ```
 
 ## Accessibility

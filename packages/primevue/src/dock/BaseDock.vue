@@ -1,6 +1,6 @@
 <script>
+import DockStyle from '@mizuui/mizu-vue/dock/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import DockStyle from 'primevue/dock/style';
 
 export default {
     name: 'BaseDock',

@@ -1,5 +1,5 @@
+import FocusTrapStyle from '@mizuui/mizu-vue/focustrap/style';
 import BaseDirective from '@primevue/core/basedirective';
-import FocusTrapStyle from 'primevue/focustrap/style';
 
 const BaseFocusTrap = BaseDirective.extend({
     style: FocusTrapStyle

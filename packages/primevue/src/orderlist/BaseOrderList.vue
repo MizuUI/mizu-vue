@@ -1,6 +1,6 @@
 <script>
+import OrderListStyle from '@mizuui/mizu-vue/orderlist/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import OrderListStyle from 'primevue/orderlist/style';
 
 export default {
     name: 'BaseOrderList',

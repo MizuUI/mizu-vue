@@ -1,6 +1,6 @@
 <script>
+import InputMaskStyle from '@mizuui/mizu-vue/inputmask/style';
 import BaseInput from '@primevue/core/baseinput';
-import InputMaskStyle from 'primevue/inputmask/style';
 
 export default {
     name: 'BaseInputMask',

@@ -5,7 +5,7 @@ AutoComplete is an input component that provides real-time suggestions when bein
 ## Import
 
 ```javascript
-import AutoComplete from 'primevue/autocomplete';
+import AutoComplete from 'mizu-vue/autocomplete';
 ```
 
 ## Accessibility

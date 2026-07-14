@@ -1,5 +1,5 @@
+import PrimeVue from '@mizuui/mizu-vue/config';
 import { mount } from '@vue/test-utils';
-import PrimeVue from 'primevue/config';
 import Popover from './Popover.vue';
 
 describe('Popover.vue', () => {

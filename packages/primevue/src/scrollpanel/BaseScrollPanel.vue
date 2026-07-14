@@ -1,6 +1,6 @@
 <script>
+import ScrollPanelStyle from '@mizuui/mizu-vue/scrollpanel/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ScrollPanelStyle from 'primevue/scrollpanel/style';
 
 export default {
     name: 'BaseScrollPanel',

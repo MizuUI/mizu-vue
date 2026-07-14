@@ -60,9 +60,9 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
 import BaseComponent from '@primevue/core/basecomponent';
 import TimesIcon from '@primevue/icons/times';
-import Ripple from 'primevue/ripple';
 import GalleriaItem from './GalleriaItem.vue';
 import GalleriaThumbnails from './GalleriaThumbnails.vue';
 

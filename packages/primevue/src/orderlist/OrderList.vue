@@ -67,15 +67,15 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import Listbox from '@mizuui/mizu-vue/listbox';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { find, findSingle, scrollInView, setAttribute } from '@primeuix/utils/dom';
 import { findIndexInList, isNotEmpty } from '@primeuix/utils/object';
 import AngleDoubleDownIcon from '@primevue/icons/angledoubledown';
 import AngleDoubleUpIcon from '@primevue/icons/angledoubleup';
 import AngleDownIcon from '@primevue/icons/angledown';
 import AngleUpIcon from '@primevue/icons/angleup';
-import Button from 'primevue/button';
-import Listbox from 'primevue/listbox';
-import Ripple from 'primevue/ripple';
 import BaseOrderList from './BaseOrderList.vue';
 
 export default {

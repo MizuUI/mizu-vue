@@ -101,8 +101,8 @@
 </template>
 
 <script>
+import Paginator from '@mizuui/mizu-vue/paginator';
 import { localeComparator, resolveFieldData, sort } from '@primeuix/utils/object';
-import Paginator from 'primevue/paginator';
 import BaseDataView from './BaseDataView.vue';
 
 export default {

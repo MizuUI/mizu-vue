@@ -5,9 +5,9 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
 import BaseComponent from '@primevue/core/basecomponent';
 import AngleDoubleRightIcon from '@primevue/icons/angledoubleright';
-import Ripple from 'primevue/ripple';
 
 export default {
     name: 'LastPageLink',

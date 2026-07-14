@@ -5,7 +5,7 @@ Dialogs can be created dynamically with any component as the content using a Dia
 ## Import
 
 ```javascript
-import DynamicDialog from 'primevue/dynamicdialog';
+import DynamicDialog from 'mizu-vue/dynamicdialog';
 ```
 
 ## Accessibility
@@ -25,7 +25,7 @@ import { inject } from "vue"; const dialogRef = inject('dialogRef'); const close
 DynamicDialog uses the Dialog component internally, visit dialog for more information about the available props.
 
 ```vue
-import ProductListDemo from './ProductListDemo'; import { useDialog } from 'primevue/usedialog'; const dialog = useDialog(); const showProducts = () => { dialog.open(ProductListDemo, { props: { header: 'Product List', style: { width: '50vw', },
+import ProductListDemo from './ProductListDemo'; import { useDialog } from 'mizu-vue/usedialog'; const dialog = useDialog(); const showProducts = () => { dialog.open(ProductListDemo, { props: { header: 'Product List', style: { width: '50vw', },
 breakpoints:{ '960px': '75vw', '640px': '90vw' }, modal: true } }); }
 ```
 
@@ -61,9 +61,9 @@ A sample implementation to demonstrate loading components asynchronously, nested
 
 <script setup>
 import { markRaw, defineAsyncComponent } from 'vue';
-import { useDialog } from 'primevue/usedialog';
-import { useToast } from 'primevue/usetoast';
-import Button from 'primevue/button';
+import { useDialog } from 'mizu-vue/usedialog';
+import { useToast } from 'mizu-vue/usetoast';
+import Button from 'mizu-vue/button';
 const ProductListDemo = defineAsyncComponent(() => import('./components/ProductListDemo.vue'));
 const FooterDemo = defineAsyncComponent(() => import('./components/FooterDemo.vue'));
 

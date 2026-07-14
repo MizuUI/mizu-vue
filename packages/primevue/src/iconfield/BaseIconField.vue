@@ -1,6 +1,6 @@
 <script>
+import IconFieldStyle from '@mizuui/mizu-vue/iconfield/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import IconFieldStyle from 'primevue/iconfield/style';
 
 export default {
     name: 'BaseIconField',

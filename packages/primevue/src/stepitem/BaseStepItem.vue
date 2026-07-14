@@ -1,6 +1,6 @@
 <script>
+import StepItemStyle from '@mizuui/mizu-vue/stepitem/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import StepItemStyle from 'primevue/stepitem/style';
 
 export default {
     name: 'BaseStepItem',

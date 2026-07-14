@@ -1,6 +1,6 @@
 <script>
+import ListboxStyle from '@mizuui/mizu-vue/listbox/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import ListboxStyle from 'primevue/listbox/style';
 
 export default {
     name: 'BaseListbox',

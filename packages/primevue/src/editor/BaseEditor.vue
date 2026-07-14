@@ -1,6 +1,6 @@
 <script>
+import EditorStyle from '@mizuui/mizu-vue/editor/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import EditorStyle from 'primevue/editor/style';
 
 export default {
     name: 'BaseEditor',

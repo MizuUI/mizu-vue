@@ -1,6 +1,6 @@
 <script>
+import AccordionTabStyle from '@mizuui/mizu-vue/accordiontab/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import AccordionTabStyle from 'primevue/accordiontab/style';
 
 export default {
     name: 'BaseAccordionTab',

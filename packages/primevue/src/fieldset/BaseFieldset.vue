@@ -1,6 +1,6 @@
 <script>
+import FieldsetStyle from '@mizuui/mizu-vue/fieldset/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import FieldsetStyle from 'primevue/fieldset/style';
 
 export default {
     name: 'BaseFieldset',

@@ -1,6 +1,6 @@
 <script>
+import ImageCompareStyle from '@mizuui/mizu-vue/imagecompare/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ImageCompareStyle from 'primevue/imagecompare/style';
 
 export default {
     name: 'BaseImageCompare',

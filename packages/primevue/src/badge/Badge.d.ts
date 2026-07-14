@@ -7,9 +7,9 @@
  * @module badge
  *
  */
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type BadgePassThroughOptionType<T = any> = BadgePassThroughAttributes | ((options: BadgePassThroughMethodOptions<T>) => BadgePassThroughAttributes | string) | string | null | undefined;

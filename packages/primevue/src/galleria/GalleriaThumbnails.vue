@@ -71,6 +71,7 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@primeuix/utils/dom';
 import { localeComparator, sort } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
@@ -78,7 +79,6 @@ import ChevronDownIcon from '@primevue/icons/chevrondown';
 import ChevronLeftIcon from '@primevue/icons/chevronleft';
 import ChevronRightIcon from '@primevue/icons/chevronright';
 import ChevronUpIcon from '@primevue/icons/chevronup';
-import Ripple from 'primevue/ripple';
 
 export default {
     name: 'GalleriaThumbnails',
@@ -421,9 +421,9 @@ export default {
             }
         },
         changePageOnTouch(e, diff) {
-            const touchThreshold = 10
+            const touchThreshold = 10;
 
-            if(Math.abs(diff) < touchThreshold) {
+            if (Math.abs(diff) < touchThreshold) {
                 // only a click/tap
                 return;
             }

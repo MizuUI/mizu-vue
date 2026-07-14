@@ -1,6 +1,6 @@
 <script>
+import CardStyle from '@mizuui/mizu-vue/card/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import CardStyle from 'primevue/card/style';
 
 export default {
     name: 'BaseCard',

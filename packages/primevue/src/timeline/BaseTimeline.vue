@@ -1,6 +1,6 @@
 <script>
+import TimelineStyle from '@mizuui/mizu-vue/timeline/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import TimelineStyle from 'primevue/timeline/style';
 
 export default {
     name: 'BaseTimeline',

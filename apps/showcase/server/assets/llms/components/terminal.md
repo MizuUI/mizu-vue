@@ -5,8 +5,8 @@ Terminal is a text based user interface.
 ## Import
 
 ```javascript
-import Terminal from 'primevue/terminal';
-import TerminalService from 'primevue/terminalservice';
+import Terminal from '@mizuui/mizu-vue/terminal';
+import TerminalService from '@mizuui/mizu-vue/terminalservice';
 ```
 
 ## Accessibility

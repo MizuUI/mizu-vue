@@ -5,7 +5,7 @@ InputMask component is used to enter input in a certain format such as numeric, 
 ## Import
 
 ```javascript
-import InputMask from 'primevue/inputmask';
+import InputMask from 'mizu-vue/inputmask';
 ```
 
 ## Accessibility

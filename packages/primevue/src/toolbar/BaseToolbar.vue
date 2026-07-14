@@ -1,6 +1,6 @@
 <script>
+import ToolbarStyle from '@mizuui/mizu-vue/toolbar/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ToolbarStyle from 'primevue/toolbar/style';
 
 export default {
     name: 'BaseToolbar',

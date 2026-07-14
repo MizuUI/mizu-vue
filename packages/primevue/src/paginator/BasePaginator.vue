@@ -1,6 +1,6 @@
 <script>
+import PaginatorStyle from '@mizuui/mizu-vue/paginator/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import PaginatorStyle from 'primevue/paginator/style';
 
 export default {
     name: 'BasePaginator',

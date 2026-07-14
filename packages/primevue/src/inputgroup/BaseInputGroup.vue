@@ -1,6 +1,6 @@
 <script>
+import InputGroupStyle from '@mizuui/mizu-vue/inputgroup/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import InputGroupStyle from 'primevue/inputgroup/style';
 
 export default {
     name: 'BaseInputGroup',

@@ -5,7 +5,7 @@ SplitButton groups a set of commands in an overlay with a default command.
 ## Import
 
 ```javascript
-import SplitButton from 'primevue/splitbutton';
+import SplitButton from '@mizuui/mizu-vue/splitbutton';
 ```
 
 ## Accessibility

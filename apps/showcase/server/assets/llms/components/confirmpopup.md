@@ -5,7 +5,7 @@ ConfirmPopup displays a confirmation overlay displayed relatively to its target.
 ## Import
 
 ```javascript
-import ConfirmPopup from 'primevue/confirmpopup';
+import ConfirmPopup from '@mizuui/mizu-vue/confirmpopup';
 ```
 
 ## Accessibility

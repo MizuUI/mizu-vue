@@ -9,10 +9,10 @@ export default {
         return {
             code: {
                 basic: `
-import Accordion from 'primevue/accordion';
-import AccordionPanel from 'primevue/accordionpanel';
-import AccordionHeader from 'primevue/accordionheader';
-import AccordionContent from 'primevue/accordioncontent';
+import Accordion from '@mizuui/mizu-vue/accordion';
+import AccordionPanel from '@mizuui/mizu-vue/accordionpanel';
+import AccordionHeader from '@mizuui/mizu-vue/accordionheader';
+import AccordionContent from '@mizuui/mizu-vue/accordioncontent';
 `
             }
         };

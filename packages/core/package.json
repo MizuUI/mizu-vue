@@ -1,6 +1,6 @@
 {
     "name": "@primevue/core",
-    "version": "4.5.5",
+    "version": "0.0.15",
     "author": "PrimeTek Informatics",
     "description": "",
     "homepage": "https://primevue.org/",
@@ -60,7 +60,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
+        "@primeuix/styled": "*",
         "@primeuix/utils": "catalog:"
     },
     "peerDependencies": {

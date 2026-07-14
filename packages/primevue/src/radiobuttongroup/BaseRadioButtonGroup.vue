@@ -1,6 +1,6 @@
 <script>
+import RadioButtonGroupStyle from '@mizuui/mizu-vue/radiobuttongroup/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import RadioButtonGroupStyle from 'primevue/radiobuttongroup/style';
 
 export default {
     name: 'BaseRadioButtonGroup',

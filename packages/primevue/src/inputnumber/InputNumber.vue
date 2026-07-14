@@ -90,13 +90,13 @@
 </template>
 
 <script>
+import InputText from '@mizuui/mizu-vue/inputtext';
 import { cn } from '@primeuix/utils';
 import { clearSelection, getSelection } from '@primeuix/utils/dom';
 import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
 import AngleDownIcon from '@primevue/icons/angledown';
 import AngleUpIcon from '@primevue/icons/angleup';
 import TimesIcon from '@primevue/icons/times';
-import InputText from 'primevue/inputtext';
 import BaseInputNumber from './BaseInputNumber.vue';
 
 export default {

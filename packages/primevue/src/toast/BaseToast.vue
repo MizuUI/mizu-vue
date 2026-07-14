@@ -1,6 +1,6 @@
 <script>
+import ToastStyle from '@mizuui/mizu-vue/toast/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ToastStyle from 'primevue/toast/style';
 
 export default {
     name: 'BaseToast',

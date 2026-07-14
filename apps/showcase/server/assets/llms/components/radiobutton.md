@@ -5,8 +5,8 @@ RadioButton is an extension to standard radio button element with theming.
 ## Import
 
 ```javascript
-import RadioButton from 'primevue/radiobutton';
-import RadioButtonGroup from 'primevue/radiobuttongroup';
+import RadioButton from '@mizuui/mizu-vue/radiobutton';
+import RadioButtonGroup from '@mizuui/mizu-vue/radiobuttongroup';
 ```
 
 ## Accessibility

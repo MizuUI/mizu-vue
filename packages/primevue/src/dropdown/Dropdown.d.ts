@@ -7,8 +7,8 @@
  * @module dropdown
  *
  */
+import * as Select from '@mizuui/mizu-vue/select';
 import type { DefineComponent, EmitFn } from '@primevue/core';
-import * as Select from 'primevue/select';
 import 'vue';
 
 /**

@@ -1,6 +1,6 @@
 <script>
+import PopoverStyle from '@mizuui/mizu-vue/popover/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import PopoverStyle from 'primevue/popover/style';
 
 export default {
     name: 'BasePopover',

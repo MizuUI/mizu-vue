@@ -1,6 +1,6 @@
 <script>
+import FluidStyle from '@mizuui/mizu-vue/fluid/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import FluidStyle from 'primevue/fluid/style';
 
 export default {
     name: 'BaseFluid',

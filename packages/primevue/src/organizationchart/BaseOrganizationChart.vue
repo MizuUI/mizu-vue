@@ -1,6 +1,6 @@
 <script>
+import OrganizationChartStyle from '@mizuui/mizu-vue/organizationchart/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import OrganizationChartStyle from 'primevue/organizationchart/style';
 
 export default {
     name: 'BaseOrganizationChart',

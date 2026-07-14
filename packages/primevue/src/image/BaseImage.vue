@@ -1,6 +1,6 @@
 <script>
+import ImageStyle from '@mizuui/mizu-vue/image/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ImageStyle from 'primevue/image/style';
 
 export default {
     name: 'BaseImage',

@@ -7,9 +7,9 @@
  * @module card
  *
  */
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type CardPassThroughOptionType = CardPassThroughAttributes | ((options: CardPassThroughMethodOptions) => CardPassThroughAttributes | string) | string | null | undefined;

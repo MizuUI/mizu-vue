@@ -5,7 +5,7 @@ SelectButton is used to choose single or multiple items from a list using button
 ## Import
 
 ```javascript
-import SelectButton from 'primevue/selectbutton';
+import SelectButton from '@mizuui/mizu-vue/selectbutton';
 ```
 
 ## Accessibility

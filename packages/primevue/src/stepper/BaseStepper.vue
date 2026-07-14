@@ -1,6 +1,6 @@
 <script>
+import StepperStyle from '@mizuui/mizu-vue/stepper/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import StepperStyle from 'primevue/stepper/style';
 
 export default {
     name: 'BaseStepper',

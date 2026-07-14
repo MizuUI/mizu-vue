@@ -208,6 +208,12 @@
 </template>
 
 <script>
+import Chip from '@mizuui/mizu-vue/chip';
+import InputText from '@mizuui/mizu-vue/inputtext';
+import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
+import Portal from '@mizuui/mizu-vue/portal';
+import Ripple from '@mizuui/mizu-vue/ripple';
+import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
@@ -216,12 +222,6 @@ import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import ChevronDownIcon from '@primevue/icons/chevrondown';
 import SpinnerIcon from '@primevue/icons/spinner';
 import TimesIcon from '@primevue/icons/times';
-import Chip from 'primevue/chip';
-import InputText from 'primevue/inputtext';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
-import VirtualScroller from 'primevue/virtualscroller';
 import BaseAutoComplete from './BaseAutoComplete.vue';
 
 export default {

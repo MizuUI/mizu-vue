@@ -3,8 +3,8 @@
 </template>
 
 <script>
+import RadioButton from '@mizuui/mizu-vue/radiobutton';
 import BaseComponent from '@primevue/core/basecomponent';
-import RadioButton from 'primevue/radiobutton';
 import { mergeProps } from 'vue';
 
 export default {

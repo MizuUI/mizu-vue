@@ -1,6 +1,6 @@
 <script>
+import SkeletonStyle from '@mizuui/mizu-vue/skeleton/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import SkeletonStyle from 'primevue/skeleton/style';
 
 export default {
     name: 'BaseSkeleton',

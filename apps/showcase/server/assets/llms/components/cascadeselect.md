@@ -5,7 +5,7 @@ CascadeSelect is a form component to select a value from a nested structure of o
 ## Import
 
 ```javascript
-import CascadeSelect from 'primevue/cascadeselect';
+import CascadeSelect from 'mizu-vue/cascadeselect';
 ```
 
 ## Accessibility

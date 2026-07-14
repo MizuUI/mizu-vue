@@ -5,7 +5,7 @@ Knob is a form component to define number inputs with a dial.
 ## Import
 
 ```javascript
-import Knob from 'primevue/knob';
+import Knob from 'mizu-vue/knob';
 ```
 
 ## Accessibility

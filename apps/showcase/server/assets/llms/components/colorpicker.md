@@ -5,7 +5,7 @@ ColorPicker is an input component to select a color.
 ## Import
 
 ```javascript
-import ColorPicker from 'primevue/colorpicker';
+import ColorPicker from '@mizuui/mizu-vue/colorpicker';
 ```
 
 ## Accessibility

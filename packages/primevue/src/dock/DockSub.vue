@@ -55,11 +55,11 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
+import Tooltip from '@mizuui/mizu-vue/tooltip';
 import { find, findSingle } from '@primeuix/utils/dom';
 import { resolve } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
-import Ripple from 'primevue/ripple';
-import Tooltip from 'primevue/tooltip';
 import { mergeProps } from 'vue';
 
 export default {

@@ -1,814 +1,814 @@
 /***************** PrimeVue (Auto-Generated) *****************/
 
 // Utils
-export * from 'primevue/utils';
+export * from 'mizu-vue/utils';
 
 // UseConfirm
-export * from 'primevue/useconfirm';
+export * from 'mizu-vue/useconfirm';
 
 // UseDialog
-export * from 'primevue/usedialog';
+export * from 'mizu-vue/usedialog';
 
 // UseToast
-export * from 'primevue/usetoast';
+export * from 'mizu-vue/usetoast';
 
 // UseStyle
-export * from 'primevue/usestyle';
+export * from 'mizu-vue/usestyle';
 
 // Accordion
-export * from 'primevue/accordion';
-export { default as Accordion } from 'primevue/accordion';
-export * from 'primevue/accordion/style';
-export { default as AccordionStyle } from 'primevue/accordion/style';
+export * from 'mizu-vue/accordion';
+export { default as Accordion } from 'mizu-vue/accordion';
+export * from 'mizu-vue/accordion/style';
+export { default as AccordionStyle } from 'mizu-vue/accordion/style';
 
 // AccordionContent
-export * from 'primevue/accordioncontent';
-export { default as AccordionContent } from 'primevue/accordioncontent';
-export * from 'primevue/accordioncontent/style';
-export { default as AccordionContentStyle } from 'primevue/accordioncontent/style';
+export * from 'mizu-vue/accordioncontent';
+export { default as AccordionContent } from 'mizu-vue/accordioncontent';
+export * from 'mizu-vue/accordioncontent/style';
+export { default as AccordionContentStyle } from 'mizu-vue/accordioncontent/style';
 
 // AccordionHeader
-export * from 'primevue/accordionheader';
-export { default as AccordionHeader } from 'primevue/accordionheader';
-export * from 'primevue/accordionheader/style';
-export { default as AccordionHeaderStyle } from 'primevue/accordionheader/style';
+export * from 'mizu-vue/accordionheader';
+export { default as AccordionHeader } from 'mizu-vue/accordionheader';
+export * from 'mizu-vue/accordionheader/style';
+export { default as AccordionHeaderStyle } from 'mizu-vue/accordionheader/style';
 
 // AccordionPanel
-export * from 'primevue/accordionpanel';
-export { default as AccordionPanel } from 'primevue/accordionpanel';
-export * from 'primevue/accordionpanel/style';
-export { default as AccordionPanelStyle } from 'primevue/accordionpanel/style';
+export * from 'mizu-vue/accordionpanel';
+export { default as AccordionPanel } from 'mizu-vue/accordionpanel';
+export * from 'mizu-vue/accordionpanel/style';
+export { default as AccordionPanelStyle } from 'mizu-vue/accordionpanel/style';
 
 // AccordionTab
-export * from 'primevue/accordiontab';
-export { default as AccordionTab } from 'primevue/accordiontab';
-export * from 'primevue/accordiontab/style';
-export { default as AccordionTabStyle } from 'primevue/accordiontab/style';
+export * from 'mizu-vue/accordiontab';
+export { default as AccordionTab } from 'mizu-vue/accordiontab';
+export * from 'mizu-vue/accordiontab/style';
+export { default as AccordionTabStyle } from 'mizu-vue/accordiontab/style';
 
 // AnimateOnScroll
-export * from 'primevue/animateonscroll';
-export { default as AnimateOnScroll } from 'primevue/animateonscroll';
-export * from 'primevue/animateonscroll/style';
-export { default as AnimateOnScrollStyle } from 'primevue/animateonscroll/style';
+export * from 'mizu-vue/animateonscroll';
+export { default as AnimateOnScroll } from 'mizu-vue/animateonscroll';
+export * from 'mizu-vue/animateonscroll/style';
+export { default as AnimateOnScrollStyle } from 'mizu-vue/animateonscroll/style';
 
 // AutoComplete
-export * from 'primevue/autocomplete';
-export { default as AutoComplete } from 'primevue/autocomplete';
-export * from 'primevue/autocomplete/style';
-export { default as AutoCompleteStyle } from 'primevue/autocomplete/style';
+export * from 'mizu-vue/autocomplete';
+export { default as AutoComplete } from 'mizu-vue/autocomplete';
+export * from 'mizu-vue/autocomplete/style';
+export { default as AutoCompleteStyle } from 'mizu-vue/autocomplete/style';
 
 // Avatar
-export * from 'primevue/avatar';
-export { default as Avatar } from 'primevue/avatar';
-export * from 'primevue/avatar/style';
-export { default as AvatarStyle } from 'primevue/avatar/style';
+export * from 'mizu-vue/avatar';
+export { default as Avatar } from 'mizu-vue/avatar';
+export * from 'mizu-vue/avatar/style';
+export { default as AvatarStyle } from 'mizu-vue/avatar/style';
 
 // AvatarGroup
-export * from 'primevue/avatargroup';
-export { default as AvatarGroup } from 'primevue/avatargroup';
-export * from 'primevue/avatargroup/style';
-export { default as AvatarGroupStyle } from 'primevue/avatargroup/style';
+export * from 'mizu-vue/avatargroup';
+export { default as AvatarGroup } from 'mizu-vue/avatargroup';
+export * from 'mizu-vue/avatargroup/style';
+export { default as AvatarGroupStyle } from 'mizu-vue/avatargroup/style';
 
 // Badge
-export * from 'primevue/badge';
-export { default as Badge } from 'primevue/badge';
-export * from 'primevue/badge/style';
-export { default as BadgeStyle } from 'primevue/badge/style';
+export * from 'mizu-vue/badge';
+export { default as Badge } from 'mizu-vue/badge';
+export * from 'mizu-vue/badge/style';
+export { default as BadgeStyle } from 'mizu-vue/badge/style';
 
 // BadgeDirective
-export * from 'primevue/badgedirective';
-export { default as BadgeDirective } from 'primevue/badgedirective';
-export * from 'primevue/badgedirective/style';
-export { default as BadgeDirectiveStyle } from 'primevue/badgedirective/style';
+export * from 'mizu-vue/badgedirective';
+export { default as BadgeDirective } from 'mizu-vue/badgedirective';
+export * from 'mizu-vue/badgedirective/style';
+export { default as BadgeDirectiveStyle } from 'mizu-vue/badgedirective/style';
 
 // BlockUI
-export * from 'primevue/blockui';
-export { default as BlockUI } from 'primevue/blockui';
-export * from 'primevue/blockui/style';
-export { default as BlockUIStyle } from 'primevue/blockui/style';
+export * from 'mizu-vue/blockui';
+export { default as BlockUI } from 'mizu-vue/blockui';
+export * from 'mizu-vue/blockui/style';
+export { default as BlockUIStyle } from 'mizu-vue/blockui/style';
 
 // Breadcrumb
-export * from 'primevue/breadcrumb';
-export { default as Breadcrumb } from 'primevue/breadcrumb';
-export * from 'primevue/breadcrumb/style';
-export { default as BreadcrumbStyle } from 'primevue/breadcrumb/style';
+export * from 'mizu-vue/breadcrumb';
+export { default as Breadcrumb } from 'mizu-vue/breadcrumb';
+export * from 'mizu-vue/breadcrumb/style';
+export { default as BreadcrumbStyle } from 'mizu-vue/breadcrumb/style';
 
 // Button
-export * from 'primevue/button';
-export { default as Button } from 'primevue/button';
-export * from 'primevue/button/style';
-export { default as ButtonStyle } from 'primevue/button/style';
+export * from 'mizu-vue/button';
+export { default as Button } from 'mizu-vue/button';
+export * from 'mizu-vue/button/style';
+export { default as ButtonStyle } from 'mizu-vue/button/style';
 
 // ButtonGroup
-export * from 'primevue/buttongroup';
-export { default as ButtonGroup } from 'primevue/buttongroup';
-export * from 'primevue/buttongroup/style';
-export { default as ButtonGroupStyle } from 'primevue/buttongroup/style';
+export * from 'mizu-vue/buttongroup';
+export { default as ButtonGroup } from 'mizu-vue/buttongroup';
+export * from 'mizu-vue/buttongroup/style';
+export { default as ButtonGroupStyle } from 'mizu-vue/buttongroup/style';
 
 // Calendar
-export * from 'primevue/calendar';
-export { default as Calendar } from 'primevue/calendar';
-export * from 'primevue/calendar/style';
-export { default as CalendarStyle } from 'primevue/calendar/style';
+export * from 'mizu-vue/calendar';
+export { default as Calendar } from 'mizu-vue/calendar';
+export * from 'mizu-vue/calendar/style';
+export { default as CalendarStyle } from 'mizu-vue/calendar/style';
 
 // Card
-export * from 'primevue/card';
-export { default as Card } from 'primevue/card';
-export * from 'primevue/card/style';
-export { default as CardStyle } from 'primevue/card/style';
+export * from 'mizu-vue/card';
+export { default as Card } from 'mizu-vue/card';
+export * from 'mizu-vue/card/style';
+export { default as CardStyle } from 'mizu-vue/card/style';
 
 // Carousel
-export * from 'primevue/carousel';
-export { default as Carousel } from 'primevue/carousel';
-export * from 'primevue/carousel/style';
-export { default as CarouselStyle } from 'primevue/carousel/style';
+export * from 'mizu-vue/carousel';
+export { default as Carousel } from 'mizu-vue/carousel';
+export * from 'mizu-vue/carousel/style';
+export { default as CarouselStyle } from 'mizu-vue/carousel/style';
 
 // CascadeSelect
-export * from 'primevue/cascadeselect';
-export { default as CascadeSelect } from 'primevue/cascadeselect';
-export * from 'primevue/cascadeselect/style';
-export { default as CascadeSelectStyle } from 'primevue/cascadeselect/style';
+export * from 'mizu-vue/cascadeselect';
+export { default as CascadeSelect } from 'mizu-vue/cascadeselect';
+export * from 'mizu-vue/cascadeselect/style';
+export { default as CascadeSelectStyle } from 'mizu-vue/cascadeselect/style';
 
 // Checkbox
-export * from 'primevue/checkbox';
-export { default as Checkbox } from 'primevue/checkbox';
-export * from 'primevue/checkbox/style';
-export { default as CheckboxStyle } from 'primevue/checkbox/style';
+export * from 'mizu-vue/checkbox';
+export { default as Checkbox } from 'mizu-vue/checkbox';
+export * from 'mizu-vue/checkbox/style';
+export { default as CheckboxStyle } from 'mizu-vue/checkbox/style';
 
 // CheckboxGroup
-export * from 'primevue/checkboxgroup';
-export { default as CheckboxGroup } from 'primevue/checkboxgroup';
-export * from 'primevue/checkboxgroup/style';
-export { default as CheckboxGroupStyle } from 'primevue/checkboxgroup/style';
+export * from 'mizu-vue/checkboxgroup';
+export { default as CheckboxGroup } from 'mizu-vue/checkboxgroup';
+export * from 'mizu-vue/checkboxgroup/style';
+export { default as CheckboxGroupStyle } from 'mizu-vue/checkboxgroup/style';
 
 // Chip
-export * from 'primevue/chip';
-export { default as Chip } from 'primevue/chip';
-export * from 'primevue/chip/style';
-export { default as ChipStyle } from 'primevue/chip/style';
+export * from 'mizu-vue/chip';
+export { default as Chip } from 'mizu-vue/chip';
+export * from 'mizu-vue/chip/style';
+export { default as ChipStyle } from 'mizu-vue/chip/style';
 
 // Chips
-export * from 'primevue/chips';
-export { default as Chips } from 'primevue/chips';
-export * from 'primevue/chips/style';
-export { default as ChipsStyle } from 'primevue/chips/style';
+export * from 'mizu-vue/chips';
+export { default as Chips } from 'mizu-vue/chips';
+export * from 'mizu-vue/chips/style';
+export { default as ChipsStyle } from 'mizu-vue/chips/style';
 
 // ColorPicker
-export * from 'primevue/colorpicker';
-export { default as ColorPicker } from 'primevue/colorpicker';
-export * from 'primevue/colorpicker/style';
-export { default as ColorPickerStyle } from 'primevue/colorpicker/style';
+export * from 'mizu-vue/colorpicker';
+export { default as ColorPicker } from 'mizu-vue/colorpicker';
+export * from 'mizu-vue/colorpicker/style';
+export { default as ColorPickerStyle } from 'mizu-vue/colorpicker/style';
 
 // Column
-export * from 'primevue/column';
-export { default as Column } from 'primevue/column';
-export * from 'primevue/column/style';
-export { default as ColumnStyle } from 'primevue/column/style';
+export * from 'mizu-vue/column';
+export { default as Column } from 'mizu-vue/column';
+export * from 'mizu-vue/column/style';
+export { default as ColumnStyle } from 'mizu-vue/column/style';
 
 // ColumnGroup
-export * from 'primevue/columngroup';
-export { default as ColumnGroup } from 'primevue/columngroup';
-export * from 'primevue/columngroup/style';
-export { default as ColumnGroupStyle } from 'primevue/columngroup/style';
+export * from 'mizu-vue/columngroup';
+export { default as ColumnGroup } from 'mizu-vue/columngroup';
+export * from 'mizu-vue/columngroup/style';
+export { default as ColumnGroupStyle } from 'mizu-vue/columngroup/style';
 
 // Config
-export * from 'primevue/config';
-export { default as Config } from 'primevue/config';
+export * from 'mizu-vue/config';
+export { default as Config } from 'mizu-vue/config';
 
 // ConfirmationEventBus
-export * from 'primevue/confirmationeventbus';
-export { default as ConfirmationEventBus } from 'primevue/confirmationeventbus';
+export * from 'mizu-vue/confirmationeventbus';
+export { default as ConfirmationEventBus } from 'mizu-vue/confirmationeventbus';
 
 // ConfirmationService
-export * from 'primevue/confirmationservice';
-export { default as ConfirmationService } from 'primevue/confirmationservice';
+export * from 'mizu-vue/confirmationservice';
+export { default as ConfirmationService } from 'mizu-vue/confirmationservice';
 
 // ConfirmDialog
-export * from 'primevue/confirmdialog';
-export { default as ConfirmDialog } from 'primevue/confirmdialog';
-export * from 'primevue/confirmdialog/style';
-export { default as ConfirmDialogStyle } from 'primevue/confirmdialog/style';
+export * from 'mizu-vue/confirmdialog';
+export { default as ConfirmDialog } from 'mizu-vue/confirmdialog';
+export * from 'mizu-vue/confirmdialog/style';
+export { default as ConfirmDialogStyle } from 'mizu-vue/confirmdialog/style';
 
 // ConfirmPopup
-export * from 'primevue/confirmpopup';
-export { default as ConfirmPopup } from 'primevue/confirmpopup';
-export * from 'primevue/confirmpopup/style';
-export { default as ConfirmPopupStyle } from 'primevue/confirmpopup/style';
+export * from 'mizu-vue/confirmpopup';
+export { default as ConfirmPopup } from 'mizu-vue/confirmpopup';
+export * from 'mizu-vue/confirmpopup/style';
+export { default as ConfirmPopupStyle } from 'mizu-vue/confirmpopup/style';
 
 // ContextMenu
-export * from 'primevue/contextmenu';
-export { default as ContextMenu } from 'primevue/contextmenu';
-export * from 'primevue/contextmenu/style';
-export { default as ContextMenuStyle } from 'primevue/contextmenu/style';
+export * from 'mizu-vue/contextmenu';
+export { default as ContextMenu } from 'mizu-vue/contextmenu';
+export * from 'mizu-vue/contextmenu/style';
+export { default as ContextMenuStyle } from 'mizu-vue/contextmenu/style';
 
 // DataTable
-export * from 'primevue/datatable';
-export { default as DataTable } from 'primevue/datatable';
-export * from 'primevue/datatable/style';
-export { default as DataTableStyle } from 'primevue/datatable/style';
+export * from 'mizu-vue/datatable';
+export { default as DataTable } from 'mizu-vue/datatable';
+export * from 'mizu-vue/datatable/style';
+export { default as DataTableStyle } from 'mizu-vue/datatable/style';
 
 // DataView
-export * from 'primevue/dataview';
-export { default as DataView } from 'primevue/dataview';
-export * from 'primevue/dataview/style';
-export { default as DataViewStyle } from 'primevue/dataview/style';
+export * from 'mizu-vue/dataview';
+export { default as DataView } from 'mizu-vue/dataview';
+export * from 'mizu-vue/dataview/style';
+export { default as DataViewStyle } from 'mizu-vue/dataview/style';
 
 // DatePicker
-export * from 'primevue/datepicker';
-export { default as DatePicker } from 'primevue/datepicker';
-export * from 'primevue/datepicker/style';
-export { default as DatePickerStyle } from 'primevue/datepicker/style';
+export * from 'mizu-vue/datepicker';
+export { default as DatePicker } from 'mizu-vue/datepicker';
+export * from 'mizu-vue/datepicker/style';
+export { default as DatePickerStyle } from 'mizu-vue/datepicker/style';
 
 // DeferredContent
-export * from 'primevue/deferredcontent';
-export { default as DeferredContent } from 'primevue/deferredcontent';
-export * from 'primevue/deferredcontent/style';
-export { default as DeferredContentStyle } from 'primevue/deferredcontent/style';
+export * from 'mizu-vue/deferredcontent';
+export { default as DeferredContent } from 'mizu-vue/deferredcontent';
+export * from 'mizu-vue/deferredcontent/style';
+export { default as DeferredContentStyle } from 'mizu-vue/deferredcontent/style';
 
 // Dialog
-export * from 'primevue/dialog';
-export { default as Dialog } from 'primevue/dialog';
-export * from 'primevue/dialog/style';
-export { default as DialogStyle } from 'primevue/dialog/style';
+export * from 'mizu-vue/dialog';
+export { default as Dialog } from 'mizu-vue/dialog';
+export * from 'mizu-vue/dialog/style';
+export { default as DialogStyle } from 'mizu-vue/dialog/style';
 
 // DialogService
-export * from 'primevue/dialogservice';
-export { default as DialogService } from 'primevue/dialogservice';
+export * from 'mizu-vue/dialogservice';
+export { default as DialogService } from 'mizu-vue/dialogservice';
 
 // Divider
-export * from 'primevue/divider';
-export { default as Divider } from 'primevue/divider';
-export * from 'primevue/divider/style';
-export { default as DividerStyle } from 'primevue/divider/style';
+export * from 'mizu-vue/divider';
+export { default as Divider } from 'mizu-vue/divider';
+export * from 'mizu-vue/divider/style';
+export { default as DividerStyle } from 'mizu-vue/divider/style';
 
 // Dock
-export * from 'primevue/dock';
-export { default as Dock } from 'primevue/dock';
-export * from 'primevue/dock/style';
-export { default as DockStyle } from 'primevue/dock/style';
+export * from 'mizu-vue/dock';
+export { default as Dock } from 'mizu-vue/dock';
+export * from 'mizu-vue/dock/style';
+export { default as DockStyle } from 'mizu-vue/dock/style';
 
 // Drawer
-export * from 'primevue/drawer';
-export { default as Drawer } from 'primevue/drawer';
-export * from 'primevue/drawer/style';
-export { default as DrawerStyle } from 'primevue/drawer/style';
+export * from 'mizu-vue/drawer';
+export { default as Drawer } from 'mizu-vue/drawer';
+export * from 'mizu-vue/drawer/style';
+export { default as DrawerStyle } from 'mizu-vue/drawer/style';
 
 // Dropdown
-export * from 'primevue/dropdown';
-export { default as Dropdown } from 'primevue/dropdown';
-export * from 'primevue/dropdown/style';
-export { default as DropdownStyle } from 'primevue/dropdown/style';
+export * from 'mizu-vue/dropdown';
+export { default as Dropdown } from 'mizu-vue/dropdown';
+export * from 'mizu-vue/dropdown/style';
+export { default as DropdownStyle } from 'mizu-vue/dropdown/style';
 
 // DynamicDialog
-export * from 'primevue/dynamicdialog';
-export { default as DynamicDialog } from 'primevue/dynamicdialog';
-export * from 'primevue/dynamicdialog/style';
-export { default as DynamicDialogStyle } from 'primevue/dynamicdialog/style';
+export * from 'mizu-vue/dynamicdialog';
+export { default as DynamicDialog } from 'mizu-vue/dynamicdialog';
+export * from 'mizu-vue/dynamicdialog/style';
+export { default as DynamicDialogStyle } from 'mizu-vue/dynamicdialog/style';
 
 // DynamicDialogEventBus
-export * from 'primevue/dynamicdialogeventbus';
-export { default as DynamicDialogEventBus } from 'primevue/dynamicdialogeventbus';
+export * from 'mizu-vue/dynamicdialogeventbus';
+export { default as DynamicDialogEventBus } from 'mizu-vue/dynamicdialogeventbus';
 
 // Fieldset
-export * from 'primevue/fieldset';
-export { default as Fieldset } from 'primevue/fieldset';
-export * from 'primevue/fieldset/style';
-export { default as FieldsetStyle } from 'primevue/fieldset/style';
+export * from 'mizu-vue/fieldset';
+export { default as Fieldset } from 'mizu-vue/fieldset';
+export * from 'mizu-vue/fieldset/style';
+export { default as FieldsetStyle } from 'mizu-vue/fieldset/style';
 
 // FileUpload
-export * from 'primevue/fileupload';
-export { default as FileUpload } from 'primevue/fileupload';
-export * from 'primevue/fileupload/style';
-export { default as FileUploadStyle } from 'primevue/fileupload/style';
+export * from 'mizu-vue/fileupload';
+export { default as FileUpload } from 'mizu-vue/fileupload';
+export * from 'mizu-vue/fileupload/style';
+export { default as FileUploadStyle } from 'mizu-vue/fileupload/style';
 
 // FloatLabel
-export * from 'primevue/floatlabel';
-export { default as FloatLabel } from 'primevue/floatlabel';
-export * from 'primevue/floatlabel/style';
-export { default as FloatLabelStyle } from 'primevue/floatlabel/style';
+export * from 'mizu-vue/floatlabel';
+export { default as FloatLabel } from 'mizu-vue/floatlabel';
+export * from 'mizu-vue/floatlabel/style';
+export { default as FloatLabelStyle } from 'mizu-vue/floatlabel/style';
 
 // Fluid
-export * from 'primevue/fluid';
-export { default as Fluid } from 'primevue/fluid';
-export * from 'primevue/fluid/style';
-export { default as FluidStyle } from 'primevue/fluid/style';
+export * from 'mizu-vue/fluid';
+export { default as Fluid } from 'mizu-vue/fluid';
+export * from 'mizu-vue/fluid/style';
+export { default as FluidStyle } from 'mizu-vue/fluid/style';
 
 // FocusTrap
-export * from 'primevue/focustrap';
-export { default as FocusTrap } from 'primevue/focustrap';
-export * from 'primevue/focustrap/style';
-export { default as FocusTrapStyle } from 'primevue/focustrap/style';
+export * from 'mizu-vue/focustrap';
+export { default as FocusTrap } from 'mizu-vue/focustrap';
+export * from 'mizu-vue/focustrap/style';
+export { default as FocusTrapStyle } from 'mizu-vue/focustrap/style';
 
 // Galleria
-export * from 'primevue/galleria';
-export { default as Galleria } from 'primevue/galleria';
-export * from 'primevue/galleria/style';
-export { default as GalleriaStyle } from 'primevue/galleria/style';
+export * from 'mizu-vue/galleria';
+export { default as Galleria } from 'mizu-vue/galleria';
+export * from 'mizu-vue/galleria/style';
+export { default as GalleriaStyle } from 'mizu-vue/galleria/style';
 
 // IconField
-export * from 'primevue/iconfield';
-export { default as IconField } from 'primevue/iconfield';
-export * from 'primevue/iconfield/style';
-export { default as IconFieldStyle } from 'primevue/iconfield/style';
+export * from 'mizu-vue/iconfield';
+export { default as IconField } from 'mizu-vue/iconfield';
+export * from 'mizu-vue/iconfield/style';
+export { default as IconFieldStyle } from 'mizu-vue/iconfield/style';
 
 // IftaLabel
-export * from 'primevue/iftalabel';
-export { default as IftaLabel } from 'primevue/iftalabel';
-export * from 'primevue/iftalabel/style';
-export { default as IftaLabelStyle } from 'primevue/iftalabel/style';
+export * from 'mizu-vue/iftalabel';
+export { default as IftaLabel } from 'mizu-vue/iftalabel';
+export * from 'mizu-vue/iftalabel/style';
+export { default as IftaLabelStyle } from 'mizu-vue/iftalabel/style';
 
 // Image
-export * from 'primevue/image';
-export { default as Image } from 'primevue/image';
-export * from 'primevue/image/style';
-export { default as ImageStyle } from 'primevue/image/style';
+export * from 'mizu-vue/image';
+export { default as Image } from 'mizu-vue/image';
+export * from 'mizu-vue/image/style';
+export { default as ImageStyle } from 'mizu-vue/image/style';
 
 // ImageCompare
-export * from 'primevue/imagecompare';
-export { default as ImageCompare } from 'primevue/imagecompare';
-export * from 'primevue/imagecompare/style';
-export { default as ImageCompareStyle } from 'primevue/imagecompare/style';
+export * from 'mizu-vue/imagecompare';
+export { default as ImageCompare } from 'mizu-vue/imagecompare';
+export * from 'mizu-vue/imagecompare/style';
+export { default as ImageCompareStyle } from 'mizu-vue/imagecompare/style';
 
 // InlineMessage
-export * from 'primevue/inlinemessage';
-export { default as InlineMessage } from 'primevue/inlinemessage';
-export * from 'primevue/inlinemessage/style';
-export { default as InlineMessageStyle } from 'primevue/inlinemessage/style';
+export * from 'mizu-vue/inlinemessage';
+export { default as InlineMessage } from 'mizu-vue/inlinemessage';
+export * from 'mizu-vue/inlinemessage/style';
+export { default as InlineMessageStyle } from 'mizu-vue/inlinemessage/style';
 
 // Inplace
-export * from 'primevue/inplace';
-export { default as Inplace } from 'primevue/inplace';
-export * from 'primevue/inplace/style';
-export { default as InplaceStyle } from 'primevue/inplace/style';
+export * from 'mizu-vue/inplace';
+export { default as Inplace } from 'mizu-vue/inplace';
+export * from 'mizu-vue/inplace/style';
+export { default as InplaceStyle } from 'mizu-vue/inplace/style';
 
 // InputChips
-export * from 'primevue/inputchips';
-export { default as InputChips } from 'primevue/inputchips';
-export * from 'primevue/inputchips/style';
-export { default as InputChipsStyle } from 'primevue/inputchips/style';
+export * from 'mizu-vue/inputchips';
+export { default as InputChips } from 'mizu-vue/inputchips';
+export * from 'mizu-vue/inputchips/style';
+export { default as InputChipsStyle } from 'mizu-vue/inputchips/style';
 
 // InputGroup
-export * from 'primevue/inputgroup';
-export { default as InputGroup } from 'primevue/inputgroup';
-export * from 'primevue/inputgroup/style';
-export { default as InputGroupStyle } from 'primevue/inputgroup/style';
+export * from 'mizu-vue/inputgroup';
+export { default as InputGroup } from 'mizu-vue/inputgroup';
+export * from 'mizu-vue/inputgroup/style';
+export { default as InputGroupStyle } from 'mizu-vue/inputgroup/style';
 
 // InputGroupAddon
-export * from 'primevue/inputgroupaddon';
-export { default as InputGroupAddon } from 'primevue/inputgroupaddon';
-export * from 'primevue/inputgroupaddon/style';
-export { default as InputGroupAddonStyle } from 'primevue/inputgroupaddon/style';
+export * from 'mizu-vue/inputgroupaddon';
+export { default as InputGroupAddon } from 'mizu-vue/inputgroupaddon';
+export * from 'mizu-vue/inputgroupaddon/style';
+export { default as InputGroupAddonStyle } from 'mizu-vue/inputgroupaddon/style';
 
 // InputIcon
-export * from 'primevue/inputicon';
-export { default as InputIcon } from 'primevue/inputicon';
-export * from 'primevue/inputicon/style';
-export { default as InputIconStyle } from 'primevue/inputicon/style';
+export * from 'mizu-vue/inputicon';
+export { default as InputIcon } from 'mizu-vue/inputicon';
+export * from 'mizu-vue/inputicon/style';
+export { default as InputIconStyle } from 'mizu-vue/inputicon/style';
 
 // InputMask
-export * from 'primevue/inputmask';
-export { default as InputMask } from 'primevue/inputmask';
-export * from 'primevue/inputmask/style';
-export { default as InputMaskStyle } from 'primevue/inputmask/style';
+export * from 'mizu-vue/inputmask';
+export { default as InputMask } from 'mizu-vue/inputmask';
+export * from 'mizu-vue/inputmask/style';
+export { default as InputMaskStyle } from 'mizu-vue/inputmask/style';
 
 // InputNumber
-export * from 'primevue/inputnumber';
-export { default as InputNumber } from 'primevue/inputnumber';
-export * from 'primevue/inputnumber/style';
-export { default as InputNumberStyle } from 'primevue/inputnumber/style';
+export * from 'mizu-vue/inputnumber';
+export { default as InputNumber } from 'mizu-vue/inputnumber';
+export * from 'mizu-vue/inputnumber/style';
+export { default as InputNumberStyle } from 'mizu-vue/inputnumber/style';
 
 // InputOtp
-export * from 'primevue/inputotp';
-export { default as InputOtp } from 'primevue/inputotp';
-export * from 'primevue/inputotp/style';
-export { default as InputOtpStyle } from 'primevue/inputotp/style';
+export * from 'mizu-vue/inputotp';
+export { default as InputOtp } from 'mizu-vue/inputotp';
+export * from 'mizu-vue/inputotp/style';
+export { default as InputOtpStyle } from 'mizu-vue/inputotp/style';
 
 // InputSwitch
-export * from 'primevue/inputswitch';
-export { default as InputSwitch } from 'primevue/inputswitch';
-export * from 'primevue/inputswitch/style';
-export { default as InputSwitchStyle } from 'primevue/inputswitch/style';
+export * from 'mizu-vue/inputswitch';
+export { default as InputSwitch } from 'mizu-vue/inputswitch';
+export * from 'mizu-vue/inputswitch/style';
+export { default as InputSwitchStyle } from 'mizu-vue/inputswitch/style';
 
 // InputText
-export * from 'primevue/inputtext';
-export { default as InputText } from 'primevue/inputtext';
-export * from 'primevue/inputtext/style';
-export { default as InputTextStyle } from 'primevue/inputtext/style';
+export * from 'mizu-vue/inputtext';
+export { default as InputText } from 'mizu-vue/inputtext';
+export * from 'mizu-vue/inputtext/style';
+export { default as InputTextStyle } from 'mizu-vue/inputtext/style';
 
 // KeyFilter
-export * from 'primevue/keyfilter';
-export { default as KeyFilter } from 'primevue/keyfilter';
-export * from 'primevue/keyfilter/style';
-export { default as KeyFilterStyle } from 'primevue/keyfilter/style';
+export * from 'mizu-vue/keyfilter';
+export { default as KeyFilter } from 'mizu-vue/keyfilter';
+export * from 'mizu-vue/keyfilter/style';
+export { default as KeyFilterStyle } from 'mizu-vue/keyfilter/style';
 
 // Knob
-export * from 'primevue/knob';
-export { default as Knob } from 'primevue/knob';
-export * from 'primevue/knob/style';
-export { default as KnobStyle } from 'primevue/knob/style';
+export * from 'mizu-vue/knob';
+export { default as Knob } from 'mizu-vue/knob';
+export * from 'mizu-vue/knob/style';
+export { default as KnobStyle } from 'mizu-vue/knob/style';
 
 // Listbox
-export * from 'primevue/listbox';
-export { default as Listbox } from 'primevue/listbox';
-export * from 'primevue/listbox/style';
-export { default as ListboxStyle } from 'primevue/listbox/style';
+export * from 'mizu-vue/listbox';
+export { default as Listbox } from 'mizu-vue/listbox';
+export * from 'mizu-vue/listbox/style';
+export { default as ListboxStyle } from 'mizu-vue/listbox/style';
 
 // MegaMenu
-export * from 'primevue/megamenu';
-export { default as MegaMenu } from 'primevue/megamenu';
-export * from 'primevue/megamenu/style';
-export { default as MegaMenuStyle } from 'primevue/megamenu/style';
+export * from 'mizu-vue/megamenu';
+export { default as MegaMenu } from 'mizu-vue/megamenu';
+export * from 'mizu-vue/megamenu/style';
+export { default as MegaMenuStyle } from 'mizu-vue/megamenu/style';
 
 // Menu
-export * from 'primevue/menu';
-export { default as Menu } from 'primevue/menu';
-export * from 'primevue/menu/style';
-export { default as MenuStyle } from 'primevue/menu/style';
+export * from 'mizu-vue/menu';
+export { default as Menu } from 'mizu-vue/menu';
+export * from 'mizu-vue/menu/style';
+export { default as MenuStyle } from 'mizu-vue/menu/style';
 
 // Menubar
-export * from 'primevue/menubar';
-export { default as Menubar } from 'primevue/menubar';
-export * from 'primevue/menubar/style';
-export { default as MenubarStyle } from 'primevue/menubar/style';
+export * from 'mizu-vue/menubar';
+export { default as Menubar } from 'mizu-vue/menubar';
+export * from 'mizu-vue/menubar/style';
+export { default as MenubarStyle } from 'mizu-vue/menubar/style';
 
 // Message
-export * from 'primevue/message';
-export { default as Message } from 'primevue/message';
-export * from 'primevue/message/style';
-export { default as MessageStyle } from 'primevue/message/style';
+export * from 'mizu-vue/message';
+export { default as Message } from 'mizu-vue/message';
+export * from 'mizu-vue/message/style';
+export { default as MessageStyle } from 'mizu-vue/message/style';
 
 // MeterGroup
-export * from 'primevue/metergroup';
-export { default as MeterGroup } from 'primevue/metergroup';
-export * from 'primevue/metergroup/style';
-export { default as MeterGroupStyle } from 'primevue/metergroup/style';
+export * from 'mizu-vue/metergroup';
+export { default as MeterGroup } from 'mizu-vue/metergroup';
+export * from 'mizu-vue/metergroup/style';
+export { default as MeterGroupStyle } from 'mizu-vue/metergroup/style';
 
 // MultiSelect
-export * from 'primevue/multiselect';
-export { default as MultiSelect } from 'primevue/multiselect';
-export * from 'primevue/multiselect/style';
-export { default as MultiSelectStyle } from 'primevue/multiselect/style';
+export * from 'mizu-vue/multiselect';
+export { default as MultiSelect } from 'mizu-vue/multiselect';
+export * from 'mizu-vue/multiselect/style';
+export { default as MultiSelectStyle } from 'mizu-vue/multiselect/style';
 
 // OrderList
-export * from 'primevue/orderlist';
-export { default as OrderList } from 'primevue/orderlist';
-export * from 'primevue/orderlist/style';
-export { default as OrderListStyle } from 'primevue/orderlist/style';
+export * from 'mizu-vue/orderlist';
+export { default as OrderList } from 'mizu-vue/orderlist';
+export * from 'mizu-vue/orderlist/style';
+export { default as OrderListStyle } from 'mizu-vue/orderlist/style';
 
 // OrganizationChart
-export * from 'primevue/organizationchart';
-export { default as OrganizationChart } from 'primevue/organizationchart';
-export * from 'primevue/organizationchart/style';
-export { default as OrganizationChartStyle } from 'primevue/organizationchart/style';
+export * from 'mizu-vue/organizationchart';
+export { default as OrganizationChart } from 'mizu-vue/organizationchart';
+export * from 'mizu-vue/organizationchart/style';
+export { default as OrganizationChartStyle } from 'mizu-vue/organizationchart/style';
 
 // OverlayBadge
-export * from 'primevue/overlaybadge';
-export { default as OverlayBadge } from 'primevue/overlaybadge';
-export * from 'primevue/overlaybadge/style';
-export { default as OverlayBadgeStyle } from 'primevue/overlaybadge/style';
+export * from 'mizu-vue/overlaybadge';
+export { default as OverlayBadge } from 'mizu-vue/overlaybadge';
+export * from 'mizu-vue/overlaybadge/style';
+export { default as OverlayBadgeStyle } from 'mizu-vue/overlaybadge/style';
 
 // OverlayEventBus
-export * from 'primevue/overlayeventbus';
-export { default as OverlayEventBus } from 'primevue/overlayeventbus';
+export * from 'mizu-vue/overlayeventbus';
+export { default as OverlayEventBus } from 'mizu-vue/overlayeventbus';
 
 // OverlayPanel
-export * from 'primevue/overlaypanel';
-export { default as OverlayPanel } from 'primevue/overlaypanel';
-export * from 'primevue/overlaypanel/style';
-export { default as OverlayPanelStyle } from 'primevue/overlaypanel/style';
+export * from 'mizu-vue/overlaypanel';
+export { default as OverlayPanel } from 'mizu-vue/overlaypanel';
+export * from 'mizu-vue/overlaypanel/style';
+export { default as OverlayPanelStyle } from 'mizu-vue/overlaypanel/style';
 
 // Paginator
-export * from 'primevue/paginator';
-export { default as Paginator } from 'primevue/paginator';
-export * from 'primevue/paginator/style';
-export { default as PaginatorStyle } from 'primevue/paginator/style';
+export * from 'mizu-vue/paginator';
+export { default as Paginator } from 'mizu-vue/paginator';
+export * from 'mizu-vue/paginator/style';
+export { default as PaginatorStyle } from 'mizu-vue/paginator/style';
 
 // Panel
-export * from 'primevue/panel';
-export { default as Panel } from 'primevue/panel';
-export * from 'primevue/panel/style';
-export { default as PanelStyle } from 'primevue/panel/style';
+export * from 'mizu-vue/panel';
+export { default as Panel } from 'mizu-vue/panel';
+export * from 'mizu-vue/panel/style';
+export { default as PanelStyle } from 'mizu-vue/panel/style';
 
 // PanelMenu
-export * from 'primevue/panelmenu';
-export { default as PanelMenu } from 'primevue/panelmenu';
-export * from 'primevue/panelmenu/style';
-export { default as PanelMenuStyle } from 'primevue/panelmenu/style';
+export * from 'mizu-vue/panelmenu';
+export { default as PanelMenu } from 'mizu-vue/panelmenu';
+export * from 'mizu-vue/panelmenu/style';
+export { default as PanelMenuStyle } from 'mizu-vue/panelmenu/style';
 
 // Password
-export * from 'primevue/password';
-export { default as Password } from 'primevue/password';
-export * from 'primevue/password/style';
-export { default as PasswordStyle } from 'primevue/password/style';
+export * from 'mizu-vue/password';
+export { default as Password } from 'mizu-vue/password';
+export * from 'mizu-vue/password/style';
+export { default as PasswordStyle } from 'mizu-vue/password/style';
 
 // PickList
-export * from 'primevue/picklist';
-export { default as PickList } from 'primevue/picklist';
-export * from 'primevue/picklist/style';
-export { default as PickListStyle } from 'primevue/picklist/style';
+export * from 'mizu-vue/picklist';
+export { default as PickList } from 'mizu-vue/picklist';
+export * from 'mizu-vue/picklist/style';
+export { default as PickListStyle } from 'mizu-vue/picklist/style';
 
 // Popover
-export * from 'primevue/popover';
-export { default as Popover } from 'primevue/popover';
-export * from 'primevue/popover/style';
-export { default as PopoverStyle } from 'primevue/popover/style';
+export * from 'mizu-vue/popover';
+export { default as Popover } from 'mizu-vue/popover';
+export * from 'mizu-vue/popover/style';
+export { default as PopoverStyle } from 'mizu-vue/popover/style';
 
 // Portal
-export * from 'primevue/portal';
-export { default as Portal } from 'primevue/portal';
-export * from 'primevue/portal/style';
-export { default as PortalStyle } from 'primevue/portal/style';
+export * from 'mizu-vue/portal';
+export { default as Portal } from 'mizu-vue/portal';
+export * from 'mizu-vue/portal/style';
+export { default as PortalStyle } from 'mizu-vue/portal/style';
 
 // ProgressBar
-export * from 'primevue/progressbar';
-export { default as ProgressBar } from 'primevue/progressbar';
-export * from 'primevue/progressbar/style';
-export { default as ProgressBarStyle } from 'primevue/progressbar/style';
+export * from 'mizu-vue/progressbar';
+export { default as ProgressBar } from 'mizu-vue/progressbar';
+export * from 'mizu-vue/progressbar/style';
+export { default as ProgressBarStyle } from 'mizu-vue/progressbar/style';
 
 // ProgressSpinner
-export * from 'primevue/progressspinner';
-export { default as ProgressSpinner } from 'primevue/progressspinner';
-export * from 'primevue/progressspinner/style';
-export { default as ProgressSpinnerStyle } from 'primevue/progressspinner/style';
+export * from 'mizu-vue/progressspinner';
+export { default as ProgressSpinner } from 'mizu-vue/progressspinner';
+export * from 'mizu-vue/progressspinner/style';
+export { default as ProgressSpinnerStyle } from 'mizu-vue/progressspinner/style';
 
 // RadioButton
-export * from 'primevue/radiobutton';
-export { default as RadioButton } from 'primevue/radiobutton';
-export * from 'primevue/radiobutton/style';
-export { default as RadioButtonStyle } from 'primevue/radiobutton/style';
+export * from 'mizu-vue/radiobutton';
+export { default as RadioButton } from 'mizu-vue/radiobutton';
+export * from 'mizu-vue/radiobutton/style';
+export { default as RadioButtonStyle } from 'mizu-vue/radiobutton/style';
 
 // RadioButtonGroup
-export * from 'primevue/radiobuttongroup';
-export { default as RadioButtonGroup } from 'primevue/radiobuttongroup';
-export * from 'primevue/radiobuttongroup/style';
-export { default as RadioButtonGroupStyle } from 'primevue/radiobuttongroup/style';
+export * from 'mizu-vue/radiobuttongroup';
+export { default as RadioButtonGroup } from 'mizu-vue/radiobuttongroup';
+export * from 'mizu-vue/radiobuttongroup/style';
+export { default as RadioButtonGroupStyle } from 'mizu-vue/radiobuttongroup/style';
 
 // Rating
-export * from 'primevue/rating';
-export { default as Rating } from 'primevue/rating';
-export * from 'primevue/rating/style';
-export { default as RatingStyle } from 'primevue/rating/style';
+export * from 'mizu-vue/rating';
+export { default as Rating } from 'mizu-vue/rating';
+export * from 'mizu-vue/rating/style';
+export { default as RatingStyle } from 'mizu-vue/rating/style';
 
 // Ripple
-export * from 'primevue/ripple';
-export { default as Ripple } from 'primevue/ripple';
-export * from 'primevue/ripple/style';
-export { default as RippleStyle } from 'primevue/ripple/style';
+export * from 'mizu-vue/ripple';
+export { default as Ripple } from 'mizu-vue/ripple';
+export * from 'mizu-vue/ripple/style';
+export { default as RippleStyle } from 'mizu-vue/ripple/style';
 
 // Row
-export * from 'primevue/row';
-export { default as Row } from 'primevue/row';
-export * from 'primevue/row/style';
-export { default as RowStyle } from 'primevue/row/style';
+export * from 'mizu-vue/row';
+export { default as Row } from 'mizu-vue/row';
+export * from 'mizu-vue/row/style';
+export { default as RowStyle } from 'mizu-vue/row/style';
 
 // ScrollPanel
-export * from 'primevue/scrollpanel';
-export { default as ScrollPanel } from 'primevue/scrollpanel';
-export * from 'primevue/scrollpanel/style';
-export { default as ScrollPanelStyle } from 'primevue/scrollpanel/style';
+export * from 'mizu-vue/scrollpanel';
+export { default as ScrollPanel } from 'mizu-vue/scrollpanel';
+export * from 'mizu-vue/scrollpanel/style';
+export { default as ScrollPanelStyle } from 'mizu-vue/scrollpanel/style';
 
 // ScrollTop
-export * from 'primevue/scrolltop';
-export { default as ScrollTop } from 'primevue/scrolltop';
-export * from 'primevue/scrolltop/style';
-export { default as ScrollTopStyle } from 'primevue/scrolltop/style';
+export * from 'mizu-vue/scrolltop';
+export { default as ScrollTop } from 'mizu-vue/scrolltop';
+export * from 'mizu-vue/scrolltop/style';
+export { default as ScrollTopStyle } from 'mizu-vue/scrolltop/style';
 
 // Select
-export * from 'primevue/select';
-export { default as Select } from 'primevue/select';
-export * from 'primevue/select/style';
-export { default as SelectStyle } from 'primevue/select/style';
+export * from 'mizu-vue/select';
+export { default as Select } from 'mizu-vue/select';
+export * from 'mizu-vue/select/style';
+export { default as SelectStyle } from 'mizu-vue/select/style';
 
 // SelectButton
-export * from 'primevue/selectbutton';
-export { default as SelectButton } from 'primevue/selectbutton';
-export * from 'primevue/selectbutton/style';
-export { default as SelectButtonStyle } from 'primevue/selectbutton/style';
+export * from 'mizu-vue/selectbutton';
+export { default as SelectButton } from 'mizu-vue/selectbutton';
+export * from 'mizu-vue/selectbutton/style';
+export { default as SelectButtonStyle } from 'mizu-vue/selectbutton/style';
 
 // Sidebar
-export * from 'primevue/sidebar';
-export { default as Sidebar } from 'primevue/sidebar';
-export * from 'primevue/sidebar/style';
-export { default as SidebarStyle } from 'primevue/sidebar/style';
+export * from 'mizu-vue/sidebar';
+export { default as Sidebar } from 'mizu-vue/sidebar';
+export * from 'mizu-vue/sidebar/style';
+export { default as SidebarStyle } from 'mizu-vue/sidebar/style';
 
 // Skeleton
-export * from 'primevue/skeleton';
-export { default as Skeleton } from 'primevue/skeleton';
-export * from 'primevue/skeleton/style';
-export { default as SkeletonStyle } from 'primevue/skeleton/style';
+export * from 'mizu-vue/skeleton';
+export { default as Skeleton } from 'mizu-vue/skeleton';
+export * from 'mizu-vue/skeleton/style';
+export { default as SkeletonStyle } from 'mizu-vue/skeleton/style';
 
 // Slider
-export * from 'primevue/slider';
-export { default as Slider } from 'primevue/slider';
-export * from 'primevue/slider/style';
-export { default as SliderStyle } from 'primevue/slider/style';
+export * from 'mizu-vue/slider';
+export { default as Slider } from 'mizu-vue/slider';
+export * from 'mizu-vue/slider/style';
+export { default as SliderStyle } from 'mizu-vue/slider/style';
 
 // SpeedDial
-export * from 'primevue/speeddial';
-export { default as SpeedDial } from 'primevue/speeddial';
-export * from 'primevue/speeddial/style';
-export { default as SpeedDialStyle } from 'primevue/speeddial/style';
+export * from 'mizu-vue/speeddial';
+export { default as SpeedDial } from 'mizu-vue/speeddial';
+export * from 'mizu-vue/speeddial/style';
+export { default as SpeedDialStyle } from 'mizu-vue/speeddial/style';
 
 // SplitButton
-export * from 'primevue/splitbutton';
-export { default as SplitButton } from 'primevue/splitbutton';
-export * from 'primevue/splitbutton/style';
-export { default as SplitButtonStyle } from 'primevue/splitbutton/style';
+export * from 'mizu-vue/splitbutton';
+export { default as SplitButton } from 'mizu-vue/splitbutton';
+export * from 'mizu-vue/splitbutton/style';
+export { default as SplitButtonStyle } from 'mizu-vue/splitbutton/style';
 
 // Splitter
-export * from 'primevue/splitter';
-export { default as Splitter } from 'primevue/splitter';
-export * from 'primevue/splitter/style';
-export { default as SplitterStyle } from 'primevue/splitter/style';
+export * from 'mizu-vue/splitter';
+export { default as Splitter } from 'mizu-vue/splitter';
+export * from 'mizu-vue/splitter/style';
+export { default as SplitterStyle } from 'mizu-vue/splitter/style';
 
 // SplitterPanel
-export * from 'primevue/splitterpanel';
-export { default as SplitterPanel } from 'primevue/splitterpanel';
-export * from 'primevue/splitterpanel/style';
-export { default as SplitterPanelStyle } from 'primevue/splitterpanel/style';
+export * from 'mizu-vue/splitterpanel';
+export { default as SplitterPanel } from 'mizu-vue/splitterpanel';
+export * from 'mizu-vue/splitterpanel/style';
+export { default as SplitterPanelStyle } from 'mizu-vue/splitterpanel/style';
 
 // Step
-export * from 'primevue/step';
-export { default as Step } from 'primevue/step';
-export * from 'primevue/step/style';
-export { default as StepStyle } from 'primevue/step/style';
+export * from 'mizu-vue/step';
+export { default as Step } from 'mizu-vue/step';
+export * from 'mizu-vue/step/style';
+export { default as StepStyle } from 'mizu-vue/step/style';
 
 // StepItem
-export * from 'primevue/stepitem';
-export { default as StepItem } from 'primevue/stepitem';
-export * from 'primevue/stepitem/style';
-export { default as StepItemStyle } from 'primevue/stepitem/style';
+export * from 'mizu-vue/stepitem';
+export { default as StepItem } from 'mizu-vue/stepitem';
+export * from 'mizu-vue/stepitem/style';
+export { default as StepItemStyle } from 'mizu-vue/stepitem/style';
 
 // StepList
-export * from 'primevue/steplist';
-export { default as StepList } from 'primevue/steplist';
-export * from 'primevue/steplist/style';
-export { default as StepListStyle } from 'primevue/steplist/style';
+export * from 'mizu-vue/steplist';
+export { default as StepList } from 'mizu-vue/steplist';
+export * from 'mizu-vue/steplist/style';
+export { default as StepListStyle } from 'mizu-vue/steplist/style';
 
 // StepPanel
-export * from 'primevue/steppanel';
-export { default as StepPanel } from 'primevue/steppanel';
-export * from 'primevue/steppanel/style';
-export { default as StepPanelStyle } from 'primevue/steppanel/style';
+export * from 'mizu-vue/steppanel';
+export { default as StepPanel } from 'mizu-vue/steppanel';
+export * from 'mizu-vue/steppanel/style';
+export { default as StepPanelStyle } from 'mizu-vue/steppanel/style';
 
 // StepPanels
-export * from 'primevue/steppanels';
-export { default as StepPanels } from 'primevue/steppanels';
-export * from 'primevue/steppanels/style';
-export { default as StepPanelsStyle } from 'primevue/steppanels/style';
+export * from 'mizu-vue/steppanels';
+export { default as StepPanels } from 'mizu-vue/steppanels';
+export * from 'mizu-vue/steppanels/style';
+export { default as StepPanelsStyle } from 'mizu-vue/steppanels/style';
 
 // Stepper
-export * from 'primevue/stepper';
-export { default as Stepper } from 'primevue/stepper';
-export * from 'primevue/stepper/style';
-export { default as StepperStyle } from 'primevue/stepper/style';
+export * from 'mizu-vue/stepper';
+export { default as Stepper } from 'mizu-vue/stepper';
+export * from 'mizu-vue/stepper/style';
+export { default as StepperStyle } from 'mizu-vue/stepper/style';
 
 // Steps
-export * from 'primevue/steps';
-export { default as Steps } from 'primevue/steps';
-export * from 'primevue/steps/style';
-export { default as StepsStyle } from 'primevue/steps/style';
+export * from 'mizu-vue/steps';
+export { default as Steps } from 'mizu-vue/steps';
+export * from 'mizu-vue/steps/style';
+export { default as StepsStyle } from 'mizu-vue/steps/style';
 
 // StyleClass
-export * from 'primevue/styleclass';
-export { default as StyleClass } from 'primevue/styleclass';
-export * from 'primevue/styleclass/style';
-export { default as StyleClassStyle } from 'primevue/styleclass/style';
+export * from 'mizu-vue/styleclass';
+export { default as StyleClass } from 'mizu-vue/styleclass';
+export * from 'mizu-vue/styleclass/style';
+export { default as StyleClassStyle } from 'mizu-vue/styleclass/style';
 
 // Tab
-export * from 'primevue/tab';
-export { default as Tab } from 'primevue/tab';
-export * from 'primevue/tab/style';
-export { default as TabStyle } from 'primevue/tab/style';
+export * from 'mizu-vue/tab';
+export { default as Tab } from 'mizu-vue/tab';
+export * from 'mizu-vue/tab/style';
+export { default as TabStyle } from 'mizu-vue/tab/style';
 
 // TabList
-export * from 'primevue/tablist';
-export { default as TabList } from 'primevue/tablist';
-export * from 'primevue/tablist/style';
-export { default as TabListStyle } from 'primevue/tablist/style';
+export * from 'mizu-vue/tablist';
+export { default as TabList } from 'mizu-vue/tablist';
+export * from 'mizu-vue/tablist/style';
+export { default as TabListStyle } from 'mizu-vue/tablist/style';
 
 // TabMenu
-export * from 'primevue/tabmenu';
-export { default as TabMenu } from 'primevue/tabmenu';
-export * from 'primevue/tabmenu/style';
-export { default as TabMenuStyle } from 'primevue/tabmenu/style';
+export * from 'mizu-vue/tabmenu';
+export { default as TabMenu } from 'mizu-vue/tabmenu';
+export * from 'mizu-vue/tabmenu/style';
+export { default as TabMenuStyle } from 'mizu-vue/tabmenu/style';
 
 // TabPanel
-export * from 'primevue/tabpanel';
-export { default as TabPanel } from 'primevue/tabpanel';
-export * from 'primevue/tabpanel/style';
-export { default as TabPanelStyle } from 'primevue/tabpanel/style';
+export * from 'mizu-vue/tabpanel';
+export { default as TabPanel } from 'mizu-vue/tabpanel';
+export * from 'mizu-vue/tabpanel/style';
+export { default as TabPanelStyle } from 'mizu-vue/tabpanel/style';
 
 // TabPanels
-export * from 'primevue/tabpanels';
-export { default as TabPanels } from 'primevue/tabpanels';
-export * from 'primevue/tabpanels/style';
-export { default as TabPanelsStyle } from 'primevue/tabpanels/style';
+export * from 'mizu-vue/tabpanels';
+export { default as TabPanels } from 'mizu-vue/tabpanels';
+export * from 'mizu-vue/tabpanels/style';
+export { default as TabPanelsStyle } from 'mizu-vue/tabpanels/style';
 
 // Tabs
-export * from 'primevue/tabs';
-export { default as Tabs } from 'primevue/tabs';
-export * from 'primevue/tabs/style';
-export { default as TabsStyle } from 'primevue/tabs/style';
+export * from 'mizu-vue/tabs';
+export { default as Tabs } from 'mizu-vue/tabs';
+export * from 'mizu-vue/tabs/style';
+export { default as TabsStyle } from 'mizu-vue/tabs/style';
 
 // TabView
-export * from 'primevue/tabview';
-export { default as TabView } from 'primevue/tabview';
-export * from 'primevue/tabview/style';
-export { default as TabViewStyle } from 'primevue/tabview/style';
+export * from 'mizu-vue/tabview';
+export { default as TabView } from 'mizu-vue/tabview';
+export * from 'mizu-vue/tabview/style';
+export { default as TabViewStyle } from 'mizu-vue/tabview/style';
 
 // Tag
-export * from 'primevue/tag';
-export { default as Tag } from 'primevue/tag';
-export * from 'primevue/tag/style';
-export { default as TagStyle } from 'primevue/tag/style';
+export * from 'mizu-vue/tag';
+export { default as Tag } from 'mizu-vue/tag';
+export * from 'mizu-vue/tag/style';
+export { default as TagStyle } from 'mizu-vue/tag/style';
 
 // Terminal
-export * from 'primevue/terminal';
-export { default as Terminal } from 'primevue/terminal';
-export * from 'primevue/terminal/style';
-export { default as TerminalStyle } from 'primevue/terminal/style';
+export * from 'mizu-vue/terminal';
+export { default as Terminal } from 'mizu-vue/terminal';
+export * from 'mizu-vue/terminal/style';
+export { default as TerminalStyle } from 'mizu-vue/terminal/style';
 
 // TerminalService
-export * from 'primevue/terminalservice';
-export { default as TerminalService } from 'primevue/terminalservice';
+export * from 'mizu-vue/terminalservice';
+export { default as TerminalService } from 'mizu-vue/terminalservice';
 
 // Textarea
-export * from 'primevue/textarea';
-export { default as Textarea } from 'primevue/textarea';
-export * from 'primevue/textarea/style';
-export { default as TextareaStyle } from 'primevue/textarea/style';
+export * from 'mizu-vue/textarea';
+export { default as Textarea } from 'mizu-vue/textarea';
+export * from 'mizu-vue/textarea/style';
+export { default as TextareaStyle } from 'mizu-vue/textarea/style';
 
 // TieredMenu
-export * from 'primevue/tieredmenu';
-export { default as TieredMenu } from 'primevue/tieredmenu';
-export * from 'primevue/tieredmenu/style';
-export { default as TieredMenuStyle } from 'primevue/tieredmenu/style';
+export * from 'mizu-vue/tieredmenu';
+export { default as TieredMenu } from 'mizu-vue/tieredmenu';
+export * from 'mizu-vue/tieredmenu/style';
+export { default as TieredMenuStyle } from 'mizu-vue/tieredmenu/style';
 
 // Timeline
-export * from 'primevue/timeline';
-export { default as Timeline } from 'primevue/timeline';
-export * from 'primevue/timeline/style';
-export { default as TimelineStyle } from 'primevue/timeline/style';
+export * from 'mizu-vue/timeline';
+export { default as Timeline } from 'mizu-vue/timeline';
+export * from 'mizu-vue/timeline/style';
+export { default as TimelineStyle } from 'mizu-vue/timeline/style';
 
 // Toast
-export * from 'primevue/toast';
-export { default as Toast } from 'primevue/toast';
-export * from 'primevue/toast/style';
-export { default as ToastStyle } from 'primevue/toast/style';
+export * from 'mizu-vue/toast';
+export { default as Toast } from 'mizu-vue/toast';
+export * from 'mizu-vue/toast/style';
+export { default as ToastStyle } from 'mizu-vue/toast/style';
 
 // ToastEventBus
-export * from 'primevue/toasteventbus';
-export { default as ToastEventBus } from 'primevue/toasteventbus';
+export * from 'mizu-vue/toasteventbus';
+export { default as ToastEventBus } from 'mizu-vue/toasteventbus';
 
 // ToastService
-export * from 'primevue/toastservice';
-export { default as ToastService } from 'primevue/toastservice';
+export * from 'mizu-vue/toastservice';
+export { default as ToastService } from 'mizu-vue/toastservice';
 
 // ToggleButton
-export * from 'primevue/togglebutton';
-export { default as ToggleButton } from 'primevue/togglebutton';
-export * from 'primevue/togglebutton/style';
-export { default as ToggleButtonStyle } from 'primevue/togglebutton/style';
+export * from 'mizu-vue/togglebutton';
+export { default as ToggleButton } from 'mizu-vue/togglebutton';
+export * from 'mizu-vue/togglebutton/style';
+export { default as ToggleButtonStyle } from 'mizu-vue/togglebutton/style';
 
 // ToggleSwitch
-export * from 'primevue/toggleswitch';
-export { default as ToggleSwitch } from 'primevue/toggleswitch';
-export * from 'primevue/toggleswitch/style';
-export { default as ToggleSwitchStyle } from 'primevue/toggleswitch/style';
+export * from 'mizu-vue/toggleswitch';
+export { default as ToggleSwitch } from 'mizu-vue/toggleswitch';
+export * from 'mizu-vue/toggleswitch/style';
+export { default as ToggleSwitchStyle } from 'mizu-vue/toggleswitch/style';
 
 // Toolbar
-export * from 'primevue/toolbar';
-export { default as Toolbar } from 'primevue/toolbar';
-export * from 'primevue/toolbar/style';
-export { default as ToolbarStyle } from 'primevue/toolbar/style';
+export * from 'mizu-vue/toolbar';
+export { default as Toolbar } from 'mizu-vue/toolbar';
+export * from 'mizu-vue/toolbar/style';
+export { default as ToolbarStyle } from 'mizu-vue/toolbar/style';
 
 // Tooltip
-export * from 'primevue/tooltip';
-export { default as Tooltip } from 'primevue/tooltip';
-export * from 'primevue/tooltip/style';
-export { default as TooltipStyle } from 'primevue/tooltip/style';
+export * from 'mizu-vue/tooltip';
+export { default as Tooltip } from 'mizu-vue/tooltip';
+export * from 'mizu-vue/tooltip/style';
+export { default as TooltipStyle } from 'mizu-vue/tooltip/style';
 
 // Tree
-export * from 'primevue/tree';
-export { default as Tree } from 'primevue/tree';
-export * from 'primevue/tree/style';
-export { default as TreeStyle } from 'primevue/tree/style';
+export * from 'mizu-vue/tree';
+export { default as Tree } from 'mizu-vue/tree';
+export * from 'mizu-vue/tree/style';
+export { default as TreeStyle } from 'mizu-vue/tree/style';
 
 // TreeSelect
-export * from 'primevue/treeselect';
-export { default as TreeSelect } from 'primevue/treeselect';
-export * from 'primevue/treeselect/style';
-export { default as TreeSelectStyle } from 'primevue/treeselect/style';
+export * from 'mizu-vue/treeselect';
+export { default as TreeSelect } from 'mizu-vue/treeselect';
+export * from 'mizu-vue/treeselect/style';
+export { default as TreeSelectStyle } from 'mizu-vue/treeselect/style';
 
 // TreeTable
-export * from 'primevue/treetable';
-export { default as TreeTable } from 'primevue/treetable';
-export * from 'primevue/treetable/style';
-export { default as TreeTableStyle } from 'primevue/treetable/style';
+export * from 'mizu-vue/treetable';
+export { default as TreeTable } from 'mizu-vue/treetable';
+export * from 'mizu-vue/treetable/style';
+export { default as TreeTableStyle } from 'mizu-vue/treetable/style';
 
 // VirtualScroller
-export * from 'primevue/virtualscroller';
-export { default as VirtualScroller } from 'primevue/virtualscroller';
-export * from 'primevue/virtualscroller/style';
-export { default as VirtualScrollerStyle } from 'primevue/virtualscroller/style';
+export * from 'mizu-vue/virtualscroller';
+export { default as VirtualScroller } from 'mizu-vue/virtualscroller';
+export * from 'mizu-vue/virtualscroller/style';
+export { default as VirtualScrollerStyle } from 'mizu-vue/virtualscroller/style';

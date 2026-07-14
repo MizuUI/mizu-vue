@@ -8,35 +8,35 @@ const composables = [
         name: 'useToast',
         description: 'Programmatically display toast messages',
         related_component: 'Toast',
-        usage: `import { useToast } from 'primevue/usetoast';\nconst toast = useToast();`,
+        usage: `import { useToast } from 'mizu-vue/usetoast';\nconst toast = useToast();`,
         example: `toast.add({ severity: 'success', summary: 'Success', detail: 'Message', life: 3000 });`
     },
     {
         name: 'useConfirm',
         description: 'Programmatically display confirmation dialogs',
         related_component: 'ConfirmDialog',
-        usage: `import { useConfirm } from 'primevue/useconfirm';\nconst confirm = useConfirm();`,
+        usage: `import { useConfirm } from 'mizu-vue/useconfirm';\nconst confirm = useConfirm();`,
         example: `confirm.require({ message: 'Are you sure?', header: 'Confirm', accept: () => {} });`
     },
     {
         name: 'useDialog',
         description: 'Programmatically create dynamic dialogs',
         related_component: 'DynamicDialog',
-        usage: `import { useDialog } from 'primevue/usedialog';\nconst dialog = useDialog();`,
+        usage: `import { useDialog } from 'mizu-vue/usedialog';\nconst dialog = useDialog();`,
         example: `dialog.open(MyComponent, { props: { header: 'Dialog' } });`
     },
     {
         name: 'useStyle',
         description: 'Inject custom styles',
         related_component: null,
-        usage: `import { useStyle } from 'primevue/usestyle';\nuseStyle(css, { name: 'my-styles' });`,
+        usage: `import { useStyle } from 'mizu-vue/usestyle';\nuseStyle(css, { name: 'my-styles' });`,
         example: `useStyle('.my-class { color: red; }', { name: 'custom' });`
     },
     {
         name: 'usePrimeVue',
         description: 'Access PrimeVue configuration',
         related_component: null,
-        usage: `import { usePrimeVue } from 'primevue/config';\nconst primevue = usePrimeVue();`,
+        usage: `import { usePrimeVue } from 'mizu-vue/config';\nconst primevue = usePrimeVue();`,
         example: `primevue.config.ripple = true;`
     }
 ];

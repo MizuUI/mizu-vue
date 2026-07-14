@@ -41,6 +41,8 @@
 </template>
 
 <script>
+import Checkbox from '@mizuui/mizu-vue/checkbox';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
 import { resolveFieldData } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
@@ -50,8 +52,6 @@ import ChevronDownIcon from '@primevue/icons/chevrondown';
 import ChevronRightIcon from '@primevue/icons/chevronright';
 import MinusIcon from '@primevue/icons/minus';
 import SpinnerIcon from '@primevue/icons/spinner';
-import Checkbox from 'primevue/checkbox';
-import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';
 
 export default {

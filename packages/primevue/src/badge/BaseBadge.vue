@@ -1,6 +1,6 @@
 <script>
+import BadgeStyle from '@mizuui/mizu-vue/badge/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import BadgeStyle from 'primevue/badge/style';
 
 export default {
     name: 'BaseBadge',

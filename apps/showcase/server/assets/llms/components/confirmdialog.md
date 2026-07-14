@@ -5,7 +5,7 @@ ConfirmDialog uses a Dialog UI that is integrated with the Confirmation API.
 ## Import
 
 ```javascript
-import ConfirmDialog from 'primevue/confirmdialog';
+import ConfirmDialog from '@mizuui/mizu-vue/confirmdialog';
 ```
 
 ## Accessibility

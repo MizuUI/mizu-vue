@@ -1,6 +1,6 @@
 <script>
+import InlineMessageStyle from '@mizuui/mizu-vue/inlinemessage/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import InlineMessageStyle from 'primevue/inlinemessage/style';
 
 export default {
     name: 'BaseInlineMessage',

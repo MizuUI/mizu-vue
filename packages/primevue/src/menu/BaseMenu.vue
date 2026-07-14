@@ -1,6 +1,6 @@
 <script>
+import MenuStyle from '@mizuui/mizu-vue/menu/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import MenuStyle from 'primevue/menu/style';
 
 export default {
     name: 'BaseMenu',

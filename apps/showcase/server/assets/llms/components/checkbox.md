@@ -5,8 +5,8 @@ Checkbox is an extension to standard checkbox element with theming.
 ## Import
 
 ```javascript
-import Checkbox from 'primevue/checkbox';
-import CheckboxGroup from 'primevue/checkboxgroup';
+import Checkbox from 'mizu-vue/checkbox';
+import CheckboxGroup from 'mizu-vue/checkboxgroup';
 ```
 
 ## Accessibility

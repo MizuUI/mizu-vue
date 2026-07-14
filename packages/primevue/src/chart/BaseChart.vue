@@ -1,6 +1,6 @@
 <script>
+import ChartStyle from '@mizuui/mizu-vue/chart/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ChartStyle from 'primevue/chart/style';
 
 export default {
     name: 'BaseChart',

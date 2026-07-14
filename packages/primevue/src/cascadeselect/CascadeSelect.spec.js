@@ -1,6 +1,6 @@
-import { nextTick } from 'vue';
+import PrimeVue from '@mizuui/mizu-vue/config';
 import { mount } from '@vue/test-utils';
-import PrimeVue from 'primevue/config';
+import { nextTick } from 'vue';
 import CascadeSelect from './CascadeSelect.vue';
 
 describe('CascadeSelect.vue', () => {

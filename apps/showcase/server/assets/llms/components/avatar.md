@@ -5,8 +5,8 @@ Avatar represents people using icons, labels and images.
 ## Import
 
 ```javascript
-import Avatar from 'primevue/avatar';
-import AvatarGroup from 'primevue/avatargroup'; //Optional for grouping
+import Avatar from 'mizu-vue/avatar';
+import AvatarGroup from 'mizu-vue/avatargroup'; //Optional for grouping
 ```
 
 ## Accessibility

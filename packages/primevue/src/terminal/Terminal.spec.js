@@ -1,5 +1,5 @@
+import TerminalService from '@mizuui/mizu-vue/terminalservice';
 import { mount } from '@vue/test-utils';
-import TerminalService from 'primevue/terminalservice';
 import Terminal from './Terminal.vue';
 
 describe('Terminal.vue', () => {

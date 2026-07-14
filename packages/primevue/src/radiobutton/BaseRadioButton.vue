@@ -1,6 +1,6 @@
 <script>
+import RadioButtonStyle from '@mizuui/mizu-vue/radiobutton/style';
 import BaseInput from '@primevue/core/baseinput';
-import RadioButtonStyle from 'primevue/radiobutton/style';
 
 export default {
     name: 'BaseRadioButton',

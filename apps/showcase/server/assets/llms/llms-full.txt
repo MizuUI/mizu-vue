@@ -41,7 +41,7 @@ Application wide configuration for PrimeVue.
 Configuration is managed by the PrimeVue instance imported from primevue/config .
 
 ```vue
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 const app = createApp(App);
 
 app.use(PrimeVue, { /* options */ });
@@ -111,7 +111,7 @@ app.use(PrimeVue, { ripple: true });
 Style mode offers theming based on a design token based architecture. See the styled mode documentation for details such as building your own theme.
 
 ```vue
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
@@ -168,7 +168,7 @@ The nonce value to use on dynamically generated style elements in core.
 Locale values are stored in the global configuration that becomes accessible after installing the PrimeVue.
 
 ```vue
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 const app = createApp(App);
 
 app.use(PrimeVue);
@@ -239,7 +239,7 @@ The options property defines the how the CSS would be generated from the design 
 The theme property is used to customize the initial theme.
 
 ```vue
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
@@ -324,7 +324,7 @@ const MyPreset = definePreset(Aura, {
 The definePreset utility is used to customize an existing preset during the PrimeVue setup. The first parameter is the preset to customize and the second is the design tokens to override.
 
 ```vue
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 import { definePreset } from '@primeuix/themes';
 import Aura from '@primeuix/themes/aura';
 
@@ -371,7 +371,7 @@ const MyPreset = definePreset(Aura, {
                 normal: '0.5s'
                 fast: '0.25s'
             },
-            imageDisplay: 'block' 
+            imageDisplay: 'block'
         }
     },
     css: ({ dt }) => \`
@@ -1325,8 +1325,8 @@ PrimeVue components need to be imported and configured individually. In the next
 ```vue
 import { createApp } from "vue";
 import PrimeVue from "primevue/config";
-import InputText from 'primevue/inputtext';
-import Button from 'primevue/button';
+import InputText from '@mizuui/mizu-vue/inputtext';
+import Button from '@mizuui/mizu-vue/button';
 import App from './App.vue'
 const app = createApp(App);
 
@@ -1486,7 +1486,7 @@ PrimeVue plugin is required to be installed as an application plugin to set up t
 
 ```vue
 import { createApp } from 'vue';
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 
 const app = createApp(App);
 app.use(PrimeVue);
@@ -1498,7 +1498,7 @@ Configure PrimeVue to use a theme like Aura.
 
 ```vue
 import { createApp } from 'vue';
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
@@ -1694,7 +1694,7 @@ PrimeVue plugin is required to be installed as an application plugin to set up t
 
 ```vue
 import { createApp } from 'vue';
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 
 const app = createApp(App);
 app.use(PrimeVue);
@@ -1706,7 +1706,7 @@ Configure PrimeVue to use a theme like Aura.
 
 ```vue
 import { createApp } from 'vue';
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@mizuui/mizu-vue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
@@ -2571,11 +2571,11 @@ Dynamic imports enable the loading of multiple items as needed, streamlining the
 With @primevue/icons for icons and primevue for components (except Editor and Chart), multiple items can be imported together.
 
 ```vue
-import { Button, InputText } from 'primevue';
+import { Button, InputText } from '@mizuui/mizu-vue';
 import { SearchIcon, BellIcon } from '@primevue/icons';
 
 <script setup>
-import * as PrimeVue from 'primevue';
+import * as PrimeVue from '@mizuui/mizu-vue';
 
 const items = [
     { as: 'Button', class: 'my-button-class' },
@@ -2912,10 +2912,10 @@ const tabs = ref([
 **Basic Usage:**
 
 ```vue
-import Accordion from 'primevue/accordion';
-import AccordionPanel from 'primevue/accordionpanel';
-import AccordionHeader from 'primevue/accordionheader';
-import AccordionContent from 'primevue/accordioncontent';
+import Accordion from '@mizuui/mizu-vue/accordion';
+import AccordionPanel from '@mizuui/mizu-vue/accordionpanel';
+import AccordionHeader from '@mizuui/mizu-vue/accordionheader';
+import AccordionContent from '@mizuui/mizu-vue/accordioncontent';
 ```
 
 ## Multiple
@@ -3322,7 +3322,7 @@ Animation classes are defined with the enterClass and leaveClass properties. Thi
 **Basic Usage:**
 
 ```vue
-import AnimateOnScroll from 'primevue/animateonscroll';
+import AnimateOnScroll from '@mizuui/mizu-vue/animateonscroll';
 
 app.directive('animateonscroll', AnimateOnScroll);
 ```
@@ -3848,7 +3848,7 @@ const search = (event) => {
 **Basic Usage:**
 
 ```vue
-import AutoComplete from 'primevue/autocomplete';
+import AutoComplete from '@mizuui/mizu-vue/autocomplete';
 ```
 
 ## Invalid
@@ -4491,8 +4491,8 @@ Use the image property to display an image as an Avatar.
 **Basic Usage:**
 
 ```vue
-import Avatar from 'primevue/avatar';
-import AvatarGroup from 'primevue/avatargroup';   //Optional for grouping
+import Avatar from '@mizuui/mizu-vue/avatar';
+import AvatarGroup from '@mizuui/mizu-vue/avatargroup';   //Optional for grouping
 ```
 
 ## Label
@@ -4668,8 +4668,8 @@ Buttons have built-in support for badges to display a badge inline.
 
 ```vue
 // import as component
-import Badge from 'primevue/badge';
-import OverlayBadge from 'primevue/overlaybadge';
+import Badge from '@mizuui/mizu-vue/badge';
+import OverlayBadge from '@mizuui/mizu-vue/overlaybadge';
 ```
 
 ## Overlay
@@ -4922,7 +4922,7 @@ const blockDocument = () => {
 **Basic Usage:**
 
 ```vue
-import BlockUI from 'primevue/blockui';
+import BlockUI from '@mizuui/mizu-vue/blockui';
 ```
 
 ## Block U I
@@ -4987,7 +4987,7 @@ Breadcrumb requires a collection of menuitems as its model , the root item is de
 **Basic Usage:**
 
 ```vue
-import Breadcrumb from 'primevue/breadcrumb';
+import Breadcrumb from '@mizuui/mizu-vue/breadcrumb';
 ```
 
 ## Router
@@ -5424,7 +5424,7 @@ Icon of a button is specified with icon property and position is configured usin
 **Basic Usage:**
 
 ```vue
-import Button from 'primevue/button';
+import Button from '@mizuui/mizu-vue/button';
 ```
 
 ## Link
@@ -6333,7 +6333,7 @@ A simple Card is created with a title property along with the content as childre
 **Basic Usage:**
 
 ```vue
-import Card from 'primevue/card';
+import Card from '@mizuui/mizu-vue/card';
 ```
 
 ## Card
@@ -6583,7 +6583,7 @@ const getSeverity = (status) => {
 **Basic Usage:**
 
 ```vue
-import Carousel from 'primevue/carousel';
+import Carousel from '@mizuui/mizu-vue/carousel';
 ```
 
 ## Responsive
@@ -7659,7 +7659,7 @@ const countries = ref([
 **Basic Usage:**
 
 ```vue
-import CascadeSelect from 'primevue/cascadeselect';
+import CascadeSelect from '@mizuui/mizu-vue/cascadeselect';
 ```
 
 ## Invalid
@@ -7670,9 +7670,9 @@ Invalid state is displayed using the invalid prop to indicate a failed validatio
 
 ```vue
 <div class="card flex flex-wrap justify-center gap-4">
-    <CascadeSelect v-model="selectedCity1" :invalid="!selectedCity1" :options="countries" optionLabel="cname" optionGroupLabel="name" 
+    <CascadeSelect v-model="selectedCity1" :invalid="!selectedCity1" :options="countries" optionLabel="cname" optionGroupLabel="name"
         :optionGroupChildren="['states', 'cities']" class="w-full sm:w-56" placeholder="Select a City" />
-    <CascadeSelect v-model="selectedCity2" :invalid="!selectedCity2" :options="countries" optionLabel="cname" optionGroupLabel="name" 
+    <CascadeSelect v-model="selectedCity2" :invalid="!selectedCity2" :options="countries" optionLabel="cname" optionGroupLabel="name"
         :optionGroupChildren="['states', 'cities']" class="w-full sm:w-56" placeholder="Select a City" variant="filled" />
 </div>
 ```
@@ -7683,9 +7683,9 @@ Invalid state is displayed using the invalid prop to indicate a failed validatio
 ```vue
 <template>
     <div class="card flex flex-wrap justify-center gap-4">
-        <CascadeSelect v-model="selectedCity1" :invalid="!selectedCity1" :options="countries" optionLabel="cname" optionGroupLabel="name" 
+        <CascadeSelect v-model="selectedCity1" :invalid="!selectedCity1" :options="countries" optionLabel="cname" optionGroupLabel="name"
             :optionGroupChildren="['states', 'cities']" class="w-full sm:w-56" placeholder="Select a City" />
-        <CascadeSelect v-model="selectedCity2" :invalid="!selectedCity2" :options="countries" optionLabel="cname" optionGroupLabel="name" 
+        <CascadeSelect v-model="selectedCity2" :invalid="!selectedCity2" :options="countries" optionLabel="cname" optionGroupLabel="name"
             :optionGroupChildren="['states', 'cities']" class="w-full sm:w-56" placeholder="Select a City" variant="filled" />
     </div>
 </template>
@@ -7806,11 +7806,11 @@ CascadeSelect provides small and large sizes as alternatives to the base.
 **Basic Usage:**
 
 ```vue
-<CascadeSelect v-model="value1" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']" 
+<CascadeSelect v-model="value1" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']"
     class="w-56" size="small" placeholder="Small" />
-<CascadeSelect v-model="value2" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']" 
+<CascadeSelect v-model="value2" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']"
     class="w-56" placeholder="Normal" />
-<CascadeSelect v-model="value3" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']" 
+<CascadeSelect v-model="value3" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']"
     class="w-56" size="large" placeholder="Large" />
 ```
 
@@ -7820,11 +7820,11 @@ CascadeSelect provides small and large sizes as alternatives to the base.
 ```vue
 <template>
     <div class="card flex flex-col items-center gap-4">
-        <CascadeSelect v-model="value1" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']" 
+        <CascadeSelect v-model="value1" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']"
             class="w-56" size="small" placeholder="Small" />
-        <CascadeSelect v-model="value2" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']" 
+        <CascadeSelect v-model="value2" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']"
             class="w-56" placeholder="Normal" />
-        <CascadeSelect v-model="value3" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']" 
+        <CascadeSelect v-model="value3" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']"
             class="w-56" size="large" placeholder="Large" />
     </div>
 </template>
@@ -8286,7 +8286,7 @@ onMounted(() => {
 
 const chartData = ref();
 const chartOptions = ref();
-        
+
 const setChartData = () => {
     const documentStyle = getComputedStyle(document.documentElement);
 
@@ -8527,7 +8527,7 @@ const setChartOptions = () => {
 **Basic Usage:**
 
 ```vue
-import Chart from 'primevue/chart';
+import Chart from '@mizuui/mizu-vue/chart';
 ```
 
 ## Line
@@ -8560,7 +8560,7 @@ onMounted(() => {
 
 const chartData = ref();
 const chartOptions = ref();
-        
+
 const setChartData = () => {
     const documentStyle = getComputedStyle(document.documentElement);
 
@@ -8654,7 +8654,7 @@ onMounted(() => {
 
 const chartData = ref();
 const chartOptions = ref();
-        
+
 const setChartData = () => {
     const documentStyle = getComputedStyle(document.documentElement);
 
@@ -8757,7 +8757,7 @@ onMounted(() => {
 
 const chartData = ref();
 const chartOptions = ref();
-        
+
 const setChartData = () => {
     const documentStyle = getComputedStyle(document.documentElement);
 
@@ -8934,7 +8934,7 @@ onMounted(() => {
 
 const chartData = ref();
 const chartOptions = ref();
-        
+
 const setChartData = () => {
     const documentStyle = getComputedStyle(document.documentElement);
 
@@ -9011,7 +9011,7 @@ onMounted(() => {
 
 const chartData = ref();
 const chartOptions = ref();
-        
+
 const setChartData = () => {
     const documentStyle = getComputedStyle(document.documentElement);
     const textColor = documentStyle.getPropertyValue('--p-text-color');
@@ -9591,8 +9591,8 @@ const pizza = ref();
 **Basic Usage:**
 
 ```vue
-import Checkbox from 'primevue/checkbox';
-import CheckboxGroup from 'primevue/checkboxgroup';
+import Checkbox from '@mizuui/mizu-vue/checkbox';
+import CheckboxGroup from '@mizuui/mizu-vue/checkboxgroup';
 ```
 
 ## Indeterminate
@@ -9898,7 +9898,7 @@ The image property is used to display an image like an avatar.
 **Basic Usage:**
 
 ```vue
-import Chip from 'primevue/chip';
+import Chip from '@mizuui/mizu-vue/chip';
 ```
 
 ## StyleDoc
@@ -10157,7 +10157,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import ColorPicker from 'primevue/colorpicker';
+import ColorPicker from '@mizuui/mizu-vue/colorpicker';
 ```
 
 ## Inline
@@ -10371,7 +10371,7 @@ const requireConfirmation = () => {
 **Basic Usage:**
 
 ```vue
-import ConfirmDialog from 'primevue/confirmdialog';
+import ConfirmDialog from '@mizuui/mizu-vue/confirmdialog';
 ```
 
 ## Position
@@ -10682,7 +10682,7 @@ const requireConfirmation = (event) => {
 **Basic Usage:**
 
 ```vue
-import ConfirmPopup from 'primevue/confirmpopup';
+import ConfirmPopup from '@mizuui/mizu-vue/confirmpopup';
 ```
 
 ## Template
@@ -11011,7 +11011,7 @@ const items = ref([
 **Basic Usage:**
 
 ```vue
-import ContextMenu from 'primevue/contextmenu';
+import ContextMenu from '@mizuui/mizu-vue/contextmenu';
 ```
 
 ## Router
@@ -11642,7 +11642,7 @@ DataTable has exclusive integration with ContextMenu using the contextMenu event
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {
@@ -11900,10 +11900,10 @@ const products = ref();
 **Basic Usage:**
 
 ```vue
-import DataTable from 'primevue/datatable';
-import Column from 'primevue/column';
-import ColumnGroup from 'primevue/columngroup';   // optional
-import Row from 'primevue/row';                   // optional
+import DataTable from '@mizuui/mizu-vue/datatable';
+import Column from '@mizuui/mizu-vue/column';
+import ColumnGroup from '@mizuui/mizu-vue/columngroup';   // optional
+import Row from '@mizuui/mizu-vue/row';                   // optional
 ```
 
 ## LazyLoadDoc
@@ -12141,7 +12141,7 @@ Order of the columns and rows can be changed using drag and drop. Column reorder
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {
@@ -12322,7 +12322,7 @@ Row expansion is controlled with expandedRows property. The column that has the 
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 const products = ref();
@@ -13262,7 +13262,7 @@ DataView requires a value to display along with a list slot for item content.
 **Basic Usage:**
 
 ```vue
-import DataView from 'primevue/dataview';
+import DataView from '@mizuui/mizu-vue/dataview';
 ```
 
 ## Layout
@@ -14558,7 +14558,7 @@ const value = ref(null);
 **Basic Usage:**
 
 ```vue
-import DatePicker from 'primevue/datepicker';
+import DatePicker from '@mizuui/mizu-vue/datepicker';
 ```
 
 ## Inline
@@ -15272,7 +15272,7 @@ const onDataLoad = () => {
 **Basic Usage:**
 
 ```vue
-import DeferredContent from 'primevue/deferredcontent';
+import DeferredContent from '@mizuui/mizu-vue/deferredcontent';
 ```
 
 ## Deferred Content
@@ -15430,7 +15430,7 @@ const visible = ref(false);
 **Basic Usage:**
 
 ```vue
-import Dialog from 'primevue/dialog';
+import Dialog from '@mizuui/mizu-vue/dialog';
 ```
 
 ## Long Content
@@ -16058,7 +16058,7 @@ Children are rendered within the boundaries of the divider where location of the
 **Basic Usage:**
 
 ```vue
-import Divider from 'primevue/divider';
+import Divider from '@mizuui/mizu-vue/divider';
 ```
 
 ## Login
@@ -16383,8 +16383,8 @@ A mock desktop UI implemented with various components in addition to Dock.
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { useToast } from 'primevue/usetoast';
-import TerminalService from 'primevue/terminalservice';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
+import TerminalService from '@mizuui/mizu-vue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 
@@ -16663,7 +16663,7 @@ Dock requires a collection of menuitems as its model and an icon template. Defau
 **Basic Usage:**
 
 ```vue
-import Dock from 'primevue/dock';
+import Dock from '@mizuui/mizu-vue/dock';
 ```
 
 ---
@@ -17132,7 +17132,7 @@ const visible = ref(false);
 **Basic Usage:**
 
 ```vue
-import Drawer from 'primevue/drawer';
+import Drawer from '@mizuui/mizu-vue/drawer';
 ```
 
 ## Position
@@ -17400,7 +17400,7 @@ DynamicDialog uses the Dialog component internally, visit dialog for more inform
 
 ```vue
 import ProductListDemo from './ProductListDemo';
-import { useDialog } from 'primevue/usedialog';
+import { useDialog } from '@mizuui/mizu-vue/usedialog';
 
 const dialog = useDialog();
 
@@ -17455,9 +17455,9 @@ A sample implementation to demonstrate loading components asynchronously, nested
 
 <script setup>
 import { markRaw, defineAsyncComponent } from 'vue';
-import { useDialog } from 'primevue/usedialog';
-import { useToast } from 'primevue/usetoast';
-import Button from 'primevue/button';
+import { useDialog } from '@mizuui/mizu-vue/usedialog';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
+import Button from '@mizuui/mizu-vue/button';
 const ProductListDemo = defineAsyncComponent(() => import('./components/ProductListDemo.vue'));
 const FooterDemo = defineAsyncComponent(() => import('./components/FooterDemo.vue'));
 
@@ -17519,7 +17519,7 @@ const showProducts = () => {
 **Basic Usage:**
 
 ```vue
-import DynamicDialog from 'primevue/dynamicdialog';
+import DynamicDialog from '@mizuui/mizu-vue/dynamicdialog';
 ```
 
 ## OpenDialogDoc
@@ -17622,7 +17622,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import Editor from 'primevue/editor';
+import Editor from '@mizuui/mizu-vue/editor';
 ```
 
 ## Quill
@@ -17824,7 +17824,7 @@ A simple Fieldset is created with a legend property along with the content as ch
 **Basic Usage:**
 
 ```vue
-import Fieldset from 'primevue/fieldset';
+import Fieldset from '@mizuui/mizu-vue/fieldset';
 ```
 
 ## Template
@@ -18126,7 +18126,7 @@ function onFileSelect(event) {
 **Basic Usage:**
 
 ```vue
-import FileUpload from 'primevue/fileupload';
+import FileUpload from '@mizuui/mizu-vue/fileupload';
 ```
 
 ## Template
@@ -18260,7 +18260,7 @@ Uploader UI can be customized with templating.
 
 <script setup>
 import { ref } from 'vue';
-import { usePrimeVue } from 'primevue/config';
+import { usePrimeVue } from '@mizuui/mizu-vue/config';
 import { useToast } from "primevue/usetoast";
 
 const $primevue = usePrimeVue();
@@ -18458,7 +18458,7 @@ FloatLabel is used by wrapping the input and its label.
 **Basic Usage:**
 
 ```vue
-import FloatLabel from 'primevue/floatlabel';
+import FloatLabel from '@mizuui/mizu-vue/floatlabel';
 ```
 
 ## Invalid
@@ -18660,7 +18660,7 @@ Components with the fluid option like InputText have the ability to span the ful
 **Basic Usage:**
 
 ```vue
-import Fluid from 'primevue/fluid';
+import Fluid from '@mizuui/mizu-vue/fluid';
 ```
 
 ## Fluid
@@ -18737,7 +18737,7 @@ FocusTrap is enabled by attaching the directive with the v- prefix.
 **Basic Usage:**
 
 ```vue
-import FocusTrap from 'primevue/focustrap';
+import FocusTrap from '@mizuui/mizu-vue/focustrap';
 
 app.directive('focustrap', FocusTrap);
 ```
@@ -19248,7 +19248,7 @@ const prev = () => {
 **Basic Usage:**
 
 ```vue
-import Galleria from 'primevue/galleria';
+import Galleria from '@mizuui/mizu-vue/galleria';
 ```
 
 ## ResponsiveDoc
@@ -19747,8 +19747,8 @@ const value = ref(null);
 **Basic Usage:**
 
 ```vue
-import IconField from 'primevue/iconfield';
-import InputIcon from 'primevue/inputicon';
+import IconField from '@mizuui/mizu-vue/iconfield';
+import InputIcon from '@mizuui/mizu-vue/inputicon';
 ```
 
 ## Sizes
@@ -19911,7 +19911,7 @@ IftaLabel is used by wrapping the input and its label.
 **Basic Usage:**
 
 ```vue
-import IftaLabel from 'primevue/iftalabel';
+import IftaLabel from '@mizuui/mizu-vue/iftalabel';
 ```
 
 ## Invalid
@@ -20020,7 +20020,7 @@ Image is used similar to the standard img element.
 **Basic Usage:**
 
 ```vue
-import Image from 'primevue/image';
+import Image from '@mizuui/mizu-vue/image';
 ```
 
 ## Preview
@@ -20227,7 +20227,7 @@ Images are defined using templating with left and right slots. Use the style or 
 **Basic Usage:**
 
 ```vue
-import ImageCompare from 'primevue/imagecompare';
+import ImageCompare from '@mizuui/mizu-vue/imagecompare';
 ```
 
 ## Responsive
@@ -20395,7 +20395,7 @@ Any content such as an image can be placed inside an Inplace.
 **Basic Usage:**
 
 ```vue
-import Inplace from 'primevue/inplace';
+import Inplace from '@mizuui/mizu-vue/inplace';
 ```
 
 ## Input
@@ -20869,8 +20869,8 @@ const value = ref(10);
 **Basic Usage:**
 
 ```vue
-import InputGroup from 'primevue/inputgroup';
-import InputGroupAddon from 'primevue/inputgroupaddon';
+import InputGroup from '@mizuui/mizu-vue/inputgroup';
+import InputGroupAddon from '@mizuui/mizu-vue/inputgroupaddon';
 ```
 
 ## Multiple
@@ -21229,7 +21229,7 @@ const value = ref(null);
 **Basic Usage:**
 
 ```vue
-import InputMask from 'primevue/inputmask';
+import InputMask from '@mizuui/mizu-vue/inputmask';
 ```
 
 ## Invalid
@@ -21853,7 +21853,7 @@ const value = ref(1);
 **Basic Usage:**
 
 ```vue
-import InputNumber from 'primevue/inputnumber';
+import InputNumber from '@mizuui/mizu-vue/inputnumber';
 ```
 
 ## Invalid
@@ -22317,7 +22317,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import InputOtp from 'primevue/inputotp';
+import InputOtp from '@mizuui/mizu-vue/inputotp';
 ```
 
 ## Integer Only
@@ -22925,7 +22925,7 @@ const value = ref(null);
 **Basic Usage:**
 
 ```vue
-import InputText from 'primevue/inputtext';
+import InputText from '@mizuui/mizu-vue/inputtext';
 ```
 
 ## Invalid
@@ -23294,7 +23294,7 @@ KeyFilter is a directive and do not require any accessibility features.
 **Basic Usage:**
 
 ```vue
-import KeyFilter from 'primevue/keyfilter';
+import KeyFilter from '@mizuui/mizu-vue/keyfilter';
 
 app.directive('keyfilter', KeyFilter);
 ```
@@ -23583,7 +23583,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import Knob from 'primevue/knob';
+import Knob from '@mizuui/mizu-vue/knob';
 ```
 
 ## Min/Max
@@ -24132,7 +24132,7 @@ const groupedCities = ref([
 **Basic Usage:**
 
 ```vue
-import Listbox from 'primevue/listbox';
+import Listbox from '@mizuui/mizu-vue/listbox';
 ```
 
 ## Invalid
@@ -24576,7 +24576,7 @@ The command property of a menuitem defines the callback to run when an item is a
 **Basic Usage:**
 
 ```vue
-import MegaMenu from 'primevue/megamenu';
+import MegaMenu from '@mizuui/mizu-vue/megamenu';
 ```
 
 ## Router
@@ -25070,7 +25070,7 @@ const items = ref([
 **Basic Usage:**
 
 ```vue
-import Menu from 'primevue/menu';
+import Menu from '@mizuui/mizu-vue/menu';
 ```
 
 ## Popup
@@ -25464,7 +25464,7 @@ const items = ref([
 **Basic Usage:**
 
 ```vue
-import Menubar from 'primevue/menubar';
+import Menubar from '@mizuui/mizu-vue/menubar';
 ```
 
 ## Router
@@ -25816,7 +25816,7 @@ Icon property and the icon slots are available to customize the icon of the mess
 **Basic Usage:**
 
 ```vue
-import Message from 'primevue/message';
+import Message from '@mizuui/mizu-vue/message';
 ```
 
 ## Life
@@ -26186,7 +26186,7 @@ const value = ref([
 **Basic Usage:**
 
 ```vue
-import MeterGroup from 'primevue/metergroup';
+import MeterGroup from '@mizuui/mizu-vue/metergroup';
 ```
 
 ## Label
@@ -26938,7 +26938,7 @@ const cities = ref([
 **Basic Usage:**
 
 ```vue
-import MultiSelect from 'primevue/multiselect';
+import MultiSelect from '@mizuui/mizu-vue/multiselect';
 ```
 
 ## Invalid
@@ -26948,9 +26948,9 @@ Invalid state is displayed using the invalid prop to indicate a failed validatio
 **Basic Usage:**
 
 ```vue
-<MultiSelect v-model="selectedCities1" :options="cities" optionLabel="name" filter placeholder="Select Cities" 
+<MultiSelect v-model="selectedCities1" :options="cities" optionLabel="name" filter placeholder="Select Cities"
         :maxSelectedLabels="3" :invalid="selectedCities1?.length === 0" class="w-full md:w-80" />
-<MultiSelect v-model="selectedCities2" :options="cities" optionLabel="name" filter placeholder="Select Cities" 
+<MultiSelect v-model="selectedCities2" :options="cities" optionLabel="name" filter placeholder="Select Cities"
         :maxSelectedLabels="3" :invalid="selectedCities2?.length === 0" class="w-full md:w-80" variant="filled" />
 ```
 
@@ -26960,9 +26960,9 @@ Invalid state is displayed using the invalid prop to indicate a failed validatio
 ```vue
 <template>
     <div class="card flex flex-wrap justify-center gap-4">
-        <MultiSelect v-model="selectedCities1" :options="cities" optionLabel="name" filter placeholder="Select Cities" 
+        <MultiSelect v-model="selectedCities1" :options="cities" optionLabel="name" filter placeholder="Select Cities"
                 :maxSelectedLabels="3" :invalid="selectedCities1?.length === 0" class="w-full md:w-80" />
-        <MultiSelect v-model="selectedCities2" :options="cities" optionLabel="name" filter placeholder="Select Cities" 
+        <MultiSelect v-model="selectedCities2" :options="cities" optionLabel="name" filter placeholder="Select Cities"
                 :maxSelectedLabels="3" :invalid="selectedCities2?.length === 0" class="w-full md:w-80" variant="filled" />
     </div>
 </template>
@@ -27426,7 +27426,7 @@ OrderList requires an array as its value bound with the v-model directive and op
 **Basic Usage:**
 
 ```vue
-import OrderList from 'primevue/orderlist';
+import OrderList from '@mizuui/mizu-vue/orderlist';
 ```
 
 ## Template
@@ -27697,7 +27697,7 @@ const data = ref({
 **Basic Usage:**
 
 ```vue
-import OrganizationChart from 'primevue/organizationchart';
+import OrganizationChart from '@mizuui/mizu-vue/organizationchart';
 ```
 
 ## Selection
@@ -28134,7 +28134,7 @@ Headless mode is enabled by defining a container slot that lets you implement en
 **Basic Usage:**
 
 ```vue
-import Paginator from 'primevue/paginator';
+import Paginator from '@mizuui/mizu-vue/paginator';
 ```
 
 ## Responsive
@@ -28340,7 +28340,7 @@ A simple Panel is created with a header property along with the content as child
 **Basic Usage:**
 
 ```vue
-import Panel from 'primevue/panel';
+import Panel from '@mizuui/mizu-vue/panel';
 ```
 
 ## Template
@@ -28416,7 +28416,7 @@ Header, icons and footer sections of the panel are customizable via templating.
 import { ref } from 'vue';
 import { useToast } from "primevue/usetoast";
 import { useRouter } from 'vue-router';
-import Menu from 'primevue/menu';
+import Menu from '@mizuui/mizu-vue/menu';
 
 const menu = ref(null);
 const toast = useToast();
@@ -28788,7 +28788,7 @@ const expandNode = (node) => {
 **Basic Usage:**
 
 ```vue
-import PanelMenu from 'primevue/panelmenu';
+import PanelMenu from '@mizuui/mizu-vue/panelmenu';
 ```
 
 ## Multiple
@@ -29412,7 +29412,7 @@ const value = ref(null);
 **Basic Usage:**
 
 ```vue
-import Password from 'primevue/password';
+import Password from '@mizuui/mizu-vue/password';
 ```
 
 ## Invalid
@@ -29993,7 +29993,7 @@ PickList requires a multidimensional array as its value bound with the v-model d
 **Basic Usage:**
 
 ```vue
-import PickList from 'primevue/picklist';
+import PickList from '@mizuui/mizu-vue/picklist';
 ```
 
 ## Template
@@ -30393,7 +30393,7 @@ const getSeverity = (product) => {
 **Basic Usage:**
 
 ```vue
-import Popover from 'primevue/popover';
+import Popover from '@mizuui/mizu-vue/popover';
 ```
 
 ## Select Data
@@ -30609,7 +30609,7 @@ const endProgress = () => {
 **Basic Usage:**
 
 ```vue
-import ProgressBar from 'primevue/progressbar';
+import ProgressBar from '@mizuui/mizu-vue/progressbar';
 ```
 
 ## Indeterminate
@@ -30769,7 +30769,7 @@ ProgressSpinner can be customized with styling property like style , strokeWidth
 **Basic Usage:**
 
 ```vue
-import ProgressSpinner from 'primevue/progressspinner';
+import ProgressSpinner from '@mizuui/mizu-vue/progressspinner';
 ```
 
 ## Progress Spinner
@@ -31094,8 +31094,8 @@ const ingredient = ref('');
 **Basic Usage:**
 
 ```vue
-import RadioButton from 'primevue/radiobutton';
-import RadioButtonGroup from 'primevue/radiobuttongroup';
+import RadioButton from '@mizuui/mizu-vue/radiobutton';
+import RadioButtonGroup from '@mizuui/mizu-vue/radiobuttongroup';
 ```
 
 ## Invalid
@@ -31378,7 +31378,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import Rating from 'primevue/rating';
+import Rating from '@mizuui/mizu-vue/rating';
 ```
 
 ## Number of Stars
@@ -31565,7 +31565,7 @@ mounted() {
 <summary>Composition API Example</summary>
 
 ```vue
-import { usePrimeVue } from 'primevue/config';
+import { usePrimeVue } from '@mizuui/mizu-vue/config';
 
 const PrimeVue = usePrimeVue();
 
@@ -31746,7 +31746,7 @@ Scrollbar visuals can be styled for a unified look across different platforms.
 **Basic Usage:**
 
 ```vue
-import ScrollPanel from 'primevue/scrollpanel';
+import ScrollPanel from '@mizuui/mizu-vue/scrollpanel';
 ```
 
 ## Scroll Panel
@@ -31869,7 +31869,7 @@ Setting the target property to parent binds ScrollTop to its parent element that
 **Basic Usage:**
 
 ```vue
-import ScrollTop from 'primevue/scrolltop';
+import ScrollTop from '@mizuui/mizu-vue/scrolltop';
 ```
 
 ## Scroll Top
@@ -32457,7 +32457,7 @@ const cities = ref([
 **Basic Usage:**
 
 ```vue
-import Select from 'primevue/select';
+import Select from '@mizuui/mizu-vue/select';
 ```
 
 ## Invalid
@@ -33090,7 +33090,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import SelectButton from 'primevue/selectbutton';
+import SelectButton from '@mizuui/mizu-vue/selectbutton';
 ```
 
 ## Invalid
@@ -33420,7 +33420,7 @@ const products = ref(new Array(4));
 **Basic Usage:**
 
 ```vue
-import Skeleton from 'primevue/skeleton';
+import Skeleton from '@mizuui/mizu-vue/skeleton';
 ```
 
 ## List
@@ -33782,7 +33782,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import Slider from 'primevue/slider';
+import Slider from '@mizuui/mizu-vue/slider';
 ```
 
 ## Input
@@ -34014,7 +34014,7 @@ Items can be displayed around the button when type is set to circle . Additional
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();
@@ -34066,7 +34066,7 @@ const items = ref([
 **Basic Usage:**
 
 ```vue
-import SpeedDial from 'primevue/speeddial';
+import SpeedDial from '@mizuui/mizu-vue/speeddial';
 ```
 
 ## Linear
@@ -34100,7 +34100,7 @@ SpeedDial items are defined with the model property based on MenuModel API. Defa
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();
@@ -34171,7 +34171,7 @@ Adding mask property displays a modal layer behind the popup items.
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();
@@ -34249,7 +34249,7 @@ Setting type as quarter-circle displays the items at one of four corners of a bu
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();
@@ -34325,7 +34325,7 @@ When type is defined as semi-circle , items are displayed in a half-circle aroun
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();
@@ -34431,7 +34431,7 @@ SpeedDial offers item customization with the item template that receives the men
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();
@@ -34505,7 +34505,7 @@ Items display a tooltip on hover when a standalone Tooltip is present with a tar
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();
@@ -34765,7 +34765,7 @@ const save = () => {
 **Basic Usage:**
 
 ```vue
-import SplitButton from 'primevue/splitbutton';
+import SplitButton from '@mizuui/mizu-vue/splitbutton';
 ```
 
 ## Nested
@@ -35514,8 +35514,8 @@ Splitter requires two SplitterPanel components as children which are displayed h
 **Basic Usage:**
 
 ```vue
-import Splitter from 'primevue/splitter';
-import SplitterPanel from 'primevue/splitterpanel';
+import Splitter from '@mizuui/mizu-vue/splitter';
+import SplitterPanel from '@mizuui/mizu-vue/splitterpanel';
 ```
 
 ## Nested
@@ -35789,12 +35789,12 @@ Stepper consists of a combination of StepList , Step , StepPanels and StepPanel 
 **Basic Usage:**
 
 ```vue
-import Stepper from 'primevue/stepper';
-import StepList from 'primevue/steplist';
-import StepPanels from 'primevue/steppanels';
-import StepItem from 'primevue/stepitem';
-import Step from 'primevue/step';
-import StepPanel from 'primevue/steppanel';
+import Stepper from '@mizuui/mizu-vue/stepper';
+import StepList from '@mizuui/mizu-vue/steplist';
+import StepPanels from '@mizuui/mizu-vue/steppanels';
+import StepItem from '@mizuui/mizu-vue/stepitem';
+import Step from '@mizuui/mizu-vue/step';
+import StepPanel from '@mizuui/mizu-vue/steppanel';
 ```
 
 ## Linear
@@ -36521,7 +36521,7 @@ When hideOnResize is enabled, the leave animation is triggered automatically whe
 **Basic Usage:**
 
 ```vue
-import StyleClass from 'primevue/styleclass';
+import StyleClass from '@mizuui/mizu-vue/styleclass';
 
 app.directive('styleclass', StyleClass);
 ```
@@ -36827,11 +36827,11 @@ const tabs = ref([
 **Basic Usage:**
 
 ```vue
-import Tabs from 'primevue/tabs';
-import TabList from 'primevue/tablist';
-import Tab from 'primevue/tab';
-import TabPanels from 'primevue/tabpanels';
-import TabPanel from 'primevue/tabpanel';
+import Tabs from '@mizuui/mizu-vue/tabs';
+import TabList from '@mizuui/mizu-vue/tablist';
+import Tab from '@mizuui/mizu-vue/tab';
+import TabPanels from '@mizuui/mizu-vue/tabpanels';
+import TabPanel from '@mizuui/mizu-vue/tabpanel';
 ```
 
 ## Scrollable
@@ -37180,7 +37180,7 @@ A font icon next to the value can be displayed with the icon property.
 **Basic Usage:**
 
 ```vue
-import Tag from 'primevue/tag';
+import Tag from '@mizuui/mizu-vue/tag';
 ```
 
 ## Pill
@@ -37286,7 +37286,7 @@ Children of the component are passed as the content for templating.
                 <span class="text-base">Italy</span>
             </div>
         </Tag>
-    </div>    
+    </div>
 </template>
 
 <script setup>
@@ -37383,8 +37383,8 @@ Commands are processed using an EventBus implementation called TerminalService .
 **Basic Usage:**
 
 ```vue
-import Terminal from 'primevue/terminal';
-import TerminalService from 'primevue/terminalservice'
+import Terminal from '@mizuui/mizu-vue/terminal';
+import TerminalService from '@mizuui/mizu-vue/terminalservice'
 ```
 
 ## Terminal
@@ -37742,7 +37742,7 @@ const value = ref(null);
 **Basic Usage:**
 
 ```vue
-import Textarea from 'primevue/textarea';
+import Textarea from '@mizuui/mizu-vue/textarea';
 ```
 
 ## Invalid
@@ -38191,7 +38191,7 @@ const items = ref([
 **Basic Usage:**
 
 ```vue
-import TieredMenu from 'primevue/tieredmenu';
+import TieredMenu from '@mizuui/mizu-vue/tieredmenu';
 ```
 
 ## Popup
@@ -38675,7 +38675,7 @@ const events = ref(['2020', '2021', '2022', '2023']);
 **Basic Usage:**
 
 ```vue
-import Timeline from 'primevue/timeline';
+import Timeline from '@mizuui/mizu-vue/timeline';
 ```
 
 ## Opposite
@@ -39009,7 +39009,7 @@ const show = () => {
 **Basic Usage:**
 
 ```vue
-import Toast from 'primevue/toast';
+import Toast from '@mizuui/mizu-vue/toast';
 ```
 
 ## Multiple
@@ -39261,7 +39261,7 @@ const showTemplate = () => {
     if (!visible.value) {
         toast.add({ severity: 'success', summary: 'Can you send me the report?', group: 'bc' });
         visible.value = true;
-    } 
+    }
 };
 
 const onReply = () => {
@@ -39450,7 +39450,7 @@ Icons and Labels can be customized using onLabel , offLabel , onIcon and offIcon
 **Basic Usage:**
 
 ```vue
-<ToggleButton v-model="checked" onLabel="Locked" offLabel="Unlocked" onIcon="pi pi-lock" 
+<ToggleButton v-model="checked" onLabel="Locked" offLabel="Unlocked" onIcon="pi pi-lock"
     offIcon="pi pi-lock-open" class="w-36" aria-label="Do you confirm" />
 ```
 
@@ -39460,7 +39460,7 @@ Icons and Labels can be customized using onLabel , offLabel , onIcon and offIcon
 ```vue
 <template>
     <div class="card flex justify-center">
-        <ToggleButton v-model="checked" onLabel="Locked" offLabel="Unlocked" onIcon="pi pi-lock" 
+        <ToggleButton v-model="checked" onLabel="Locked" offLabel="Unlocked" onIcon="pi pi-lock"
             offIcon="pi pi-lock-open" class="w-36" aria-label="Do you confirm" />
     </div>
 </template>
@@ -39594,7 +39594,7 @@ const onFormSubmit = ({ valid }) => {
 **Basic Usage:**
 
 ```vue
-import ToggleButton from 'primevue/togglebutton';
+import ToggleButton from '@mizuui/mizu-vue/togglebutton';
 ```
 
 ## Invalid
@@ -39862,7 +39862,7 @@ const resolver = ref(zodResolver(
 **Basic Usage:**
 
 ```vue
-import ToggleSwitch from 'primevue/toggleswitch';
+import ToggleSwitch from '@mizuui/mizu-vue/toggleswitch';
 ```
 
 ## Invalid
@@ -40154,7 +40154,7 @@ A customized toolbar with navigation bar functionality.
 **Basic Usage:**
 
 ```vue
-import Toolbar from 'primevue/toolbar';
+import Toolbar from '@mizuui/mizu-vue/toolbar';
 ```
 
 ## Toolbar
@@ -40333,7 +40333,7 @@ Event to display the tooltip is defined as a modifier, default event is hover.
 **Basic Usage:**
 
 ```vue
-import Tooltip from 'primevue/tooltip';
+import Tooltip from '@mizuui/mizu-vue/tooltip';
 
 app.directive('tooltip', Tooltip);
 ```
@@ -40702,7 +40702,7 @@ onMounted(() => {
 **Basic Usage:**
 
 ```vue
-import Tree from 'primevue/tree';
+import Tree from '@mizuui/mizu-vue/tree';
 ```
 
 ## LazyDoc
@@ -41691,7 +41691,7 @@ onMounted(() => {
 **Basic Usage:**
 
 ```vue
-import TreeSelect from 'primevue/treeselect';
+import TreeSelect from '@mizuui/mizu-vue/treeselect';
 ```
 
 ## Invalid
@@ -42379,7 +42379,7 @@ TreeTable has exclusive integration with ContextMenu using the contextMenu event
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@mizuui/mizu-vue/usetoast';
 import { NodeService } from '@/service/NodeService';
 
 onMounted(() => {
@@ -42820,8 +42820,8 @@ const nodes = ref();
 **Basic Usage:**
 
 ```vue
-import TreeTable from 'primevue/treetable';
-import Column from 'primevue/column';
+import TreeTable from '@mizuui/mizu-vue/treetable';
+import Column from '@mizuui/mizu-vue/column';
 ```
 
 ## LazyLoadDoc
@@ -43480,7 +43480,7 @@ const items = ref(Array.from({ length: 100000 }).map((_, i) => \`Item #\${i}\`))
 **Basic Usage:**
 
 ```vue
-import VirtualScroller from 'primevue/virtualscroller';
+import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
 ```
 
 ## Lazy

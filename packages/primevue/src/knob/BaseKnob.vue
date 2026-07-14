@@ -1,7 +1,7 @@
 <script>
+import KnobStyle from '@mizuui/mizu-vue/knob/style';
 import { $dt } from '@primeuix/styled';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import KnobStyle from 'primevue/knob/style';
 
 export default {
     name: 'BaseKnob',

@@ -1,6 +1,6 @@
 <script>
+import SelectStyle from '@mizuui/mizu-vue/select/style';
 import BaseInput from '@primevue/core/baseinput';
-import SelectStyle from 'primevue/select/style';
 
 export default {
     name: 'BaseSelect',

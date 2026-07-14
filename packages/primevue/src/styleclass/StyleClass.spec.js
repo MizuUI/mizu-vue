@@ -1,6 +1,6 @@
+import Button from '@mizuui/mizu-vue/button';
+import InputText from '@mizuui/mizu-vue/inputtext';
 import { config, mount } from '@vue/test-utils';
-import Button from 'primevue/button';
-import InputText from 'primevue/inputtext';
 import StyleClass from './StyleClass';
 
 config.global.directives = {

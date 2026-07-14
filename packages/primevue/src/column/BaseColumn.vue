@@ -1,6 +1,6 @@
 <script>
+import ColumnStyle from '@mizuui/mizu-vue/column/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ColumnStyle from 'primevue/column/style';
 
 export default {
     name: 'BaseColumn',

@@ -5,7 +5,7 @@ Editor is rich text editor component based on Quill.
 ## Import
 
 ```javascript
-import Editor from 'primevue/editor';
+import Editor from 'mizu-vue/editor';
 ```
 
 ## Accessibility

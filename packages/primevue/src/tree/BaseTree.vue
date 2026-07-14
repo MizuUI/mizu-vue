@@ -1,6 +1,6 @@
 <script>
+import TreeStyle from '@mizuui/mizu-vue/tree/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import TreeStyle from 'primevue/tree/style';
 
 export default {
     name: 'BaseTree',

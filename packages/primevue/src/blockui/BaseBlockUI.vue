@@ -1,6 +1,6 @@
 <script>
+import BlockUIStyle from '@mizuui/mizu-vue/blockui/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import BlockUIStyle from 'primevue/blockui/style';
 
 export default {
     name: 'BaseBlockUI',

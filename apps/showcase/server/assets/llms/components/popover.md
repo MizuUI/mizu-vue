@@ -5,7 +5,7 @@ Popover is a container component that can overlay other components on page.
 ## Import
 
 ```javascript
-import Popover from 'primevue/popover';
+import Popover from '@mizuui/mizu-vue/popover';
 ```
 
 ## Accessibility

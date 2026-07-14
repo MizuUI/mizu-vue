@@ -7,10 +7,10 @@
  * @module overlaybadge
  *
  */
+import type { BadgePassThroughOptions } from '@mizuui/mizu-vue/badge';
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { BadgePassThroughOptions } from 'primevue/badge';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type OverlayBadgePassThroughOptionType<T = any> = OverlayBadgePassThroughAttributes | ((options: OverlayBadgePassThroughMethodOptions<T>) => OverlayBadgePassThroughAttributes | string) | string | null | undefined;

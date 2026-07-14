@@ -5,7 +5,7 @@ Dock is a navigation component consisting of menuitems.
 ## Import
 
 ```javascript
-import Dock from 'primevue/dock';
+import Dock from 'mizu-vue/dock';
 ```
 
 ## Accessibility
@@ -78,8 +78,8 @@ A mock desktop UI implemented with various components in addition to Dock.
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { useToast } from 'primevue/usetoast';
-import TerminalService from 'primevue/terminalservice';
+import { useToast } from 'mizu-vue/usetoast';
+import TerminalService from 'mizu-vue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 

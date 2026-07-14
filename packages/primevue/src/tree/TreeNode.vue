@@ -100,6 +100,8 @@
 </template>
 
 <script>
+import Checkbox from '@mizuui/mizu-vue/checkbox';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { find, findSingle, getAttribute, getOuterHeight, getOuterWidth } from '@primeuix/utils';
 import BaseComponent from '@primevue/core/basecomponent';
 import CheckIcon from '@primevue/icons/check';
@@ -107,8 +109,6 @@ import ChevronDownIcon from '@primevue/icons/chevrondown';
 import ChevronRightIcon from '@primevue/icons/chevronright';
 import MinusIcon from '@primevue/icons/minus';
 import SpinnerIcon from '@primevue/icons/spinner';
-import Checkbox from 'primevue/checkbox';
-import Ripple from 'primevue/ripple';
 
 export default {
     name: 'TreeNode',

@@ -5,7 +5,7 @@ InputText is an extension to standard input element with theming.
 ## Import
 
 ```javascript
-import InputText from 'primevue/inputtext';
+import InputText from 'mizu-vue/inputtext';
 ```
 
 ## Accessibility

@@ -1,6 +1,6 @@
 <script>
+import DynamicDialogStyle from '@mizuui/mizu-vue/dynamicdialog/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import DynamicDialogStyle from 'primevue/dynamicdialog/style';
 
 export default {
     name: 'BaseDynamicDialog',

@@ -5,7 +5,7 @@ Menubar also known as Navbar, is a horizontal menu component.
 ## Import
 
 ```javascript
-import Menubar from 'primevue/menubar';
+import Menubar from '@mizuui/mizu-vue/menubar';
 ```
 
 ## Accessibility

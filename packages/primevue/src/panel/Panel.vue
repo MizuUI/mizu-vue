@@ -7,8 +7,18 @@
             <div :class="cx('headerActions')" v-bind="ptm('headerActions')">
                 <slot name="icons"></slot>
                 <slot v-if="toggleable" name="togglebutton" :collapsed="d_collapsed" :toggleCallback="(event) => toggle(event)" :keydownCallback="(event) => onKeyDown(event)">
-                    <Button :id="$id + '_header'" :class="cx('pcToggleButton')" :aria-label="buttonAriaLabel" :aria-controls="$id + '_content'" :aria-expanded="!d_collapsed" :unstyled="unstyled"
-                        @click="toggle($event)" @keydown="onKeyDown($event)" v-bind="toggleButtonProps" :pt="ptm('pcToggleButton')">
+                    <Button
+                        :id="$id + '_header'"
+                        :class="cx('pcToggleButton')"
+                        :aria-label="buttonAriaLabel"
+                        :aria-controls="$id + '_content'"
+                        :aria-expanded="!d_collapsed"
+                        :unstyled="unstyled"
+                        @click="toggle($event)"
+                        @keydown="onKeyDown($event)"
+                        v-bind="toggleButtonProps"
+                        :pt="ptm('pcToggleButton')"
+                    >
                         <template #icon="slotProps">
                             <!--TODO: togglericon deprecated since v4.0-->
                             <slot :name="$slots.toggleicon ? 'toggleicon' : 'togglericon'" :collapsed="d_collapsed">
@@ -35,11 +45,11 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { cn } from '@primeuix/utils';
 import MinusIcon from '@primevue/icons/minus';
 import PlusIcon from '@primevue/icons/plus';
-import Button from 'primevue/button';
-import Ripple from 'primevue/ripple';
 import BasePanel from './BasePanel.vue';
 
 export default {

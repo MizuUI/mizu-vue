@@ -5,7 +5,7 @@ Panel is a grouping component providing with content toggle feature.
 ## Import
 
 ```javascript
-import Panel from 'primevue/panel';
+import Panel from '@mizuui/mizu-vue/panel';
 ```
 
 ## Accessibility
@@ -96,7 +96,7 @@ Header, icons and footer sections of the panel are customizable via templating.
 import { ref } from 'vue';
 import { useToast } from "primevue/usetoast";
 import { useRouter } from 'vue-router';
-import Menu from 'primevue/menu';
+import Menu from '@mizuui/mizu-vue/menu';
 
 const menu = ref(null);
 const toast = useToast();

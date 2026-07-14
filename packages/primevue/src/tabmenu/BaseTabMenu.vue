@@ -1,6 +1,6 @@
 <script>
+import TabMenuStyle from '@mizuui/mizu-vue/tabmenu/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import TabMenuStyle from 'primevue/tabmenu/style';
 
 export default {
     name: 'BaseTabMenu',

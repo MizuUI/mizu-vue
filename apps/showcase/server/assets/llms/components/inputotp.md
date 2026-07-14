@@ -5,7 +5,7 @@ Input Otp is used to enter one time passwords.
 ## Import
 
 ```javascript
-import InputOtp from 'primevue/inputotp';
+import InputOtp from 'mizu-vue/inputotp';
 ```
 
 ## Accessibility

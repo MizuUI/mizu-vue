@@ -67,12 +67,12 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import Ripple from '@mizuui/mizu-vue/ripple';
+import Tooltip from '@mizuui/mizu-vue/tooltip';
 import { $dt } from '@primeuix/styled';
 import { find, findSingle, focus } from '@primeuix/utils/dom';
 import PlusIcon from '@primevue/icons/plus';
-import Button from 'primevue/button';
-import Ripple from 'primevue/ripple';
-import Tooltip from 'primevue/tooltip';
 import BaseSpeedDial from './BaseSpeedDial.vue';
 
 // Set fix value for SSR.

@@ -1,6 +1,6 @@
 <script>
+import ConfirmDialogStyle from '@mizuui/mizu-vue/confirmdialog/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ConfirmDialogStyle from 'primevue/confirmdialog/style';
 
 export default {
     name: 'BaseConfirmDialog',

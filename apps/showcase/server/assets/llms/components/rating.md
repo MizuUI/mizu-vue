@@ -5,7 +5,7 @@ Rating component is a star based selection input.
 ## Import
 
 ```javascript
-import Rating from 'primevue/rating';
+import Rating from '@mizuui/mizu-vue/rating';
 ```
 
 ## Accessibility

@@ -5,7 +5,7 @@ FileUpload is an advanced uploader with dragdrop support, multi file uploads, au
 ## Import
 
 ```javascript
-import FileUpload from 'primevue/fileupload';
+import FileUpload from 'mizu-vue/fileupload';
 ```
 
 ## Accessibility
@@ -260,7 +260,7 @@ Uploader UI can be customized with templating.
 
 <script setup>
 import { ref } from 'vue';
-import { usePrimeVue } from 'primevue/config';
+import { usePrimeVue } from 'mizu-vue/config';
 import { useToast } from "primevue/usetoast";
 
 const $primevue = usePrimeVue();

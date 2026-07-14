@@ -8,16 +8,16 @@
  * @module column
  *
  */
+import type { BadgePassThroughOptions } from '@mizuui/mizu-vue/badge';
+import type { ButtonPassThroughOptions } from '@mizuui/mizu-vue/button';
+import type { CheckboxPassThroughOptionType } from '@mizuui/mizu-vue/checkbox';
+import type { DataTablePassThroughOptions } from '@mizuui/mizu-vue/datatable';
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
+import type { RadioButtonPassThroughOptionType } from '@mizuui/mizu-vue/radiobutton';
+import type { SelectPassThroughOptionType } from '@mizuui/mizu-vue/select';
+import type { VirtualScrollerLoaderOptions } from '@mizuui/mizu-vue/virtualscroller';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { BadgePassThroughOptions } from 'primevue/badge';
-import type { ButtonPassThroughOptions } from 'primevue/button';
-import type { CheckboxPassThroughOptionType } from 'primevue/checkbox';
-import type { DataTablePassThroughOptions } from 'primevue/datatable';
-import type { PassThroughOptions } from 'primevue/passthrough';
-import type { RadioButtonPassThroughOptionType } from 'primevue/radiobutton';
-import type { SelectPassThroughOptionType } from 'primevue/select';
-import type { VirtualScrollerLoaderOptions } from 'primevue/virtualscroller';
 import { VNode } from 'vue';
 
 export declare type ColumnPassThroughOptionType = ColumnPassThroughAttributes | ((options: ColumnPassThroughMethodOptions) => ColumnPassThroughAttributes | string) | string | null | undefined;

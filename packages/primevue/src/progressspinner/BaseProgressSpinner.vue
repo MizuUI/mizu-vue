@@ -1,6 +1,6 @@
 <script>
+import ProgressSpinnerStyle from '@mizuui/mizu-vue/progressspinner/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ProgressSpinnerStyle from 'primevue/progressspinner/style';
 
 export default {
     name: 'BaseProgressSpinner',

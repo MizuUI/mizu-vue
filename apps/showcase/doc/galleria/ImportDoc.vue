@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Galleria from 'primevue/galleria';
+import Galleria from '@mizuui/mizu-vue/galleria';
 `
             }
         };

@@ -7,10 +7,10 @@
  * @module megamenu
  *
  */
+import type { MenuItem } from '@mizuui/mizu-vue/menuitem';
+import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { MenuItem } from 'primevue/menuitem';
-import type { PassThroughOptions } from 'primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type MegaMenuPassThroughOptionType = MegaMenuPassThroughAttributes | ((options: MegaMenuPassThroughMethodOptions) => MegaMenuPassThroughAttributes | string) | string | null | undefined;

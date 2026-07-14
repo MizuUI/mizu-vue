@@ -1,6 +1,6 @@
 <script>
+import ScrollTopStyle from '@mizuui/mizu-vue/scrolltop/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import ScrollTopStyle from 'primevue/scrolltop/style';
 
 export default {
     name: 'BaseScrollTop',

@@ -1,6 +1,6 @@
 <script>
+import SpeedDialStyle from '@mizuui/mizu-vue/speeddial/style';
 import BaseComponent from '@primevue/core/basecomponent';
-import SpeedDialStyle from 'primevue/speeddial/style';
 
 export default {
     name: 'BaseSpeedDial',

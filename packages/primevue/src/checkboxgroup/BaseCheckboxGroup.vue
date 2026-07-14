@@ -1,6 +1,6 @@
 <script>
+import CheckboxGroupStyle from '@mizuui/mizu-vue/checkboxgroup/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import CheckboxGroupStyle from 'primevue/checkboxgroup/style';
 
 export default {
     name: 'BaseCheckboxGroup',

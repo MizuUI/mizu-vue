@@ -2,8 +2,7 @@
     <Portal>
         <div v-if="containerVisible" :ref="maskRef" @mousedown="onMaskClick" :class="cx('mask')" :style="sx('mask', true, { position, modal })" :data-p="dataP" v-bind="ptm('mask')">
             <transition name="p-drawer" @enter="onEnter" @after-enter="onAfterEnter" @before-leave="onBeforeLeave" @leave="onLeave" @after-leave="onAfterLeave" appear v-bind="ptm('transition')">
-                <div v-if="visible" :ref="containerRef" v-focustrap :class="cx('root')" :style="sx('root')" :role="modal ? 'dialog' : 'complementary'" :aria-modal="modal ? true : undefined"
-                    :data-p="dataP" v-bind="ptmi('root')">
+                <div v-if="visible" :ref="containerRef" v-focustrap :class="cx('root')" :style="sx('root')" :role="modal ? 'dialog' : 'complementary'" :aria-modal="modal ? true : undefined" :data-p="dataP" v-bind="ptmi('root')">
                     <slot v-if="$slots.container" name="container" :closeCallback="hide"></slot>
                     <template v-else>
                         <div :ref="headerContainerRef" :class="cx('header')" v-bind="ptm('header')">
@@ -11,8 +10,17 @@
                                 <div v-if="header" :class="cx('title')" v-bind="ptm('title')">{{ header }}</div>
                             </slot>
                             <slot v-if="showCloseIcon" name="closebutton" :closeCallback="hide">
-                                <Button :ref="closeButtonRef" type="button" :class="cx('pcCloseButton')" :aria-label="closeAriaLabel" :unstyled="unstyled" @click="hide" v-bind="closeButtonProps"
-                                    :pt="ptm('pcCloseButton')" data-pc-group-section="iconcontainer">
+                                <Button
+                                    :ref="closeButtonRef"
+                                    type="button"
+                                    :class="cx('pcCloseButton')"
+                                    :aria-label="closeAriaLabel"
+                                    :unstyled="unstyled"
+                                    @click="hide"
+                                    v-bind="closeButtonProps"
+                                    :pt="ptm('pcCloseButton')"
+                                    data-pc-group-section="iconcontainer"
+                                >
                                     <template #icon="slotProps">
                                         <slot name="closeicon">
                                             <component :is="closeIcon ? 'span' : 'TimesIcon'" :class="[closeIcon, slotProps.class]" v-bind="ptm('pcCloseButton')['icon']"></component>
@@ -35,14 +43,14 @@
 </template>
 
 <script>
+import Button from '@mizuui/mizu-vue/button';
+import FocusTrap from '@mizuui/mizu-vue/focustrap';
+import Portal from '@mizuui/mizu-vue/portal';
+import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizu-vue/utils';
 import { cn } from '@primeuix/utils';
 import { addClass, focus } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import TimesIcon from '@primevue/icons/times';
-import Button from 'primevue/button';
-import FocusTrap from 'primevue/focustrap';
-import Portal from 'primevue/portal';
-import { blockBodyScroll, unblockBodyScroll } from 'primevue/utils';
 import BaseDrawer from './BaseDrawer.vue';
 
 export default {

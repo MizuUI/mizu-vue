@@ -10,8 +10,7 @@
                     <div v-if="$slots.default" :class="cx('text')" :data-p="dataP" v-bind="ptm('text')">
                         <slot></slot>
                     </div>
-                    <button v-if="closable" v-ripple :class="cx('closeButton')" :aria-label="closeAriaLabel" type="button" @click="close($event)" :data-p="dataP"
-                        v-bind="{ ...closeButtonProps, ...ptm('closeButton') }">
+                    <button v-if="closable" v-ripple :class="cx('closeButton')" :aria-label="closeAriaLabel" type="button" @click="close($event)" :data-p="dataP" v-bind="{ ...closeButtonProps, ...ptm('closeButton') }">
                         <slot name="closeicon">
                             <i v-if="closeIcon" :class="[cx('closeIcon'), closeIcon]" :data-p="dataP" v-bind="ptm('closeIcon')" />
                             <TimesIcon v-else :class="[cx('closeIcon'), closeIcon]" :data-p="dataP" v-bind="ptm('closeIcon')" />
@@ -24,9 +23,9 @@
 </template>
 
 <script>
+import Ripple from '@mizuui/mizu-vue/ripple';
 import { cn } from '@primeuix/utils';
 import TimesIcon from '@primevue/icons/times';
-import Ripple from 'primevue/ripple';
 import BaseMessage from './BaseMessage.vue';
 
 export default {

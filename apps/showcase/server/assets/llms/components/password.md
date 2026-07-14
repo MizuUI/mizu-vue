@@ -5,7 +5,7 @@ Password displays strength indicator for password fields.
 ## Import
 
 ```javascript
-import Password from 'primevue/password';
+import Password from '@mizuui/mizu-vue/password';
 ```
 
 ## Accessibility

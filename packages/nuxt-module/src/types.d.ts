@@ -1,4 +1,4 @@
-import type { PrimeVueConfiguration } from 'primevue/config';
+import type { PrimeVueConfiguration } from 'mizu-vue/config';
 
 export interface ConstructsType {
     prefix?: string | undefined;

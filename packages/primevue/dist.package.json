@@ -1,0 +1,63 @@
+{
+    "name": "@mizuui/mizu-vue",
+    "version": "0.0.15",
+    "author": "PrimeTek Informatics",
+    "description": "Mizu is an open source UI library for Vue featuring a rich set of 80+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support.",
+    "homepage": "https://primevue.org/",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mizuui/mizu-vue.git",
+        "directory": "packages/primevue"
+    },
+    "bugs": {
+        "url": "https://github.com/mizuui/mizu-vue/issues"
+    },
+    "keywords": [
+        "mizu-vue",
+        "primevue",
+        "vue",
+        "vue.js",
+        "vue3",
+        "ui library",
+        "component library"
+    ],
+    "sideEffects": [
+        "*.vue"
+    ],
+    "main": "./index.mjs",
+    "module": "./index.mjs",
+    "types": "./index.d.ts",
+    "unpkg": "umd/primevue.min.js",
+    "jsdelivr": "umd/primevue.min.js",
+    "web-types": "./web-types.json",
+    "vetur": {
+        "tags": "./vetur-tags.json",
+        "attributes": "./vetur-attributes.json"
+    },
+    "exports": {
+        ".": {
+            "types": "./index.d.ts",
+            "import": "./index.mjs",
+            "default": "./index.mjs"
+        },
+        "./*": {
+            "types": "./*/index.d.ts",
+            "import": "./*/index.mjs",
+            "default": "./*/index.mjs"
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@primeuix/styled": "*",
+        "@primeuix/styles": "*",
+        "@primeuix/utils": "*",
+        "@primevue/core": "*",
+        "@primevue/icons": "*"
+    },
+    "engines": {
+        "node": ">=12.11.0"
+    }
+}

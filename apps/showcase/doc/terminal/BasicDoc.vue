@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import TerminalService from '@mizuui/mizu-vue/terminalservice';
+import TerminalService from '@mizuui/mizuvue/terminalservice';
 
 export default {
     data() {

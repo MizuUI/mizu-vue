@@ -5,7 +5,7 @@ DataView displays data in grid or list layout with pagination and sorting featur
 ## Import
 
 ```javascript
-import DataView from '@mizuui/mizu-vue/dataview';
+import DataView from '@mizuui/mizuvue/dataview';
 ```
 
 ## Accessibility

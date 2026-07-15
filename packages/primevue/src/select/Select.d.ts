@@ -7,11 +7,11 @@
  * @module select
  *
  */
-import type { IconFieldPassThroughOptions } from '@mizuui/mizu-vue/iconfield';
-import type { InputIconPassThroughOptions } from '@mizuui/mizu-vue/inputicon';
-import type { InputTextPassThroughOptions } from '@mizuui/mizu-vue/inputtext';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
-import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from '@mizuui/mizu-vue/virtualscroller';
+import type { IconFieldPassThroughOptions } from '@mizuui/mizuvue/iconfield';
+import type { InputIconPassThroughOptions } from '@mizuui/mizuvue/inputicon';
+import type { InputTextPassThroughOptions } from '@mizuui/mizuvue/inputtext';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
+import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from '@mizuui/mizuvue/virtualscroller';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { TransitionProps, VNode } from 'vue';

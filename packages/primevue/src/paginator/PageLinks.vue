@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

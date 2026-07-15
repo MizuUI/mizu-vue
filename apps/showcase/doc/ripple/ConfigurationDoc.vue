@@ -21,7 +21,7 @@ mounted() {
 }
 `,
                 composition: `
-import { usePrimeVue } from '@mizuui/mizu-vue/config';
+import { usePrimeVue } from '@mizuui/mizuvue/config';
 
 const PrimeVue = usePrimeVue();
 

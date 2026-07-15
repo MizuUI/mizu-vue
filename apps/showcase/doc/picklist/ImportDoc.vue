@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import PickList from '@mizuui/mizu-vue/picklist';
+import PickList from '@mizuui/mizuvue/picklist';
 `
             }
         };

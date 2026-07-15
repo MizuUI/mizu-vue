@@ -5,12 +5,12 @@ The Stepper component displays a wizard-like workflow by guiding users through t
 ## Import
 
 ```javascript
-import Stepper from '@mizuui/mizu-vue/stepper';
-import StepList from '@mizuui/mizu-vue/steplist';
-import StepPanels from '@mizuui/mizu-vue/steppanels';
-import StepItem from '@mizuui/mizu-vue/stepitem';
-import Step from '@mizuui/mizu-vue/step';
-import StepPanel from '@mizuui/mizu-vue/steppanel';
+import Stepper from '@mizuui/mizuvue/stepper';
+import StepList from '@mizuui/mizuvue/steplist';
+import StepPanels from '@mizuui/mizuvue/steppanels';
+import StepItem from '@mizuui/mizuvue/stepitem';
+import Step from '@mizuui/mizuvue/step';
+import StepPanel from '@mizuui/mizuvue/steppanel';
 ```
 
 ## Accessibility

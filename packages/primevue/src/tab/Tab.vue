@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { cn } from '@primeuix/utils';
 import { findSingle, focus, getAttribute } from '@primeuix/utils/dom';
 import { equals } from '@primeuix/utils/object';

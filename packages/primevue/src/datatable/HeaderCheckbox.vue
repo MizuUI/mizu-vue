@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Checkbox from '@mizuui/mizu-vue/checkbox';
+import Checkbox from '@mizuui/mizuvue/checkbox';
 import BaseComponent from '@primevue/core/basecomponent';
 import CheckIcon from '@primevue/icons/check';
 import { mergeProps } from 'vue';

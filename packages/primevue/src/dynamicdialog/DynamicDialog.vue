@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import Dialog from '@mizuui/mizu-vue/dialog';
-import DynamicDialogEventBus from '@mizuui/mizu-vue/dynamicdialogeventbus';
+import Dialog from '@mizuui/mizuvue/dialog';
+import DynamicDialogEventBus from '@mizuui/mizuvue/dynamicdialogeventbus';
 import { uuid } from '@primeuix/utils';
 import BaseDynamicDialog from './BaseDynamicDialog.vue';
 

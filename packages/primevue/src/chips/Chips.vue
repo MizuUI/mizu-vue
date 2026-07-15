@@ -1,5 +1,5 @@
 <script>
-import InputChips from '@mizuui/mizu-vue/inputchips';
+import InputChips from '@mizuui/mizuvue/inputchips';
 
 export default {
     name: 'Chips',

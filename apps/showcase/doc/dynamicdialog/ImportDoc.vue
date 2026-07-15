@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import DynamicDialog from '@mizuui/mizu-vue/dynamicdialog';
+import DynamicDialog from '@mizuui/mizuvue/dynamicdialog';
 `
             }
         };

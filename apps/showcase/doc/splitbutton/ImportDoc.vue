@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import SplitButton from '@mizuui/mizu-vue/splitbutton';
+import SplitButton from '@mizuui/mizuvue/splitbutton';
 `
             }
         };

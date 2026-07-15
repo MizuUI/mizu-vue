@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Badge from '@mizuui/mizu-vue/badge';
+import Badge from '@mizuui/mizuvue/badge';
 import BaseOverlayBadge from './BaseOverlayBadge.vue';
 
 export default {

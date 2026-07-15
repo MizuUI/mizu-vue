@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Toolbar from '@mizuui/mizu-vue/toolbar';
+import Toolbar from '@mizuui/mizuvue/toolbar';
 `
             }
         };

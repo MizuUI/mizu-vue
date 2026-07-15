@@ -1,5 +1,5 @@
 <script>
-import TreeTableStyle from '@mizuui/mizu-vue/treetable/style';
+import TreeTableStyle from '@mizuui/mizuvue/treetable/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

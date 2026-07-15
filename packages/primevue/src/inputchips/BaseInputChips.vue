@@ -1,5 +1,5 @@
 <script>
-import InputChipsStyle from '@mizuui/mizu-vue/inputchips/style';
+import InputChipsStyle from '@mizuui/mizuvue/inputchips/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

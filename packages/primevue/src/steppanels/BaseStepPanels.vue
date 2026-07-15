@@ -1,5 +1,5 @@
 <script>
-import StepPanelsStyle from '@mizuui/mizu-vue/steppanels/style';
+import StepPanelsStyle from '@mizuui/mizuvue/steppanels/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

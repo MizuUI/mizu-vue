@@ -5,7 +5,7 @@ Tree is used to display hierarchical data.
 ## Import
 
 ```javascript
-import Tree from '@mizuui/mizu-vue/tree';
+import Tree from '@mizuui/mizuvue/tree';
 ```
 
 ## AccessibilityDoc

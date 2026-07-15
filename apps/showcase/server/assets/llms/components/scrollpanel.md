@@ -5,7 +5,7 @@ ScrollPanel is a cross browser, lightweight and skinnable alternative to native 
 ## Import
 
 ```javascript
-import ScrollPanel from '@mizuui/mizu-vue/scrollpanel';
+import ScrollPanel from '@mizuui/mizuvue/scrollpanel';
 ```
 
 ## Accessibility

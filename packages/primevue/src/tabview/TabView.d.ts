@@ -8,8 +8,8 @@
  * @module tabview
  *
  */
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
-import type { TabPanelPassThroughOptionType } from '@mizuui/mizu-vue/tabpanel';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
+import type { TabPanelPassThroughOptionType } from '@mizuui/mizuvue/tabpanel';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { ButtonHTMLAttributes, VNode } from 'vue';

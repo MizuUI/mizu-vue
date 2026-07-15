@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ConfirmDialog from '@mizuui/mizu-vue/confirmdialog';
+import ConfirmDialog from '@mizuui/mizuvue/confirmdialog';
 `
             }
         };

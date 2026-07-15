@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Splitter from '@mizuui/mizu-vue/splitter';
-import SplitterPanel from '@mizuui/mizu-vue/splitterpanel';
+import Splitter from '@mizuui/mizuvue/splitter';
+import SplitterPanel from '@mizuui/mizuvue/splitterpanel';
 `
             }
         };

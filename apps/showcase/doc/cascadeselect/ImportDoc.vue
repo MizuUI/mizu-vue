@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import CascadeSelect from '@mizuui/mizu-vue/cascadeselect';
+import CascadeSelect from '@mizuui/mizuvue/cascadeselect';
 `
             }
         };

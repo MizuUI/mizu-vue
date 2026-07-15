@@ -153,11 +153,11 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import FocusTrap from '@mizuui/mizu-vue/focustrap';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
-import Select from '@mizuui/mizu-vue/select';
+import Button from '@mizuui/mizuvue/button';
+import FocusTrap from '@mizuui/mizuvue/focustrap';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
+import Select from '@mizuui/mizuvue/select';
 import { absolutePosition, addStyle, focus, getAttribute, isTouchDevice } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { FilterOperator } from '@primevue/core/api';

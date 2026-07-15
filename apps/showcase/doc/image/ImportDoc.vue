@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Image from '@mizuui/mizu-vue/image';
+import Image from '@mizuui/mizuvue/image';
 `
             }
         };

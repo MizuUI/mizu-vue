@@ -1,4 +1,4 @@
-import TerminalService from '@mizuui/mizu-vue/terminalservice';
+import TerminalService from '@mizuui/mizuvue/terminalservice';
 import { mount } from '@vue/test-utils';
 import Terminal from './Terminal.vue';
 

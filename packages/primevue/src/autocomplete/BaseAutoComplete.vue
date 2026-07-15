@@ -1,5 +1,5 @@
 <script>
-import AutoCompleteStyle from '@mizuui/mizu-vue/autocomplete/style';
+import AutoCompleteStyle from '@mizuui/mizuvue/autocomplete/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

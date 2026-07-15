@@ -16,7 +16,7 @@ export default {
             code1: {
                 basic: `
 import {createApp} from 'vue';
-import ToastService from '@mizuui/mizu-vue/toastservice';
+import ToastService from '@mizuui/mizuvue/toastservice';
 
 const app = createApp(App);
 app.use(ToastService);
@@ -24,7 +24,7 @@ app.use(ToastService);
             },
             code2: {
                 basic: `
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 
 const toast = useToast();
 `

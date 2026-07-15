@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Fieldset from '@mizuui/mizu-vue/fieldset';
+import Fieldset from '@mizuui/mizuvue/fieldset';
 `
             }
         };

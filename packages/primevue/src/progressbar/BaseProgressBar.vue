@@ -1,5 +1,5 @@
 <script>
-import ProgressBarStyle from '@mizuui/mizu-vue/progressbar/style';
+import ProgressBarStyle from '@mizuui/mizuvue/progressbar/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

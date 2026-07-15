@@ -4,7 +4,7 @@
  *
  * @module dialogservice-usedialog
  */
-import type { DynamicDialogInstance, DynamicDialogOptions } from '@mizuui/mizu-vue/dynamicdialogoptions';
+import type { DynamicDialogInstance, DynamicDialogOptions } from '@mizuui/mizuvue/dynamicdialogoptions';
 import { Plugin } from 'vue';
 
 declare const plugin: Plugin;

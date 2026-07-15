@@ -43,7 +43,7 @@ export default {
             },
             code3: {
                 basic: `
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
@@ -69,7 +69,7 @@ app.use(PrimeVue, {
             },
             code5: {
                 basic: `
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);

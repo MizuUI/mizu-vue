@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
+import VirtualScroller from '@mizuui/mizuvue/virtualscroller';
 `
             }
         };

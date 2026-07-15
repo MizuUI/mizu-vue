@@ -1,5 +1,5 @@
 <script>
-import ScrollTopStyle from '@mizuui/mizu-vue/scrolltop/style';
+import ScrollTopStyle from '@mizuui/mizuvue/scrolltop/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

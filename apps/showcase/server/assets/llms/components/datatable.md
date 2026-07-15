@@ -5,10 +5,10 @@ DataTable displays data in tabular format.
 ## Import
 
 ```javascript
-import DataTable from '@mizuui/mizu-vue/datatable';
-import Column from '@mizuui/mizu-vue/column';
-import ColumnGroup from '@mizuui/mizu-vue/columngroup'; // optional
-import Row from '@mizuui/mizu-vue/row'; // optional
+import DataTable from '@mizuui/mizuvue/datatable';
+import Column from '@mizuui/mizuvue/column';
+import ColumnGroup from '@mizuui/mizuvue/columngroup'; // optional
+import Row from '@mizuui/mizuvue/row'; // optional
 ```
 
 ## AccessibilityDoc
@@ -340,7 +340,7 @@ DataTable has exclusive integration with ContextMenu using the contextMenu event
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {
@@ -744,7 +744,7 @@ Order of the columns and rows can be changed using drag and drop. Column reorder
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {
@@ -906,7 +906,7 @@ Row expansion is controlled with expandedRows property. The column that has the 
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 const products = ref();

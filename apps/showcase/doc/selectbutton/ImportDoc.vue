@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import SelectButton from '@mizuui/mizu-vue/selectbutton';
+import SelectButton from '@mizuui/mizuvue/selectbutton';
 `
             }
         };

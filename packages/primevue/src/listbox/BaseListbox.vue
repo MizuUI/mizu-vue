@@ -1,5 +1,5 @@
 <script>
-import ListboxStyle from '@mizuui/mizu-vue/listbox/style';
+import ListboxStyle from '@mizuui/mizuvue/listbox/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
 
 export default {

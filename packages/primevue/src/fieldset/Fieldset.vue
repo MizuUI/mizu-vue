@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { cn } from '@primeuix/utils';
 import MinusIcon from '@primevue/icons/minus';
 import PlusIcon from '@primevue/icons/plus';

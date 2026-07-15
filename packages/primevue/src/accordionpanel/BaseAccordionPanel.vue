@@ -1,5 +1,5 @@
 <script>
-import AccordionPanelStyle from '@mizuui/mizu-vue/accordionpanel/style';
+import AccordionPanelStyle from '@mizuui/mizuvue/accordionpanel/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

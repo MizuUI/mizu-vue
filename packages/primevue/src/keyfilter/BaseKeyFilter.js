@@ -1,4 +1,4 @@
-import KeyFilterStyle from '@mizuui/mizu-vue/keyfilter/style';
+import KeyFilterStyle from '@mizuui/mizuvue/keyfilter/style';
 import BaseDirective from '@primevue/core/basedirective';
 
 const BaseKeyFilter = BaseDirective.extend({

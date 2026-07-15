@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Dock from '@mizuui/mizu-vue/dock';
+import Dock from '@mizuui/mizuvue/dock';
 `
             }
         };

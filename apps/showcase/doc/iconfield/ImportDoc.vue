@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import IconField from '@mizuui/mizu-vue/iconfield';
-import InputIcon from '@mizuui/mizu-vue/inputicon';
+import IconField from '@mizuui/mizuvue/iconfield';
+import InputIcon from '@mizuui/mizuvue/inputicon';
 `
             }
         };

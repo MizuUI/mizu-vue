@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Avatar from '@mizuui/mizu-vue/avatar';
-import AvatarGroup from '@mizuui/mizu-vue/avatargroup';   //Optional for grouping
+import Avatar from '@mizuui/mizuvue/avatar';
+import AvatarGroup from '@mizuui/mizuvue/avatargroup';   //Optional for grouping
 `
             }
         };

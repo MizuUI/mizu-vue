@@ -1,5 +1,5 @@
 <script>
-import RatingStyle from '@mizuui/mizu-vue/rating/style';
+import RatingStyle from '@mizuui/mizuvue/rating/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
 
 export default {

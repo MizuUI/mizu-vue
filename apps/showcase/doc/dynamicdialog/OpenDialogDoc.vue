@@ -14,7 +14,7 @@ export default {
             code1: {
                 basic: `
 import ProductListDemo from './ProductListDemo';
-import { useDialog } from '@mizuui/mizu-vue/usedialog';
+import { useDialog } from '@mizuui/mizuvue/usedialog';
 
 const dialog = useDialog();
 
@@ -25,7 +25,7 @@ const showProducts = () => {
             },
             code2: {
                 basic: `
-import { useDialog } from '@mizuui/mizu-vue/usedialog';
+import { useDialog } from '@mizuui/mizuvue/usedialog';
 
 const dialog = useDialog();
 

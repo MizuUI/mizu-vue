@@ -7,7 +7,7 @@
  * @module focustrap
  *
  */
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
 import type { DesignToken, PassThrough } from '@primevue/core';
 import type { DirectiveHooks } from '@primevue/core/basedirective';
 import { DirectiveBinding, ObjectDirective } from 'vue';

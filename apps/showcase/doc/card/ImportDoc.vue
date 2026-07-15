@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Card from '@mizuui/mizu-vue/card';
+import Card from '@mizuui/mizuvue/card';
 `
             }
         };

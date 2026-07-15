@@ -1,5 +1,5 @@
 <script>
-import ToggleButtonStyle from '@mizuui/mizu-vue/togglebutton/style';
+import ToggleButtonStyle from '@mizuui/mizuvue/togglebutton/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
 
 export default {

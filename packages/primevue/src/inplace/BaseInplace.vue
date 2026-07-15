@@ -1,5 +1,5 @@
 <script>
-import InplaceStyle from '@mizuui/mizu-vue/inplace/style';
+import InplaceStyle from '@mizuui/mizuvue/inplace/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -125,7 +125,7 @@ export default {
 
 <script setup>
 import { reactive } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 
 const toast = useToast();
 

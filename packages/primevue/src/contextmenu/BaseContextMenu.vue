@@ -1,5 +1,5 @@
 <script>
-import ContextMenuStyle from '@mizuui/mizu-vue/contextmenu/style';
+import ContextMenuStyle from '@mizuui/mizuvue/contextmenu/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

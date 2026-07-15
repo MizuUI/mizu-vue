@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Paginator from '@mizuui/mizu-vue/paginator';
+import Paginator from '@mizuui/mizuvue/paginator';
 `
             }
         };

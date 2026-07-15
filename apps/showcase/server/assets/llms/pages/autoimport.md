@@ -11,7 +11,7 @@ A complete example using PrimeVue with auto imports is available at the playgrou
 PrimeVue components need to be imported and configured individually. In the next section, we'll cleanup the code using auto imports.
 
 ```vue
-import { createApp } from "vue"; import PrimeVue from "primevue/config"; import InputText from '@mizuui/mizu-vue/inputtext'; import Button from '@mizuui/mizu-vue/button'; import App from './App.vue' const app = createApp(App); app.use(PrimeVue);
+import { createApp } from "vue"; import PrimeVue from "primevue/config"; import InputText from '@mizuui/mizuvue/inputtext'; import Button from '@mizuui/mizuvue/button'; import App from './App.vue' const app = createApp(App); app.use(PrimeVue);
 app.component('InputText', InputText); app.component('Button', Button);
 ```
 

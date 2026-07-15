@@ -1,4 +1,4 @@
-import BadgeDirectiveStyle from '@mizuui/mizu-vue/badgedirective/style';
+import BadgeDirectiveStyle from '@mizuui/mizuvue/badgedirective/style';
 import BaseDirective from '@primevue/core/basedirective';
 
 const BaseBadgeDirective = BaseDirective.extend({

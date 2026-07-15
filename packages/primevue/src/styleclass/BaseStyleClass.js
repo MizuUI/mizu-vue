@@ -1,4 +1,4 @@
-import StyleClassStyle from '@mizuui/mizu-vue/styleclass/style';
+import StyleClassStyle from '@mizuui/mizuvue/styleclass/style';
 import BaseDirective from '@primevue/core/basedirective';
 
 const BaseStyleClass = BaseDirective.extend({

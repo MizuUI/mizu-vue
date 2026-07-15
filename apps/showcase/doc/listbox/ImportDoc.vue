@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Listbox from '@mizuui/mizu-vue/listbox';
+import Listbox from '@mizuui/mizuvue/listbox';
 `
             }
         };

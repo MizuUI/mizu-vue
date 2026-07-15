@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Tree from '@mizuui/mizu-vue/tree';
+import Tree from '@mizuui/mizuvue/tree';
 `
             }
         };

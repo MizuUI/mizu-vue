@@ -166,9 +166,9 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import Listbox from '@mizuui/mizu-vue/listbox';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Button from '@mizuui/mizuvue/button';
+import Listbox from '@mizuui/mizuvue/listbox';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { find, scrollInView, setAttribute } from '@primeuix/utils/dom';
 import { findIndexInList, isEmpty } from '@primeuix/utils/object';
 import AngleDoubleDownIcon from '@primevue/icons/angledoubledown';

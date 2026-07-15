@@ -1,5 +1,5 @@
 <script>
-import CascadeSelectStyle from '@mizuui/mizu-vue/cascadeselect/style';
+import CascadeSelectStyle from '@mizuui/mizuvue/cascadeselect/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

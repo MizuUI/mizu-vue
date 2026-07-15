@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ContextMenu from '@mizuui/mizu-vue/contextmenu';
+import ContextMenu from '@mizuui/mizuvue/contextmenu';
 `
             }
         };

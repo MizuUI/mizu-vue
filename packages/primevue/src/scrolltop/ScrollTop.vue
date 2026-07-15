@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
+import Button from '@mizuui/mizuvue/button';
 import { getWindowScrollTop } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import ChevronUpIcon from '@primevue/icons/chevronup';

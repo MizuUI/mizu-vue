@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Inplace from '@mizuui/mizu-vue/inplace';
+import Inplace from '@mizuui/mizuvue/inplace';
 `
             }
         };

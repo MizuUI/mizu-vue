@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import InputText from '@mizuui/mizu-vue/inputtext';
+import InputText from '@mizuui/mizuvue/inputtext';
 import { getUserAgent } from '@primeuix/utils/dom';
 import { mergeProps } from 'vue';
 import BaseInputMask from './BaseInputMask.vue';

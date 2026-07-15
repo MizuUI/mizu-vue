@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Editor from '@mizuui/mizu-vue/editor';
+import Editor from '@mizuui/mizuvue/editor';
 `
             }
         };

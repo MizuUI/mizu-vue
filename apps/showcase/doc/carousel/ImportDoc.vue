@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Carousel from '@mizuui/mizu-vue/carousel';
+import Carousel from '@mizuui/mizuvue/carousel';
 `
             }
         };

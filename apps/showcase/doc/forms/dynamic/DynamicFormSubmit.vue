@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import Button from '@mizuui/mizu-vue/button';
+import Button from '@mizuui/mizuvue/button';
 
 const props = defineProps({
     severity: {

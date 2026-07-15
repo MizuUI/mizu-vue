@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ProgressBar from '@mizuui/mizu-vue/progressbar';
+import ProgressBar from '@mizuui/mizuvue/progressbar';
 `
             }
         };

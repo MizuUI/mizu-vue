@@ -7,9 +7,9 @@
  * @module picklist
  *
  */
-import type { ButtonPassThroughOptions } from '@mizuui/mizu-vue/button';
-import type { ListboxPassThroughOptions } from '@mizuui/mizu-vue/listbox';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
+import type { ButtonPassThroughOptions } from '@mizuui/mizuvue/button';
+import type { ListboxPassThroughOptions } from '@mizuui/mizuvue/listbox';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { TransitionProps, VNode } from 'vue';

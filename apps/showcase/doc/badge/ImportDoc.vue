@@ -10,8 +10,8 @@ export default {
             code: {
                 basic: `
 // import as component
-import Badge from '@mizuui/mizu-vue/badge';
-import OverlayBadge from '@mizuui/mizu-vue/overlaybadge';
+import Badge from '@mizuui/mizuvue/badge';
+import OverlayBadge from '@mizuui/mizuvue/overlaybadge';
 `
             }
         };

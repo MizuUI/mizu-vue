@@ -91,7 +91,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { findSingle, focus, getAttribute, getOffset, getWidth } from '@primeuix/utils/dom';
 import ChevronLeftIcon from '@primevue/icons/chevronleft';
 import ChevronRightIcon from '@primevue/icons/chevronright';

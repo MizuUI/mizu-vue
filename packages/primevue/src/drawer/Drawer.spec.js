@@ -1,4 +1,4 @@
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 import { addClass } from '@primeuix/utils/dom';
 import { mount } from '@vue/test-utils';
 import { describe, expect, it, vi } from 'vitest';

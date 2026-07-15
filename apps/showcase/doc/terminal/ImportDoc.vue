@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Terminal from '@mizuui/mizu-vue/terminal';
-import TerminalService from '@mizuui/mizu-vue/terminalservice'
+import Terminal from '@mizuui/mizuvue/terminal';
+import TerminalService from '@mizuui/mizuvue/terminalservice'
 `
             }
         };

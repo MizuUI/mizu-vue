@@ -42,8 +42,8 @@
 </template>
 
 <script>
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice } from '@primeuix/utils/dom';
 import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';

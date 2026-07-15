@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Textarea from '@mizuui/mizu-vue/textarea';
+import Textarea from '@mizuui/mizuvue/textarea';
 `
             }
         };

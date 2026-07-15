@@ -1,5 +1,5 @@
 <script>
-import InputOtpStyle from '@mizuui/mizu-vue/inputotp/style';
+import InputOtpStyle from '@mizuui/mizuvue/inputotp/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

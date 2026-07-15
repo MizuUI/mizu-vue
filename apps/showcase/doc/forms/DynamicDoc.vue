@@ -273,7 +273,7 @@ export default {
 <script setup>
 import { reactive } from 'vue';
 import { z } from 'zod';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 import DynamicForm from './dynamic/DynamicForm.vue';
 import DynamicFormControl from './dynamic/DynamicFormControl.vue';
 import DynamicFormField from './dynamic/DynamicFormField.vue';
@@ -398,7 +398,7 @@ provide('$fcDynamicForm', {
 </template>
 
 <script setup>
-import * as PrimeVue from '@mizuui/mizu-vue';
+import * as PrimeVue from '@mizuui/mizuvue';
 import { computed, inject } from 'vue';
 
 const props = defineProps({
@@ -512,7 +512,7 @@ const visible = computed(() => invalid.value && (error.value || props.errorType 
 </template>
 
 <script setup>
-import Button from '@mizuui/mizu-vue/button';
+import Button from '@mizuui/mizuvue/button';
 
 const props = defineProps({
     severity: {
@@ -585,7 +585,7 @@ provide('$fcDynamicForm', {
 </template>
 
 <script setup>
-import * as PrimeVue from '@mizuui/mizu-vue';
+import * as PrimeVue from '@mizuui/mizuvue';
 import { computed, inject } from 'vue';
 
 const props = defineProps({
@@ -699,7 +699,7 @@ const visible = computed(() => invalid.value && (error.value || props.errorType 
 </template>
 
 <script setup>
-import Button from '@mizuui/mizu-vue/button';
+import Button from '@mizuui/mizuvue/button';
 
 const props = defineProps({
     severity: {

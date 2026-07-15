@@ -7,9 +7,9 @@
  * @module paginator
  *
  */
-import type { DropdownPassThroughOptions } from '@mizuui/mizu-vue/dropdown';
-import type { InputNumberPassThroughOptions } from '@mizuui/mizu-vue/inputnumber';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
+import type { DropdownPassThroughOptions } from '@mizuui/mizuvue/dropdown';
+import type { InputNumberPassThroughOptions } from '@mizuui/mizuvue/inputnumber';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { VNode } from 'vue';

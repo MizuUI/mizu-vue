@@ -1,5 +1,5 @@
 <script>
-import Popover from '@mizuui/mizu-vue/popover';
+import Popover from '@mizuui/mizuvue/popover';
 
 export default {
     name: 'OverlayPanel',

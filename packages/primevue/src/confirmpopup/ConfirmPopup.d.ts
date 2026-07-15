@@ -7,9 +7,9 @@
  * @module confirmpopup
  *
  */
-import { ButtonPassThroughOptions } from '@mizuui/mizu-vue/button';
-import { ConfirmationOptions } from '@mizuui/mizu-vue/confirmationoptions';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
+import { ButtonPassThroughOptions } from '@mizuui/mizuvue/button';
+import { ConfirmationOptions } from '@mizuui/mizuvue/confirmationoptions';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { TransitionProps, VNode } from 'vue';

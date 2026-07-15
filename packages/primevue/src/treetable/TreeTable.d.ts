@@ -7,10 +7,10 @@
  * @module treetable
  *
  */
-import type { ColumnPassThroughOptionType } from '@mizuui/mizu-vue/column';
-import type { PaginatorPassThroughOptionType } from '@mizuui/mizu-vue/paginator';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
-import type { TreeNode } from '@mizuui/mizu-vue/treenode';
+import type { ColumnPassThroughOptionType } from '@mizuui/mizuvue/column';
+import type { PaginatorPassThroughOptionType } from '@mizuui/mizuvue/paginator';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
+import type { TreeNode } from '@mizuui/mizuvue/treenode';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { VNode } from 'vue';

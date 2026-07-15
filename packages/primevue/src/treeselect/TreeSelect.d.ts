@@ -7,10 +7,10 @@
  * @module treeselect
  *
  */
-import type { ChipPassThroughOptions } from '@mizuui/mizu-vue/chip';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
-import type { TreeExpandedKeys, TreeFilterEvent, TreePassThroughOptions } from '@mizuui/mizu-vue/tree';
-import type { TreeNode } from '@mizuui/mizu-vue/treenode';
+import type { ChipPassThroughOptions } from '@mizuui/mizuvue/chip';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
+import type { TreeExpandedKeys, TreeFilterEvent, TreePassThroughOptions } from '@mizuui/mizuvue/tree';
+import type { TreeNode } from '@mizuui/mizuvue/treenode';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { InputHTMLAttributes, TransitionProps, VNode } from 'vue';

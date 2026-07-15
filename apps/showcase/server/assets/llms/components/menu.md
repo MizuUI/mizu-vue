@@ -5,7 +5,7 @@ Menu displays a list of items in vertical orientation.
 ## Import
 
 ```javascript
-import Menu from '@mizuui/mizu-vue/menu';
+import Menu from '@mizuui/mizuvue/menu';
 ```
 
 ## Accessibility

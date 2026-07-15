@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import FileUpload from '@mizuui/mizu-vue/fileupload';
+import FileUpload from '@mizuui/mizuvue/fileupload';
 `
             }
         };

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import MegaMenu from '@mizuui/mizu-vue/megamenu';
+import MegaMenu from '@mizuui/mizuvue/megamenu';
 `
             }
         };

@@ -7,11 +7,11 @@
  * @module fileupload
  *
  */
-import type { BadgePassThroughOptions } from '@mizuui/mizu-vue/badge';
-import type { ButtonPassThroughOptions } from '@mizuui/mizu-vue/button';
-import type { MessagePassThroughOptions } from '@mizuui/mizu-vue/message';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
-import type { ProgressBarPassThroughOptions } from '@mizuui/mizu-vue/progressbar';
+import type { BadgePassThroughOptions } from '@mizuui/mizuvue/badge';
+import type { ButtonPassThroughOptions } from '@mizuui/mizuvue/button';
+import type { MessagePassThroughOptions } from '@mizuui/mizuvue/message';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
+import type { ProgressBarPassThroughOptions } from '@mizuui/mizuvue/progressbar';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { VNode } from 'vue';

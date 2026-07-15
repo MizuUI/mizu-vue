@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import Portal from '@mizuui/mizu-vue/portal';
-import ToastEventBus from '@mizuui/mizu-vue/toasteventbus';
+import Portal from '@mizuui/mizuvue/portal';
+import ToastEventBus from '@mizuui/mizuvue/toasteventbus';
 import { cn } from '@primeuix/utils';
 import { setAttribute } from '@primeuix/utils/dom';
 import { isEmpty } from '@primeuix/utils/object';

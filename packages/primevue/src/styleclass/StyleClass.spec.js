@@ -1,5 +1,5 @@
-import Button from '@mizuui/mizu-vue/button';
-import InputText from '@mizuui/mizu-vue/inputtext';
+import Button from '@mizuui/mizuvue/button';
+import InputText from '@mizuui/mizuvue/inputtext';
 import { config, mount } from '@vue/test-utils';
 import StyleClass from './StyleClass';
 

@@ -191,7 +191,7 @@ import { zodResolver } from '@primevue/forms/resolvers/zod';
 import * as v from 'valibot';
 import * as yup from 'yup';
 import { z } from 'zod';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 
 const toast = useToast();
 

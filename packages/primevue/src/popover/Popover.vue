@@ -14,10 +14,10 @@
 </template>
 
 <script>
-import FocusTrap from '@mizuui/mizu-vue/focustrap';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import FocusTrap from '@mizuui/mizuvue/focustrap';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { $dt } from '@primeuix/styled';
 import { absolutePosition, addClass, addStyle, focus, getOffset, isClient, isTouchDevice, setAttribute } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';

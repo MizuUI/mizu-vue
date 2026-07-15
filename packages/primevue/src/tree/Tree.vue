@@ -58,9 +58,9 @@
 </template>
 
 <script>
-import IconField from '@mizuui/mizu-vue/iconfield';
-import InputIcon from '@mizuui/mizu-vue/inputicon';
-import InputText from '@mizuui/mizu-vue/inputtext';
+import IconField from '@mizuui/mizuvue/iconfield';
+import InputIcon from '@mizuui/mizuvue/inputicon';
+import InputText from '@mizuui/mizuvue/inputtext';
 import { cn } from '@primeuix/utils';
 import { isFunction, resolveFieldData } from '@primeuix/utils/object';
 import SearchIcon from '@primevue/icons/search';

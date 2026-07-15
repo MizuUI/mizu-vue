@@ -1,5 +1,5 @@
 <script>
-import InputMaskStyle from '@mizuui/mizu-vue/inputmask/style';
+import InputMaskStyle from '@mizuui/mizuvue/inputmask/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

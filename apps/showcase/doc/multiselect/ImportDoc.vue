@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import MultiSelect from '@mizuui/mizu-vue/multiselect';
+import MultiSelect from '@mizuui/mizuvue/multiselect';
 `
             }
         };

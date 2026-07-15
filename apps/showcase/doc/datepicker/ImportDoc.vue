@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import DatePicker from '@mizuui/mizu-vue/datepicker';
+import DatePicker from '@mizuui/mizuvue/datepicker';
 `
             }
         };

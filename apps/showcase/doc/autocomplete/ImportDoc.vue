@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import AutoComplete from '@mizuui/mizu-vue/autocomplete';
+import AutoComplete from '@mizuui/mizuvue/autocomplete';
 `
             }
         };

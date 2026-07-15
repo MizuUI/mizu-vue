@@ -1,5 +1,5 @@
 <script>
-import CarouselStyle from '@mizuui/mizu-vue/carousel/style';
+import CarouselStyle from '@mizuui/mizuvue/carousel/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

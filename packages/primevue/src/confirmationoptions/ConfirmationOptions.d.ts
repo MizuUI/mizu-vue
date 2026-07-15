@@ -5,7 +5,7 @@
  * @module confirmationoptions
  *
  */
-import type { ButtonProps } from '@mizuui/mizu-vue/button';
+import type { ButtonProps } from '@mizuui/mizuvue/button';
 import type { HintedString } from '@primevue/core';
 
 /**

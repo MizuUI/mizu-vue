@@ -7,7 +7,7 @@
  * @module chipsstyle
  *
  */
-import type { InputChipsStyle } from '@mizuui/mizu-vue/inputchips/style';
+import type { InputChipsStyle } from '@mizuui/mizuvue/inputchips/style';
 
 export enum ChipsClasses {}
 

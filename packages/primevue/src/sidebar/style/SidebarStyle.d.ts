@@ -7,7 +7,7 @@
  * @module sidebarstyle
  *
  */
-import type { DrawerStyle } from '@mizuui/mizu-vue/drawer/style';
+import type { DrawerStyle } from '@mizuui/mizuvue/drawer/style';
 
 export enum SidebarClasses {}
 

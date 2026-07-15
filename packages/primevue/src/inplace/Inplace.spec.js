@@ -1,4 +1,4 @@
-import InputText from '@mizuui/mizu-vue/inputtext';
+import InputText from '@mizuui/mizuvue/inputtext';
 import { mount } from '@vue/test-utils';
 import Inplace from './Inplace.vue';
 

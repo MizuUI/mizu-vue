@@ -12,7 +12,7 @@ export default {
             code: {
                 basic: `
 import { createApp } from 'vue';
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 
 const app = createApp(App);
 app.use(PrimeVue);

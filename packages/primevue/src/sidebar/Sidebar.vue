@@ -1,5 +1,5 @@
 <script>
-import Drawer from '@mizuui/mizu-vue/drawer';
+import Drawer from '@mizuui/mizuvue/drawer';
 
 export default {
     name: 'Sidebar',

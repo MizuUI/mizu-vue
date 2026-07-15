@@ -5,7 +5,7 @@ MegaMenu is a navigation component that displays submenus and content in columns
 ## Import
 
 ```javascript
-import MegaMenu from '@mizuui/mizu-vue/megamenu';
+import MegaMenu from '@mizuui/mizuvue/megamenu';
 ```
 
 ## Accessibility

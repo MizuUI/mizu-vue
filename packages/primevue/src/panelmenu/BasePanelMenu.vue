@@ -1,5 +1,5 @@
 <script>
-import PanelMenuStyle from '@mizuui/mizu-vue/panelmenu/style';
+import PanelMenuStyle from '@mizuui/mizuvue/panelmenu/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

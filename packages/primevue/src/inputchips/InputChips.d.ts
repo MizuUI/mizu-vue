@@ -7,8 +7,8 @@
  * @module inputchips
  *
  */
-import type { ChipPassThroughOptions } from '@mizuui/mizu-vue/chip';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
+import type { ChipPassThroughOptions } from '@mizuui/mizuvue/chip';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { InputHTMLAttributes, VNode } from 'vue';

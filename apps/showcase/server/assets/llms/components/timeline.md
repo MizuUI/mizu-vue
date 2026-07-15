@@ -5,7 +5,7 @@ Timeline visualizes a series of chained events.
 ## Import
 
 ```javascript
-import Timeline from '@mizuui/mizu-vue/timeline';
+import Timeline from '@mizuui/mizuvue/timeline';
 ```
 
 ## Accessibility

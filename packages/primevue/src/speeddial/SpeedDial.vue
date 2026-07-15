@@ -67,9 +67,9 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import Ripple from '@mizuui/mizu-vue/ripple';
-import Tooltip from '@mizuui/mizu-vue/tooltip';
+import Button from '@mizuui/mizuvue/button';
+import Ripple from '@mizuui/mizuvue/ripple';
+import Tooltip from '@mizuui/mizuvue/tooltip';
 import { $dt } from '@primeuix/styled';
 import { find, findSingle, focus } from '@primeuix/utils/dom';
 import PlusIcon from '@primevue/icons/plus';

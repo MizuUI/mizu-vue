@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import TieredMenu from '@mizuui/mizu-vue/tieredmenu';
+import TieredMenu from '@mizuui/mizuvue/tieredmenu';
 `
             }
         };

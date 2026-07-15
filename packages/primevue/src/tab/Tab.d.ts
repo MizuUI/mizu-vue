@@ -7,7 +7,7 @@
  * @module tab
  *
  */
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import type { Component, VNode } from 'vue';

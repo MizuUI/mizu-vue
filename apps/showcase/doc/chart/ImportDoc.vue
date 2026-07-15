@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Chart from '@mizuui/mizu-vue/chart';
+import Chart from '@mizuui/mizuvue/chart';
 `
             }
         };

@@ -1,5 +1,5 @@
 <script>
-import TimelineStyle from '@mizuui/mizu-vue/timeline/style';
+import TimelineStyle from '@mizuui/mizuvue/timeline/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

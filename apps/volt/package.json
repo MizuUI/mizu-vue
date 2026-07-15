@@ -37,7 +37,7 @@
     "dependencies": {
         "@docsearch/js": "catalog:app",
         "primeicons": "catalog:",
-        "@mizuui/mizu-vue": "workspace:*",
+        "@mizuui/mizuvue": "workspace:*",
         "chart.js": "catalog:app",
         "quill": "catalog:app"
     },

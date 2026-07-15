@@ -1,5 +1,5 @@
 <script>
-import PopoverStyle from '@mizuui/mizu-vue/popover/style';
+import PopoverStyle from '@mizuui/mizuvue/popover/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

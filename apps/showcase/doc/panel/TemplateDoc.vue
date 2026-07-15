@@ -183,7 +183,7 @@ export default {
 import { ref } from 'vue';
 import { useToast } from "primevue/usetoast";
 import { useRouter } from 'vue-router';
-import Menu from '@mizuui/mizu-vue/menu';
+import Menu from '@mizuui/mizuvue/menu';
 
 const menu = ref(null);
 const toast = useToast();

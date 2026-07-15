@@ -1,5 +1,5 @@
 <script>
-import VirtualScrollerStyle from '@mizuui/mizu-vue/virtualscroller/style';
+import VirtualScrollerStyle from '@mizuui/mizuvue/virtualscroller/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

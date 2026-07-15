@@ -34,7 +34,7 @@ export default {
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
+import Button from '@mizuui/mizuvue/button';
 import { markRaw, defineAsyncComponent } from 'vue';
 const ProductListDemo = defineAsyncComponent(() => import('./components/ProductListDemo.vue'));
 const FooterDemo = defineAsyncComponent(() => import('./components/FooterDemo.vue'));
@@ -84,9 +84,9 @@ export default {
 
 <script setup>
 import { markRaw, defineAsyncComponent } from 'vue';
-import { useDialog } from '@mizuui/mizu-vue/usedialog';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
-import Button from '@mizuui/mizu-vue/button';
+import { useDialog } from '@mizuui/mizuvue/usedialog';
+import { useToast } from '@mizuui/mizuvue/usetoast';
+import Button from '@mizuui/mizuvue/button';
 const ProductListDemo = defineAsyncComponent(() => import('./components/ProductListDemo.vue'));
 const FooterDemo = defineAsyncComponent(() => import('./components/FooterDemo.vue'));
 

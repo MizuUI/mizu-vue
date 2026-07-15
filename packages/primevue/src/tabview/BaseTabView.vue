@@ -1,5 +1,5 @@
 <script>
-import TabViewStyle from '@mizuui/mizu-vue/tabview/style';
+import TabViewStyle from '@mizuui/mizuvue/tabview/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -131,11 +131,11 @@
 </template>
 
 <script>
-import Chip from '@mizuui/mizu-vue/chip';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
-import Ripple from '@mizuui/mizu-vue/ripple';
-import Tree from '@mizuui/mizu-vue/tree';
+import Chip from '@mizuui/mizuvue/chip';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
+import Ripple from '@mizuui/mizuvue/ripple';
+import Tree from '@mizuui/mizuvue/tree';
 import { absolutePosition, addStyle, find, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';

@@ -1,5 +1,5 @@
 <script>
-import GalleriaStyle from '@mizuui/mizu-vue/galleria/style';
+import GalleriaStyle from '@mizuui/mizuvue/galleria/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

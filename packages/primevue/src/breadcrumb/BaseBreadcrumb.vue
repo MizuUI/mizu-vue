@@ -1,5 +1,5 @@
 <script>
-import BreadcrumbStyle from '@mizuui/mizu-vue/breadcrumb/style';
+import BreadcrumbStyle from '@mizuui/mizuvue/breadcrumb/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

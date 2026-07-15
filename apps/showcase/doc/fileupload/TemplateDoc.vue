@@ -308,7 +308,7 @@ export default {
 
 <script setup>
 import { ref } from 'vue';
-import { usePrimeVue } from '@mizuui/mizu-vue/config';
+import { usePrimeVue } from '@mizuui/mizuvue/config';
 import { useToast } from "primevue/usetoast";
 
 const $primevue = usePrimeVue();

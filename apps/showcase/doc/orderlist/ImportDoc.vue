@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import OrderList from '@mizuui/mizu-vue/orderlist';
+import OrderList from '@mizuui/mizuvue/orderlist';
 `
             }
         };

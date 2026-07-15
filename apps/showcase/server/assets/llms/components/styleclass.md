@@ -5,7 +5,7 @@ StyleClass manages css classes declaratively to during enter/leave animations or
 ## Import
 
 ```javascript
-import StyleClass from '@mizuui/mizu-vue/styleclass';
+import StyleClass from '@mizuui/mizuvue/styleclass';
 
 app.directive('styleclass', StyleClass);
 ```

@@ -5,7 +5,7 @@ MeterGroup displays scalar measurements within a known range.
 ## Import
 
 ```javascript
-import MeterGroup from '@mizuui/mizu-vue/metergroup';
+import MeterGroup from '@mizuui/mizuvue/metergroup';
 ```
 
 ## Accessibility

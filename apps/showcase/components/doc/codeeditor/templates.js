@@ -40,7 +40,7 @@ const getVueApp = (props = {}, sourceType) => {
         themeSwitchCode;
 
     if (deps !== null && component !== null) {
-        imports += `import ${component} from '@mizuui/mizu-vue/${component.toLowerCase()}';
+        imports += `import ${component} from '@mizuui/mizuvue/${component.toLowerCase()}';
 `;
         element += `app.component('${component}', ${component});
 `;
@@ -136,9 +136,9 @@ import "./flags.css";
 
 import { createApp } from "vue";
 import PrimeVue from "primevue/config";
-import ConfirmationService from '@mizuui/mizu-vue/confirmationservice'
-import DialogService from '@mizuui/mizu-vue/dialogservice'
-import ToastService from '@mizuui/mizu-vue/toastservice';
+import ConfirmationService from '@mizuui/mizuvue/confirmationservice'
+import DialogService from '@mizuui/mizuvue/dialogservice'
+import ToastService from '@mizuui/mizuvue/toastservice';
 
 import App from "./App.vue";
 import AppState from './plugins/appState.js';
@@ -1001,3 +1001,4 @@ body {
 };
 
 export { getVueApp };
+

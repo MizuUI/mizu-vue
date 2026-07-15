@@ -26,7 +26,7 @@ export default {
         return {
             code1: {
                 basic: `
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 import { definePreset } from '@primeuix/themes';
 import Aura from '@primeuix/themes/aura';
 

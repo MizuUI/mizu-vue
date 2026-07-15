@@ -5,7 +5,7 @@ MultiSelect is used to select multiple items from a collection.
 ## Import
 
 ```javascript
-import MultiSelect from '@mizuui/mizu-vue/multiselect';
+import MultiSelect from '@mizuui/mizuvue/multiselect';
 ```
 
 ## Accessibility

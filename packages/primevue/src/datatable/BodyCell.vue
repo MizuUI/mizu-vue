@@ -133,9 +133,9 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Button from '@mizuui/mizuvue/button';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuterWidth, getPreviousElementSibling, invokeElementMethod } from '@primeuix/utils/dom';
 import { resolveFieldData } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';

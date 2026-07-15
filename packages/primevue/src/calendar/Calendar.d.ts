@@ -7,7 +7,7 @@
  * @module calendar
  *
  */
-import * as DatePicker from '@mizuui/mizu-vue/datepicker';
+import * as DatePicker from '@mizuui/mizuvue/datepicker';
 import type { DefineComponent, EmitFn } from '@primevue/core';
 import 'vue';
 

@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import Portal from '@mizuui/mizu-vue/portal';
+import Portal from '@mizuui/mizuvue/portal';
 import { addStyle, findSingle, focus, getHiddenElementOuterHeight, getHiddenElementOuterWidth, getViewport, isTouchDevice } from '@primeuix/utils/dom';
 import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';

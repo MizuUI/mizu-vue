@@ -1,5 +1,5 @@
 <script>
-import TreeStyle from '@mizuui/mizu-vue/tree/style';
+import TreeStyle from '@mizuui/mizuvue/tree/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

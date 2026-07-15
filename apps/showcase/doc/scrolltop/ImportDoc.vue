@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ScrollTop from '@mizuui/mizu-vue/scrolltop';
+import ScrollTop from '@mizuui/mizuvue/scrolltop';
 `
             }
         };

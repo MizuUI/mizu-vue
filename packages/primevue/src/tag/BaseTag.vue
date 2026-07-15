@@ -1,5 +1,5 @@
 <script>
-import TagStyle from '@mizuui/mizu-vue/tag/style';
+import TagStyle from '@mizuui/mizuvue/tag/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

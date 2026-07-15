@@ -1,5 +1,5 @@
 <script>
-import DividerStyle from '@mizuui/mizu-vue/divider/style';
+import DividerStyle from '@mizuui/mizuvue/divider/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

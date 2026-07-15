@@ -90,7 +90,7 @@ export default {
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {

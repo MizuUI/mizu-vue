@@ -1,5 +1,5 @@
 <script>
-import DataViewStyle from '@mizuui/mizu-vue/dataview/style';
+import DataViewStyle from '@mizuui/mizuvue/dataview/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

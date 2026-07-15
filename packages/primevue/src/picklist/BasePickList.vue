@@ -1,5 +1,5 @@
 <script>
-import PickListStyle from '@mizuui/mizu-vue/picklist/style';
+import PickListStyle from '@mizuui/mizuvue/picklist/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

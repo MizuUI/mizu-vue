@@ -1,6 +1,6 @@
-import Button from '@mizuui/mizu-vue/button';
-import PrimeVue from '@mizuui/mizu-vue/config';
-import InputText from '@mizuui/mizu-vue/inputtext';
+import Button from '@mizuui/mizuvue/button';
+import PrimeVue from '@mizuui/mizuvue/config';
+import InputText from '@mizuui/mizuvue/inputtext';
 import { FilterMatchMode } from '@primevue/core/api';
 import { mount } from '@vue/test-utils';
 import { defineComponent, nextTick } from 'vue';

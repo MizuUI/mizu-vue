@@ -9,10 +9,10 @@ export default {
         return {
             code: {
                 basic: `
-import DataTable from '@mizuui/mizu-vue/datatable';
-import Column from '@mizuui/mizu-vue/column';
-import ColumnGroup from '@mizuui/mizu-vue/columngroup';   // optional
-import Row from '@mizuui/mizu-vue/row';                   // optional
+import DataTable from '@mizuui/mizuvue/datatable';
+import Column from '@mizuui/mizuvue/column';
+import ColumnGroup from '@mizuui/mizuvue/columngroup';   // optional
+import Row from '@mizuui/mizuvue/row';                   // optional
 `
             }
         };

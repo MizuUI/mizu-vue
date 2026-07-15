@@ -1,5 +1,5 @@
 <script>
-import MessageStyle from '@mizuui/mizu-vue/message/style';
+import MessageStyle from '@mizuui/mizuvue/message/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import KeyFilter from '@mizuui/mizu-vue/keyfilter';
+import KeyFilter from '@mizuui/mizuvue/keyfilter';
 
 app.directive('keyfilter', KeyFilter);
 `

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Skeleton from '@mizuui/mizu-vue/skeleton';
+import Skeleton from '@mizuui/mizuvue/skeleton';
 `
             }
         };

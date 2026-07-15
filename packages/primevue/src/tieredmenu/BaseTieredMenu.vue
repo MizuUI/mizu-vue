@@ -1,5 +1,5 @@
 <script>
-import TieredMenuStyle from '@mizuui/mizu-vue/tieredmenu/style';
+import TieredMenuStyle from '@mizuui/mizuvue/tieredmenu/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

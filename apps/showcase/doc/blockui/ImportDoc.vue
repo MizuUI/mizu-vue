@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import BlockUI from '@mizuui/mizu-vue/blockui';
+import BlockUI from '@mizuui/mizuvue/blockui';
 `
             }
         };

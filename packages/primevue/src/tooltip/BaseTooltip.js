@@ -1,4 +1,4 @@
-import TooltipStyle from '@mizuui/mizu-vue/tooltip/style';
+import TooltipStyle from '@mizuui/mizuvue/tooltip/style';
 import BaseDirective from '@primevue/core/basedirective';
 
 const BaseTooltip = BaseDirective.extend({

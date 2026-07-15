@@ -5,8 +5,8 @@ TreeTable is used to display hierarchical data in tabular format.
 ## Import
 
 ```javascript
-import TreeTable from '@mizuui/mizu-vue/treetable';
-import Column from '@mizuui/mizu-vue/column';
+import TreeTable from '@mizuui/mizuvue/treetable';
+import Column from '@mizuui/mizuvue/column';
 ```
 
 ## AccessibilityDoc
@@ -112,7 +112,7 @@ TreeTable has exclusive integration with ContextMenu using the contextMenu event
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 import { NodeService } from '@/service/NodeService';
 
 onMounted(() => {

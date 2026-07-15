@@ -1,5 +1,5 @@
 <script>
-import OrderListStyle from '@mizuui/mizu-vue/orderlist/style';
+import OrderListStyle from '@mizuui/mizuvue/orderlist/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

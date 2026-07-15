@@ -1,5 +1,5 @@
 <script>
-import CheckboxGroupStyle from '@mizuui/mizu-vue/checkboxgroup/style';
+import CheckboxGroupStyle from '@mizuui/mizuvue/checkboxgroup/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
 
 export default {

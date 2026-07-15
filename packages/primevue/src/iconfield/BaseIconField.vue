@@ -1,5 +1,5 @@
 <script>
-import IconFieldStyle from '@mizuui/mizu-vue/iconfield/style';
+import IconFieldStyle from '@mizuui/mizuvue/iconfield/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

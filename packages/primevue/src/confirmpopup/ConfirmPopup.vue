@@ -58,11 +58,11 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import ConfirmationEventBus from '@mizuui/mizu-vue/confirmationeventbus';
-import FocusTrap from '@mizuui/mizu-vue/focustrap';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
+import Button from '@mizuui/mizuvue/button';
+import ConfirmationEventBus from '@mizuui/mizuvue/confirmationeventbus';
+import FocusTrap from '@mizuui/mizuvue/focustrap';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
 import { $dt } from '@primeuix/styled';
 import { absolutePosition, addClass, focus, getOffset, isTouchDevice } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';

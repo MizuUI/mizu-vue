@@ -1,5 +1,5 @@
 <script>
-import ImageStyle from '@mizuui/mizu-vue/image/style';
+import ImageStyle from '@mizuui/mizuvue/image/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

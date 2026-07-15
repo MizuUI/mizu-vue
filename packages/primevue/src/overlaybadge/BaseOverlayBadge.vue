@@ -1,6 +1,6 @@
 <script>
-import Badge from '@mizuui/mizu-vue/badge';
-import OverlayBadgeStyle from '@mizuui/mizu-vue/overlaybadge/style';
+import Badge from '@mizuui/mizuvue/badge';
+import OverlayBadgeStyle from '@mizuui/mizuvue/overlaybadge/style';
 
 export default {
     name: 'OverlayBadge',

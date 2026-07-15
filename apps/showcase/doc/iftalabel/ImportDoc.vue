@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import IftaLabel from '@mizuui/mizu-vue/iftalabel';
+import IftaLabel from '@mizuui/mizuvue/iftalabel';
 `
             }
         };

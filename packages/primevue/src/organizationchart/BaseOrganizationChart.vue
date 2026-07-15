@@ -1,5 +1,5 @@
 <script>
-import OrganizationChartStyle from '@mizuui/mizu-vue/organizationchart/style';
+import OrganizationChartStyle from '@mizuui/mizuvue/organizationchart/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

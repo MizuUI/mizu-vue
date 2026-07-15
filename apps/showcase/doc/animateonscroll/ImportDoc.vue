@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import AnimateOnScroll from '@mizuui/mizu-vue/animateonscroll';
+import AnimateOnScroll from '@mizuui/mizuvue/animateonscroll';
 
 app.directive('animateonscroll', AnimateOnScroll);
 `

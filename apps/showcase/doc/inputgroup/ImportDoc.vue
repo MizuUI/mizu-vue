@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import InputGroup from '@mizuui/mizu-vue/inputgroup';
-import InputGroupAddon from '@mizuui/mizu-vue/inputgroupaddon';
+import InputGroup from '@mizuui/mizuvue/inputgroup';
+import InputGroupAddon from '@mizuui/mizuvue/inputgroupaddon';
 `
             }
         };

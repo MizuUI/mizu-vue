@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ScrollPanel from '@mizuui/mizu-vue/scrollpanel';
+import ScrollPanel from '@mizuui/mizuvue/scrollpanel';
 `
             }
         };

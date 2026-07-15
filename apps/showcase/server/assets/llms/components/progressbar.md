@@ -5,7 +5,7 @@ ProgressBar is a process status indicator.
 ## Import
 
 ```javascript
-import ProgressBar from '@mizuui/mizu-vue/progressbar';
+import ProgressBar from '@mizuui/mizuvue/progressbar';
 ```
 
 ## Accessibility

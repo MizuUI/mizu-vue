@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import StyleClass from '@mizuui/mizu-vue/styleclass';
+import StyleClass from '@mizuui/mizuvue/styleclass';
 
 app.directive('styleclass', StyleClass);
 `

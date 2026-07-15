@@ -5,7 +5,7 @@ Message component is used to display inline messages.
 ## Import
 
 ```javascript
-import Message from '@mizuui/mizu-vue/message';
+import Message from '@mizuui/mizuvue/message';
 ```
 
 ## Accessibility

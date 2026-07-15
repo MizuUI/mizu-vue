@@ -7,7 +7,7 @@
  * @module chips
  *
  */
-import * as InputChips from '@mizuui/mizu-vue/inputchips';
+import * as InputChips from '@mizuui/mizuvue/inputchips';
 import type { DefineComponent, EmitFn } from '@primevue/core';
 import 'vue';
 

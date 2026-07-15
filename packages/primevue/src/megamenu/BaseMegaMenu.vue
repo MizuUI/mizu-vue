@@ -1,5 +1,5 @@
 <script>
-import MegaMenuStyle from '@mizuui/mizu-vue/megamenu/style';
+import MegaMenuStyle from '@mizuui/mizuvue/megamenu/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

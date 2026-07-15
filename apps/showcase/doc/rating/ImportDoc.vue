@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Rating from '@mizuui/mizu-vue/rating';
+import Rating from '@mizuui/mizuvue/rating';
 `
             }
         };

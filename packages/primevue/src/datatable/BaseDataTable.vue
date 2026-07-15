@@ -1,5 +1,5 @@
 <script>
-import DataTableStyle from '@mizuui/mizu-vue/datatable/style';
+import DataTableStyle from '@mizuui/mizuvue/datatable/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

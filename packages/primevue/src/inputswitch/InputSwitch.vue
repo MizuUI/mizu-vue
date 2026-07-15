@@ -1,5 +1,5 @@
 <script>
-import ToggleSwitch from '@mizuui/mizu-vue/toggleswitch';
+import ToggleSwitch from '@mizuui/mizuvue/toggleswitch';
 
 export default {
     name: 'InputSwitch',

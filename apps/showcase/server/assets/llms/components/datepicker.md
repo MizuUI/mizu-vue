@@ -5,7 +5,7 @@ DatePicker is a form component for date inputs.
 ## Import
 
 ```javascript
-import DatePicker from '@mizuui/mizu-vue/datepicker';
+import DatePicker from '@mizuui/mizuvue/datepicker';
 ```
 
 ## Accessibility

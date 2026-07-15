@@ -48,7 +48,7 @@
 <script>
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
-import TerminalService from '@mizuui/mizu-vue/terminalservice';
+import TerminalService from '@mizuui/mizuvue/terminalservice';
 
 export default {
     data() {
@@ -296,7 +296,7 @@ export default {
 </template>
 
 <script>
-import TerminalService from '@mizuui/mizu-vue/terminalservice';
+import TerminalService from '@mizuui/mizuvue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 
@@ -602,8 +602,8 @@ export default {
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
-import TerminalService from '@mizuui/mizu-vue/terminalservice';
+import { useToast } from '@mizuui/mizuvue/usetoast';
+import TerminalService from '@mizuui/mizuvue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 

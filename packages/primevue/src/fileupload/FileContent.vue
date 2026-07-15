@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import Badge from '@mizuui/mizu-vue/badge';
-import Button from '@mizuui/mizu-vue/button';
+import Badge from '@mizuui/mizuvue/badge';
+import Button from '@mizuui/mizuvue/button';
 import BaseComponent from '@primevue/core/basecomponent';
 import TimesIcon from '@primevue/icons/times';
 

@@ -28,9 +28,9 @@
 </template>
 
 <script>
-import AccordionContent from '@mizuui/mizu-vue/accordioncontent';
-import AccordionHeader from '@mizuui/mizu-vue/accordionheader';
-import AccordionPanel from '@mizuui/mizu-vue/accordionpanel';
+import AccordionContent from '@mizuui/mizuvue/accordioncontent';
+import AccordionHeader from '@mizuui/mizuvue/accordionheader';
+import AccordionPanel from '@mizuui/mizuvue/accordionpanel';
 import ChevronRightIcon from '@primevue/icons/chevronright';
 import ChevronUpIcon from '@primevue/icons/chevronup';
 import { mergeProps } from 'vue';

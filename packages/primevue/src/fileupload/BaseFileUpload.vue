@@ -1,5 +1,5 @@
 <script>
-import FileUploadStyle from '@mizuui/mizu-vue/fileupload/style';
+import FileUploadStyle from '@mizuui/mizuvue/fileupload/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

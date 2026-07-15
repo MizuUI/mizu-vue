@@ -1,5 +1,5 @@
 <script>
-import InlineMessageStyle from '@mizuui/mizu-vue/inlinemessage/style';
+import InlineMessageStyle from '@mizuui/mizuvue/inlinemessage/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

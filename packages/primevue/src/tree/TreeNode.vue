@@ -100,8 +100,8 @@
 </template>
 
 <script>
-import Checkbox from '@mizuui/mizu-vue/checkbox';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Checkbox from '@mizuui/mizuvue/checkbox';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { find, findSingle, getAttribute, getOuterHeight, getOuterWidth } from '@primeuix/utils';
 import BaseComponent from '@primevue/core/basecomponent';
 import CheckIcon from '@primevue/icons/check';

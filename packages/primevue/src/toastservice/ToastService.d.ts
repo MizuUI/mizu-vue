@@ -5,7 +5,7 @@
  * @module toastservice-usetoast
  * @todo 'use' is not a valid name for a module. Next release will change.
  */
-import type { ToastMessageOptions } from '@mizuui/mizu-vue/toast';
+import type { ToastMessageOptions } from '@mizuui/mizuvue/toast';
 import { Plugin } from 'vue';
 
 declare const plugin: Plugin;

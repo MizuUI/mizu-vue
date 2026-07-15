@@ -64,11 +64,11 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import FocusTrap from '@mizuui/mizu-vue/focustrap';
-import Portal from '@mizuui/mizu-vue/portal';
-import Ripple from '@mizuui/mizu-vue/ripple';
-import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizu-vue/utils';
+import Button from '@mizuui/mizuvue/button';
+import FocusTrap from '@mizuui/mizuvue/focustrap';
+import Portal from '@mizuui/mizuvue/portal';
+import Ripple from '@mizuui/mizuvue/ripple';
+import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizuvue/utils';
 import { cn } from '@primeuix/utils';
 import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';

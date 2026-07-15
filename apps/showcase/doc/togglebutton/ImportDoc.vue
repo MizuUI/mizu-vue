@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ToggleButton from '@mizuui/mizu-vue/togglebutton';
+import ToggleButton from '@mizuui/mizuvue/togglebutton';
 `
             }
         };

@@ -7,7 +7,7 @@
  * @module dropdownstyle
  *
  */
-import type { SelectStyle } from '@mizuui/mizu-vue/select/style';
+import type { SelectStyle } from '@mizuui/mizuvue/select/style';
 
 export enum DropdownClasses {}
 

@@ -1,5 +1,5 @@
 <script>
-import DockStyle from '@mizuui/mizu-vue/dock/style';
+import DockStyle from '@mizuui/mizuvue/dock/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

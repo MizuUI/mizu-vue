@@ -1,5 +1,5 @@
 <script>
-import BadgeStyle from '@mizuui/mizu-vue/badge/style';
+import BadgeStyle from '@mizuui/mizuvue/badge/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

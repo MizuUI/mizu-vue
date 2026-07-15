@@ -7,6 +7,6 @@
  * @module overlaypanelstyle
  *
  */
-import type { PopoverStyle } from '@mizuui/mizu-vue/popover/style';
+import type { PopoverStyle } from '@mizuui/mizuvue/popover/style';
 
 export interface OverlayPanelStyle extends PopoverStyle {}

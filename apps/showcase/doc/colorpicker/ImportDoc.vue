@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ColorPicker from '@mizuui/mizu-vue/colorpicker';
+import ColorPicker from '@mizuui/mizuvue/colorpicker';
 `
             }
         };

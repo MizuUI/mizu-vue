@@ -1,5 +1,5 @@
 <script>
-import ToolbarStyle from '@mizuui/mizu-vue/toolbar/style';
+import ToolbarStyle from '@mizuui/mizuvue/toolbar/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

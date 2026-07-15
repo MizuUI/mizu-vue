@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import InputOtp from '@mizuui/mizu-vue/inputotp';
+import InputOtp from '@mizuui/mizuvue/inputotp';
 `
             }
         };

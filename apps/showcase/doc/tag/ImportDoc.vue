@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Tag from '@mizuui/mizu-vue/tag';
+import Tag from '@mizuui/mizuvue/tag';
 `
             }
         };

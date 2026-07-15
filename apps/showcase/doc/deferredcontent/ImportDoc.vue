@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import DeferredContent from '@mizuui/mizu-vue/deferredcontent';
+import DeferredContent from '@mizuui/mizuvue/deferredcontent';
 `
             }
         };

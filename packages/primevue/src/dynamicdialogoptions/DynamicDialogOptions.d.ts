@@ -5,7 +5,7 @@
  * @module dynamicdialogoptions
  *
  */
-import type { DialogProps } from '@mizuui/mizu-vue/dialog';
+import type { DialogProps } from '@mizuui/mizuvue/dialog';
 
 /**
  * Custom dialog templates.

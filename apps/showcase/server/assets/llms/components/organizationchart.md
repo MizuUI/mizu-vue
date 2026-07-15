@@ -5,7 +5,7 @@ OrganizationChart visualizes hierarchical organization data.
 ## Import
 
 ```javascript
-import OrganizationChart from '@mizuui/mizu-vue/organizationchart';
+import OrganizationChart from '@mizuui/mizuvue/organizationchart';
 ```
 
 ## Accessibility

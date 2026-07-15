@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import DataView from '@mizuui/mizu-vue/dataview';
+import DataView from '@mizuui/mizuvue/dataview';
 `
             }
         };

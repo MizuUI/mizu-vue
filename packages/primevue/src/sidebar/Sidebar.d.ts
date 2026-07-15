@@ -7,7 +7,7 @@
  * @module sidebar
  *
  */
-import * as Drawer from '@mizuui/mizu-vue/drawer';
+import * as Drawer from '@mizuui/mizuvue/drawer';
 import type { DefineComponent, EmitFn } from '@primevue/core';
 import 'vue';
 

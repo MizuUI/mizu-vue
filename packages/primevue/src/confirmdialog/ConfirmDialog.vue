@@ -57,9 +57,9 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import ConfirmationEventBus from '@mizuui/mizu-vue/confirmationeventbus';
-import Dialog from '@mizuui/mizu-vue/dialog';
+import Button from '@mizuui/mizuvue/button';
+import ConfirmationEventBus from '@mizuui/mizuvue/confirmationeventbus';
+import Dialog from '@mizuui/mizuvue/dialog';
 import BaseConfirmDialog from './BaseConfirmDialog.vue';
 
 export default {

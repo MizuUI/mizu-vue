@@ -1,5 +1,5 @@
 <script>
-import PanelStyle from '@mizuui/mizu-vue/panel/style';
+import PanelStyle from '@mizuui/mizuvue/panel/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

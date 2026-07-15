@@ -5,7 +5,7 @@ Tag component is used to categorize content.
 ## Import
 
 ```javascript
-import Tag from '@mizuui/mizu-vue/tag';
+import Tag from '@mizuui/mizuvue/tag';
 ```
 
 ## Accessibility

@@ -1,5 +1,5 @@
 <script>
-import InputNumberStyle from '@mizuui/mizu-vue/inputnumber/style';
+import InputNumberStyle from '@mizuui/mizuvue/inputnumber/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

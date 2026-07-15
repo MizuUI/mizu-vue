@@ -75,7 +75,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { nestedPosition } from '@primeuix/utils/dom';
 import { isNotEmpty, resolve } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';

@@ -1,5 +1,5 @@
 <script>
-import ButtonStyle from '@mizuui/mizu-vue/button/style';
+import ButtonStyle from '@mizuui/mizuvue/button/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

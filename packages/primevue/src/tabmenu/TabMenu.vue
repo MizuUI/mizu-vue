@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { find, findSingle, getAttribute, getOffset, getWidth } from '@primeuix/utils/dom';
 import { mergeProps } from 'vue';
 import BaseTabMenu from './BaseTabMenu.vue';

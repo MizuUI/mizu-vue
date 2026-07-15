@@ -1,5 +1,5 @@
 <script>
-import AvatarStyle from '@mizuui/mizu-vue/avatar/style';
+import AvatarStyle from '@mizuui/mizuvue/avatar/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

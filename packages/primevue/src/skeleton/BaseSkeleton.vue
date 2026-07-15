@@ -1,5 +1,5 @@
 <script>
-import SkeletonStyle from '@mizuui/mizu-vue/skeleton/style';
+import SkeletonStyle from '@mizuui/mizuvue/skeleton/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

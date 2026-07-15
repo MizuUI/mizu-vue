@@ -1,5 +1,5 @@
 <script>
-import TerminalStyle from '@mizuui/mizu-vue/terminal/style';
+import TerminalStyle from '@mizuui/mizuvue/terminal/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -12,7 +12,7 @@ export default {
             code: {
                 basic: `
 import ProductListDemo from './ProductListDemo';
-import { useDialog } from '@mizuui/mizu-vue/usedialog';
+import { useDialog } from '@mizuui/mizuvue/usedialog';
 
 const dialog = useDialog();
 

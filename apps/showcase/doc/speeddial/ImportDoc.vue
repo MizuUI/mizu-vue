@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import SpeedDial from '@mizuui/mizu-vue/speeddial';
+import SpeedDial from '@mizuui/mizuvue/speeddial';
 `
             }
         };

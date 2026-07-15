@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Select from '@mizuui/mizu-vue/select';
+import Select from '@mizuui/mizuvue/select';
 `
             }
         };

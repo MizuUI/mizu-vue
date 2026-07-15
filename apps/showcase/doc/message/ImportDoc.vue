@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Message from '@mizuui/mizu-vue/message';
+import Message from '@mizuui/mizuvue/message';
 `
             }
         };

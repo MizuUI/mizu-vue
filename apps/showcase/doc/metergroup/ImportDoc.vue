@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import MeterGroup from '@mizuui/mizu-vue/metergroup';
+import MeterGroup from '@mizuui/mizuvue/metergroup';
 `
             }
         };

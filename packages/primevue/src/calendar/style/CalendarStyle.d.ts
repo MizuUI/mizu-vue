@@ -7,7 +7,7 @@
  * @module calendarstyle
  *
  */
-import type { DatePickerStyle } from '@mizuui/mizu-vue/datepicker/style';
+import type { DatePickerStyle } from '@mizuui/mizuvue/datepicker/style';
 
 export enum CalendarClasses {}
 

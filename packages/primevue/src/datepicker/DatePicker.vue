@@ -566,11 +566,11 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import InputText from '@mizuui/mizu-vue/inputtext';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Button from '@mizuui/mizuvue/button';
+import InputText from '@mizuui/mizuvue/inputtext';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, find, findSingle, getAttribute, getFocusableElements, getIndex, getOuterWidth, isTouchDevice, relativePosition, setAttribute } from '@primeuix/utils/dom';
 import { isDate, isEmpty, isNotEmpty, localeComparator } from '@primeuix/utils/object';

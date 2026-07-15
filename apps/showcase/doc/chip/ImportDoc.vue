@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Chip from '@mizuui/mizu-vue/chip';
+import Chip from '@mizuui/mizuvue/chip';
 `
             }
         };

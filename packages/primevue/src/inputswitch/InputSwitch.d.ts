@@ -7,7 +7,7 @@
  * @module inputswitch
  *
  */
-import * as ToggleSwitch from '@mizuui/mizu-vue/toggleswitch';
+import * as ToggleSwitch from '@mizuui/mizuvue/toggleswitch';
 import type { DefineComponent, EmitFn } from '@primevue/core';
 /**
  * Custom passthrough(pt) option method.

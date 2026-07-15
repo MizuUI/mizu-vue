@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { cn } from '@primeuix/utils';
 import { resolve } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';

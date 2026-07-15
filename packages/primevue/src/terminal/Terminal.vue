@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import TerminalService from '@mizuui/mizu-vue/terminalservice';
+import TerminalService from '@mizuui/mizuvue/terminalservice';
 import BaseTerminal from './BaseTerminal.vue';
 
 export default {

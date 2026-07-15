@@ -1,4 +1,4 @@
-import AnimateOnScrollStyle from '@mizuui/mizu-vue/animateonscroll/style';
+import AnimateOnScrollStyle from '@mizuui/mizuvue/animateonscroll/style';
 import BaseDirective from '@primevue/core/basedirective';
 
 const BaseAnimateOnScroll = BaseDirective.extend({

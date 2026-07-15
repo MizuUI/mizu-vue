@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { cn } from '@primeuix/utils';
 import TimesIcon from '@primevue/icons/times';
 import BaseMessage from './BaseMessage.vue';

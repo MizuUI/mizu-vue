@@ -45,8 +45,8 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Button from '@mizuui/mizuvue/button';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { cn } from '@primeuix/utils';
 import MinusIcon from '@primevue/icons/minus';
 import PlusIcon from '@primevue/icons/plus';

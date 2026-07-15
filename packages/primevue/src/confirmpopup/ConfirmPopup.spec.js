@@ -1,4 +1,4 @@
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 import { mount } from '@vue/test-utils';
 import ConfirmPopup from './ConfirmPopup.vue';
 

@@ -56,9 +56,9 @@
 </template>
 
 <script>
-import FocusTrap from '@mizuui/mizu-vue/focustrap';
-import Portal from '@mizuui/mizu-vue/portal';
-import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizu-vue/utils';
+import FocusTrap from '@mizuui/mizuvue/focustrap';
+import Portal from '@mizuui/mizuvue/portal';
+import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizuvue/utils';
 import { addClass, focus, isAttributeEquals } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import EyeIcon from '@primevue/icons/eye';

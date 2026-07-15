@@ -5,11 +5,11 @@ Tabs facilitates seamless switching between different views.
 ## Import
 
 ```javascript
-import Tabs from '@mizuui/mizu-vue/tabs';
-import TabList from '@mizuui/mizu-vue/tablist';
-import Tab from '@mizuui/mizu-vue/tab';
-import TabPanels from '@mizuui/mizu-vue/tabpanels';
-import TabPanel from '@mizuui/mizu-vue/tabpanel';
+import Tabs from '@mizuui/mizuvue/tabs';
+import TabList from '@mizuui/mizuvue/tablist';
+import Tab from '@mizuui/mizuvue/tab';
+import TabPanels from '@mizuui/mizuvue/tabpanels';
+import TabPanel from '@mizuui/mizuvue/tabpanel';
 ```
 
 ## Accessibility

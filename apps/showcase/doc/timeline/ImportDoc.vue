@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Timeline from '@mizuui/mizu-vue/timeline';
+import Timeline from '@mizuui/mizuvue/timeline';
 `
             }
         };

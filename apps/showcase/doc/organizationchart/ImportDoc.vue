@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import OrganizationChart from '@mizuui/mizu-vue/organizationchart';
+import OrganizationChart from '@mizuui/mizuvue/organizationchart';
 `
             }
         };

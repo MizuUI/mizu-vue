@@ -18,7 +18,7 @@ mounted() { this.$primevue.config.ripple = true; }
 <summary>Composition API Example</summary>
 
 ```vue
-import { usePrimeVue } from '@mizuui/mizu-vue/config'; const PrimeVue = usePrimeVue(); PrimeVue.config.ripple = true;
+import { usePrimeVue } from '@mizuui/mizuvue/config'; const PrimeVue = usePrimeVue(); PrimeVue.config.ripple = true;
 ```
 
 </details>

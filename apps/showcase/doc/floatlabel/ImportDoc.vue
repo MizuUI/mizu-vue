@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import FloatLabel from '@mizuui/mizu-vue/floatlabel';
+import FloatLabel from '@mizuui/mizuvue/floatlabel';
 `
             }
         };

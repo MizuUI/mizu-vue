@@ -1,5 +1,5 @@
 <script>
-import ColumnGroupStyle from '@mizuui/mizu-vue/columngroup/style';
+import ColumnGroupStyle from '@mizuui/mizuvue/columngroup/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -1,5 +1,5 @@
 <script>
-import BlockUIStyle from '@mizuui/mizu-vue/blockui/style';
+import BlockUIStyle from '@mizuui/mizuvue/blockui/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

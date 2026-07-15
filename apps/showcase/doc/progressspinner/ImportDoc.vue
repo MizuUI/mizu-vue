@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ProgressSpinner from '@mizuui/mizu-vue/progressspinner';
+import ProgressSpinner from '@mizuui/mizuvue/progressspinner';
 `
             }
         };

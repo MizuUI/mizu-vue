@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Divider from '@mizuui/mizu-vue/divider';
+import Divider from '@mizuui/mizuvue/divider';
 `
             }
         };

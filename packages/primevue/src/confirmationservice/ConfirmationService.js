@@ -1,5 +1,5 @@
-import ConfirmationEventBus from '@mizuui/mizu-vue/confirmationeventbus';
-import { PrimeVueConfirmSymbol } from '@mizuui/mizu-vue/useconfirm';
+import ConfirmationEventBus from '@mizuui/mizuvue/confirmationeventbus';
+import { PrimeVueConfirmSymbol } from '@mizuui/mizuvue/useconfirm';
 
 export default {
     install: (app) => {

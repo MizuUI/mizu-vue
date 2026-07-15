@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Slider from '@mizuui/mizu-vue/slider';
+import Slider from '@mizuui/mizuvue/slider';
 `
             }
         };

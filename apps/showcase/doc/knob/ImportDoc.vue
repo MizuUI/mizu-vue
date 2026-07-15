@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Knob from '@mizuui/mizu-vue/knob';
+import Knob from '@mizuui/mizuvue/knob';
 `
             }
         };

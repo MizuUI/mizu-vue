@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Toast from '@mizuui/mizu-vue/toast';
+import Toast from '@mizuui/mizuvue/toast';
 `
             }
         };

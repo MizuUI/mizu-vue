@@ -5,7 +5,7 @@ TieredMenu displays submenus in nested overlays.
 ## Import
 
 ```javascript
-import TieredMenu from '@mizuui/mizu-vue/tieredmenu';
+import TieredMenu from '@mizuui/mizuvue/tieredmenu';
 ```
 
 ## Accessibility

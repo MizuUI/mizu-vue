@@ -5,7 +5,7 @@ ProgressSpinner is a process status indicator.
 ## Import
 
 ```javascript
-import ProgressSpinner from '@mizuui/mizu-vue/progressspinner';
+import ProgressSpinner from '@mizuui/mizuvue/progressspinner';
 ```
 
 ## Accessibility

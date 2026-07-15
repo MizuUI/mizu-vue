@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import FocusTrap from '@mizuui/mizu-vue/focustrap';
+import FocusTrap from '@mizuui/mizuvue/focustrap';
 
 app.directive('focustrap', FocusTrap);
 `

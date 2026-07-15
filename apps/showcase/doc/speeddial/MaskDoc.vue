@@ -121,7 +121,7 @@ data() {
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from '@mizuui/mizu-vue/usetoast';
+import { useToast } from '@mizuui/mizuvue/usetoast';
 import { useRouter } from 'vue-router';
 
 const toast = useToast();

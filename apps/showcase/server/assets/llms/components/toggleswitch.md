@@ -5,7 +5,7 @@ ToggleSwitch is used to select a boolean value.
 ## Import
 
 ```javascript
-import ToggleSwitch from '@mizuui/mizu-vue/toggleswitch';
+import ToggleSwitch from '@mizuui/mizuvue/toggleswitch';
 ```
 
 ## Accessibility

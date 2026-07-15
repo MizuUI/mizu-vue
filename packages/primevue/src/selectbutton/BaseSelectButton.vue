@@ -1,5 +1,5 @@
 <script>
-import SelectButtonStyle from '@mizuui/mizu-vue/selectbutton/style';
+import SelectButtonStyle from '@mizuui/mizuvue/selectbutton/style';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
 
 export default {

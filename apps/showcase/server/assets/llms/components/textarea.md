@@ -5,7 +5,7 @@ Textarea adds styling and autoResize functionality to standard textarea element.
 ## Import
 
 ```javascript
-import Textarea from '@mizuui/mizu-vue/textarea';
+import Textarea from '@mizuui/mizuvue/textarea';
 ```
 
 ## Accessibility

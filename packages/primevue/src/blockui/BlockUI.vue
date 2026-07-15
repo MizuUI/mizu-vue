@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizu-vue/utils';
+import { blockBodyScroll, unblockBodyScroll } from '@mizuui/mizuvue/utils';
 import { addClass, createElement, hasCSSAnimation } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import BaseBlockUI from './BaseBlockUI.vue';

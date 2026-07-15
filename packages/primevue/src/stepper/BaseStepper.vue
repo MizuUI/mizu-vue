@@ -1,5 +1,5 @@
 <script>
-import StepperStyle from '@mizuui/mizu-vue/stepper/style';
+import StepperStyle from '@mizuui/mizuvue/stepper/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

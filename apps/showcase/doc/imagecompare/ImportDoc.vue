@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ImageCompare from '@mizuui/mizu-vue/imagecompare';
+import ImageCompare from '@mizuui/mizuvue/imagecompare';
 `
             }
         };

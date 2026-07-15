@@ -131,11 +131,11 @@
 </template>
 
 <script>
-import IconField from '@mizuui/mizu-vue/iconfield';
-import InputIcon from '@mizuui/mizu-vue/inputicon';
-import InputText from '@mizuui/mizu-vue/inputtext';
-import Ripple from '@mizuui/mizu-vue/ripple';
-import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
+import IconField from '@mizuui/mizuvue/iconfield';
+import InputIcon from '@mizuui/mizuvue/inputicon';
+import InputText from '@mizuui/mizuvue/inputtext';
+import Ripple from '@mizuui/mizuvue/ripple';
+import VirtualScroller from '@mizuui/mizuvue/virtualscroller';
 import { cn } from '@primeuix/utils';
 import { findSingle, focus, getFirstFocusableElement, isElement } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@primeuix/utils/object';

@@ -224,15 +224,15 @@
 </template>
 
 <script>
-import Checkbox from '@mizuui/mizu-vue/checkbox';
-import Chip from '@mizuui/mizu-vue/chip';
-import IconField from '@mizuui/mizu-vue/iconfield';
-import InputIcon from '@mizuui/mizu-vue/inputicon';
-import InputText from '@mizuui/mizu-vue/inputtext';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
-import Ripple from '@mizuui/mizu-vue/ripple';
-import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
+import Checkbox from '@mizuui/mizuvue/checkbox';
+import Chip from '@mizuui/mizuvue/chip';
+import IconField from '@mizuui/mizuvue/iconfield';
+import InputIcon from '@mizuui/mizuvue/inputicon';
+import InputText from '@mizuui/mizuvue/inputtext';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
+import Ripple from '@mizuui/mizuvue/ripple';
+import VirtualScroller from '@mizuui/mizuvue/virtualscroller';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@primeuix/utils/object';

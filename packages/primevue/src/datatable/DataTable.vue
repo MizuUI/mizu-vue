@@ -323,8 +323,8 @@
 </template>
 
 <script>
-import Paginator from '@mizuui/mizu-vue/paginator';
-import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
+import Paginator from '@mizuui/mizuvue/paginator';
+import VirtualScroller from '@mizuui/mizuvue/virtualscroller';
 import { cn } from '@primeuix/utils';
 import {
     addClass,

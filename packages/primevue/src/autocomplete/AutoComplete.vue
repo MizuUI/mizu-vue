@@ -208,12 +208,12 @@
 </template>
 
 <script>
-import Chip from '@mizuui/mizu-vue/chip';
-import InputText from '@mizuui/mizu-vue/inputtext';
-import OverlayEventBus from '@mizuui/mizu-vue/overlayeventbus';
-import Portal from '@mizuui/mizu-vue/portal';
-import Ripple from '@mizuui/mizu-vue/ripple';
-import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
+import Chip from '@mizuui/mizuvue/chip';
+import InputText from '@mizuui/mizuvue/inputtext';
+import OverlayEventBus from '@mizuui/mizuvue/overlayeventbus';
+import Portal from '@mizuui/mizuvue/portal';
+import Ripple from '@mizuui/mizuvue/ripple';
+import VirtualScroller from '@mizuui/mizuvue/virtualscroller';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';

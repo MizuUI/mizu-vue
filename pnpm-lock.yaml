@@ -175,7 +175,7 @@ importers:
       '@docsearch/js':
         specifier: catalog:app
         version: 3.9.0(@algolia/client-search@5.55.2)(search-insights@2.17.3)
-      '@mizuui/mizu-vue':
+      '@mizuui/mizuvue':
         specifier: workspace:*
         version: link:../../packages/primevue
       chart.js:

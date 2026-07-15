@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Checkbox from '@mizuui/mizu-vue/checkbox';
-import CheckboxGroup from '@mizuui/mizu-vue/checkboxgroup';
+import Checkbox from '@mizuui/mizuvue/checkbox';
+import CheckboxGroup from '@mizuui/mizuvue/checkboxgroup';
 `
             }
         };

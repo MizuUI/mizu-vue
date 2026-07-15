@@ -1,5 +1,5 @@
 <script>
-import FieldsetStyle from '@mizuui/mizu-vue/fieldset/style';
+import FieldsetStyle from '@mizuui/mizuvue/fieldset/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

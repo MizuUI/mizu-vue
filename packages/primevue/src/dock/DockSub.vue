@@ -55,8 +55,8 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
-import Tooltip from '@mizuui/mizu-vue/tooltip';
+import Ripple from '@mizuui/mizuvue/ripple';
+import Tooltip from '@mizuui/mizuvue/tooltip';
 import { find, findSingle } from '@primeuix/utils/dom';
 import { resolve } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';

@@ -1,5 +1,5 @@
 <script>
-import ProgressSpinnerStyle from '@mizuui/mizu-vue/progressspinner/style';
+import ProgressSpinnerStyle from '@mizuui/mizuvue/progressspinner/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 import BaseComponent from '@primevue/core/basecomponent';
 import TimesIcon from '@primevue/icons/times';
 import GalleriaItem from './GalleriaItem.vue';

@@ -1,5 +1,5 @@
 <script>
-import DrawerStyle from '@mizuui/mizu-vue/drawer/style';
+import DrawerStyle from '@mizuui/mizuvue/drawer/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -1,5 +1,5 @@
 <script>
-import DatePickerStyle from '@mizuui/mizu-vue/datepicker/style';
+import DatePickerStyle from '@mizuui/mizuvue/datepicker/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

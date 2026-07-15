@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import InputMask from '@mizuui/mizu-vue/inputmask';
+import InputMask from '@mizuui/mizuvue/inputmask';
 `
             }
         };

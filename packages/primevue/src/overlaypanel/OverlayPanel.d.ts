@@ -7,7 +7,7 @@
  * @module overlaypanel
  *
  */
-import * as Popover from '@mizuui/mizu-vue/popover';
+import * as Popover from '@mizuui/mizuvue/popover';
 import type { DefineComponent, EmitFn } from '@primevue/core';
 import 'vue';
 

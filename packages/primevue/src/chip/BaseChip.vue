@@ -1,5 +1,5 @@
 <script>
-import ChipStyle from '@mizuui/mizu-vue/chip/style';
+import ChipStyle from '@mizuui/mizuvue/chip/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Breadcrumb from '@mizuui/mizu-vue/breadcrumb';
+import Breadcrumb from '@mizuui/mizuvue/breadcrumb';
 `
             }
         };

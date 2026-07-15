@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import InputNumber from '@mizuui/mizu-vue/inputnumber';
+import InputNumber from '@mizuui/mizuvue/inputnumber';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

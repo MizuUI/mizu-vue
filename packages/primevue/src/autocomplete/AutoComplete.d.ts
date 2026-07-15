@@ -7,10 +7,10 @@
  * @module autocomplete
  *
  */
-import type { ChipPassThroughOptions } from '@mizuui/mizu-vue/chip';
-import type { InputTextPassThroughOptions } from '@mizuui/mizu-vue/inputtext';
-import type { PassThroughOptions } from '@mizuui/mizu-vue/passthrough';
-import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from '@mizuui/mizu-vue/virtualscroller';
+import type { ChipPassThroughOptions } from '@mizuui/mizuvue/chip';
+import type { InputTextPassThroughOptions } from '@mizuui/mizuvue/inputtext';
+import type { PassThroughOptions } from '@mizuui/mizuvue/passthrough';
+import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from '@mizuui/mizuvue/virtualscroller';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, Nullable, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import { TransitionProps, VNode } from 'vue';

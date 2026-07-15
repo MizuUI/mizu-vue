@@ -1,5 +1,5 @@
 <script>
-import ConfirmDialogStyle from '@mizuui/mizu-vue/confirmdialog/style';
+import ConfirmDialogStyle from '@mizuui/mizuvue/confirmdialog/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

@@ -1,5 +1,5 @@
 import AppTheme from '@/themes/app-theme';
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 import { reactive } from 'vue';
 
 const $appState = {

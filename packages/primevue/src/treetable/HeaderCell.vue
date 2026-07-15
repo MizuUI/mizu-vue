@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import Badge from '@mizuui/mizu-vue/badge';
+import Badge from '@mizuui/mizuvue/badge';
 import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';

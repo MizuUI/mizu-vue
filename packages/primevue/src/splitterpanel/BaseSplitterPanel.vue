@@ -1,5 +1,5 @@
 <script>
-import SplitterPanelStyle from '@mizuui/mizu-vue/splitterpanel/style';
+import SplitterPanelStyle from '@mizuui/mizuvue/splitterpanel/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

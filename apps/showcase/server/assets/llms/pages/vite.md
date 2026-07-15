@@ -23,7 +23,7 @@ Welcome to the Prime UI Ecosystem! Once you have PrimeVue up and running, we rec
 PrimeVue plugin is required to be installed as an application plugin to set up the default configuration . The plugin is lightweight, and only utilized for configuration purposes.
 
 ```vue
-import { createApp } from 'vue'; import PrimeVue from '@mizuui/mizu-vue/config'; const app = createApp(App); app.use(PrimeVue);
+import { createApp } from 'vue'; import PrimeVue from '@mizuui/mizuvue/config'; const app = createApp(App); app.use(PrimeVue);
 ```
 
 ## Plugin
@@ -31,7 +31,7 @@ import { createApp } from 'vue'; import PrimeVue from '@mizuui/mizu-vue/config';
 Configure PrimeVue to use a theme like Aura.
 
 ```vue
-import { createApp } from 'vue'; import PrimeVue from '@mizuui/mizu-vue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PrimeVue, { theme: { preset: Aura } });
+import { createApp } from 'vue'; import PrimeVue from '@mizuui/mizuvue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PrimeVue, { theme: { preset: Aura } });
 ```
 
 ## Verify

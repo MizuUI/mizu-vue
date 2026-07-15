@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import Select from '@mizuui/mizu-vue/select';
+import Select from '@mizuui/mizuvue/select';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

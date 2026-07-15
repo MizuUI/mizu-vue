@@ -1,5 +1,5 @@
 <script>
-import RadioButtonStyle from '@mizuui/mizu-vue/radiobutton/style';
+import RadioButtonStyle from '@mizuui/mizuvue/radiobutton/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

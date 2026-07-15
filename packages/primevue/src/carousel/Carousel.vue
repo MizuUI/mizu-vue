@@ -101,8 +101,8 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Button from '@mizuui/mizuvue/button';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@primeuix/utils/dom';
 import { localeComparator, sort } from '@primeuix/utils/object';
 import ChevronDownIcon from '@primevue/icons/chevrondown';

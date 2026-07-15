@@ -5,7 +5,7 @@ Chip represents entities using icons, labels and images.
 ## Import
 
 ```javascript
-import Chip from '@mizuui/mizu-vue/chip';
+import Chip from '@mizuui/mizuvue/chip';
 ```
 
 ## Accessibility

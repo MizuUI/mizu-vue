@@ -7,7 +7,7 @@
  * @module inputswitchstyle
  *
  */
-import type { ToggleSwitchStyle } from '@mizuui/mizu-vue/toggleswitch/style';
+import type { ToggleSwitchStyle } from '@mizuui/mizuvue/toggleswitch/style';
 
 export enum InputSwitchClasses {}
 

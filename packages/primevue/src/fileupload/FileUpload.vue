@@ -87,10 +87,10 @@
 </template>
 
 <script>
-import Button from '@mizuui/mizu-vue/button';
-import Message from '@mizuui/mizu-vue/message';
-import ProgressBar from '@mizuui/mizu-vue/progressbar';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Button from '@mizuui/mizuvue/button';
+import Message from '@mizuui/mizuvue/message';
+import ProgressBar from '@mizuui/mizuvue/progressbar';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { addClass, removeClass } from '@primeuix/utils/dom';
 import PlusIcon from '@primevue/icons/plus';
 import TimesIcon from '@primevue/icons/times';

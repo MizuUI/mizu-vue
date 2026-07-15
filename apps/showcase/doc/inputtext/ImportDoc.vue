@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import InputText from '@mizuui/mizu-vue/inputtext';
+import InputText from '@mizuui/mizuvue/inputtext';
 `
             }
         };

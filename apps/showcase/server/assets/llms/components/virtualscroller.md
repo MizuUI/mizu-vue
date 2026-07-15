@@ -5,7 +5,7 @@ VirtualScroller is a performant approach to render large amounts of data efficie
 ## Import
 
 ```javascript
-import VirtualScroller from '@mizuui/mizu-vue/virtualscroller';
+import VirtualScroller from '@mizuui/mizuvue/virtualscroller';
 ```
 
 ## Accessibility

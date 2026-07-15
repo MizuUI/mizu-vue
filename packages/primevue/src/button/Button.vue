@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import Badge from '@mizuui/mizu-vue/badge';
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Badge from '@mizuui/mizuvue/badge';
+import Ripple from '@mizuui/mizuvue/ripple';
 import { cn } from '@primeuix/utils';
 import { isEmpty } from '@primeuix/utils/object';
 import SpinnerIcon from '@primevue/icons/spinner';

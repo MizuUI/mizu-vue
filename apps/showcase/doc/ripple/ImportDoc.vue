@@ -17,7 +17,7 @@ export default {
             code1: {
                 basic: `
 import { createApp } from 'vue';
-import PrimeVue from '@mizuui/mizu-vue/config';
+import PrimeVue from '@mizuui/mizuvue/config';
 const app = createApp(App);
 
 app.use(PrimeVue, { ripple: true });
@@ -25,7 +25,7 @@ app.use(PrimeVue, { ripple: true });
             },
             code2: {
                 basic: `
-import Ripple from '@mizuui/mizu-vue/ripple';
+import Ripple from '@mizuui/mizuvue/ripple';
 
 app.directive('ripple', Ripple);
 `

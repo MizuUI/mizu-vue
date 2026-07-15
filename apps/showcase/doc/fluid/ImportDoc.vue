@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Fluid from '@mizuui/mizu-vue/fluid';
+import Fluid from '@mizuui/mizuvue/fluid';
 `
             }
         };

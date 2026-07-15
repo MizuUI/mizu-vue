@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import InputNumber from '@mizuui/mizu-vue/inputnumber';
+import InputNumber from '@mizuui/mizuvue/inputnumber';
 `
             }
         };

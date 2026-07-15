@@ -1,5 +1,5 @@
 <script>
-import DatePicker from '@mizuui/mizu-vue/datepicker';
+import DatePicker from '@mizuui/mizuvue/datepicker';
 
 export default {
     name: 'Calendar',

@@ -90,7 +90,7 @@
 </template>
 
 <script>
-import InputText from '@mizuui/mizu-vue/inputtext';
+import InputText from '@mizuui/mizuvue/inputtext';
 import { cn } from '@primeuix/utils';
 import { clearSelection, getSelection } from '@primeuix/utils/dom';
 import { isEmpty, isNotEmpty } from '@primeuix/utils/object';

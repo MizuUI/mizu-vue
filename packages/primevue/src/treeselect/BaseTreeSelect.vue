@@ -1,5 +1,5 @@
 <script>
-import TreeSelectStyle from '@mizuui/mizu-vue/treeselect/style';
+import TreeSelectStyle from '@mizuui/mizuvue/treeselect/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

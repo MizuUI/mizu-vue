@@ -5,7 +5,7 @@ OrderList is used to sort a collection.
 ## Import
 
 ```javascript
-import OrderList from '@mizuui/mizu-vue/orderlist';
+import OrderList from '@mizuui/mizuvue/orderlist';
 ```
 
 ## Accessibility

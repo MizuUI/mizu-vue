@@ -1,5 +1,5 @@
 <script>
-import IftaLabelStyle from '@mizuui/mizu-vue/iftalabel/style';
+import IftaLabelStyle from '@mizuui/mizuvue/iftalabel/style';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

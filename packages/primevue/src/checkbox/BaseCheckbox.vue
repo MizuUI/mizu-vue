@@ -1,5 +1,5 @@
 <script>
-import CheckboxStyle from '@mizuui/mizu-vue/checkbox/style';
+import CheckboxStyle from '@mizuui/mizuvue/checkbox/style';
 import BaseInput from '@primevue/core/baseinput';
 
 export default {

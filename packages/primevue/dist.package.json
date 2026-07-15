@@ -1,9 +1,9 @@
 {
     "name": "@mizuui/mizuvue",
     "version": "0.0.15",
-    "author": "PrimeTek Informatics",
+    "author": "MizuUI",
     "description": "Mizu is an open source UI library for Vue featuring a rich set of 80+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support.",
-    "homepage": "https://primevue.org/",
+    "homepage": "https://github.com/mizuui/",
     "license": "MIT",
     "repository": {
         "type": "git",
